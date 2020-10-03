@@ -68,7 +68,7 @@ function WordList() {
       >
         {isFiltersVisible && (
           <View style={styles.searchForm}>
-            <Text style={styles.label}> Matéria</Text>
+            <Text style={styles.label}> Expressão</Text>
             <TextInput
               style={styles.input}
               value={subject}
