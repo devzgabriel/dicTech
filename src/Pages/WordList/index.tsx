@@ -61,7 +61,7 @@ function WordList() {
               onPress={handleToggleFiltersVisible}
               name="filter"
               size={20}
-              color="#FFF"
+              color="#2f2b5c"
             />
           </BorderlessButton>
         }

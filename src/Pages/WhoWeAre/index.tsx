@@ -22,7 +22,8 @@ const WhoWeAre = () => {
         style={styles.content}
       >
         <Text style={styles.title}>Quem são os criadores?</Text>
-        <Text style={styles.description}>Programação e Pesquisa</Text>
+        <Text style={styles.description}>Programação</Text>
+        <Text style={styles.description}>Pesquisa</Text>
       </ImageBackground>
 
       <RectButton onPress={handleNavigateBack} style={styles.okButton}>

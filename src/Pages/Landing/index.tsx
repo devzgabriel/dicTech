@@ -6,6 +6,8 @@ import { RectButton } from "react-native-gesture-handler";
 import styles from "./styles";
 
 import landingImg from "../../assets/images/landing.png";
+import purpleLandingImg from "../../assets/images/purple-landing.png";
+import yellowLandingImg from "../../assets/images/yellow-landing.png";
 import WordListIcon from "../../assets/images/icons/study.png";
 import WhoWeAreIcon from "../../assets/images/icons/give-classes.png";
 import heartIcon from "../../assets/images/icons/heart.png";
@@ -31,12 +33,12 @@ function Landing() {
 
   return (
     <View style={styles.container}>
-      <Image source={landingImg} style={styles.banner} />
-
       <Text style={styles.title}>
         Seja bem-vindo, {"\n"}
         <Text style={styles.titleBold}>Esse é o Dicionário Técnico</Text>
       </Text>
+
+      <Image source={landingImg} style={styles.banner} />
 
       <View style={styles.buttonsContainer}>
         <RectButton

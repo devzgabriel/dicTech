@@ -35,20 +35,20 @@ function AppTabs() {
         inactiveBackgroundColor: "#fafafc",
         activeBackgroundColor: "#ebebf5",
         inactiveTintColor: "#c1bccc",
-        activeTintColor: "#32264d",
+        activeTintColor: "#2f2b5c",
       }}
     >
       <Screen
         name="WordList"
         component={WordList}
         options={{
-          tabBarLabel: "Proffys",
+          tabBarLabel: "Dicionário Técnico",
           tabBarIcon: ({ color, size, focused }) => {
             return (
               <Ionicons
                 name="ios-easel"
                 size={size}
-                color={focused ? "#8257e5" : color}
+                color={focused ? "#2f2b5c" : color}
               />
             );
           },
@@ -64,7 +64,7 @@ function AppTabs() {
               <Ionicons
                 name="ios-heart"
                 size={size}
-                color={focused ? "#8257e5" : color}
+                color={focused ? "#2f2b5c" : color}
               />
             );
           },

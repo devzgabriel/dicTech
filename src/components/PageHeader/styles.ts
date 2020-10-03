@@ -5,7 +5,7 @@ const sytles = StyleSheet.create({
     // paddingHorizontal: 40,
     // paddingVertical: 20,
     padding: 40,
-    backgroundColor: "#8257e5",
+    backgroundColor: "#ffc547",
   },
 
   topBar: {
@@ -22,11 +22,11 @@ const sytles = StyleSheet.create({
 
   title: {
     fontFamily: "Archivo_700Bold",
-    color: "#fff",
+    color: "#2f2b5c",
     fontSize: 24,
     lineHeight: 32,
     maxWidth: 160,
-    marginVertical: 40,
+    marginVertical: 20,
   },
 });
 

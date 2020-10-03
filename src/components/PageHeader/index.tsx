@@ -3,7 +3,8 @@ import { View, Text, Image } from "react-native";
 import { BorderlessButton } from "react-native-gesture-handler";
 
 import backIcon from "../../assets/images/icons/back.png";
-import logoImg from "../../assets/images/logo.png";
+import PurpleogoImg from "../../assets/images/logo-purple.png";
+import YellowogoImg from "../../assets/images/logo-yellow.png";
 
 import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
@@ -31,7 +32,11 @@ const PageHeader: React.FC<PageHeaderProps> = ({
           <Image source={backIcon} resizeMode="contain" />
         </BorderlessButton>
 
-        <Image source={logoImg} resizeMode="contain" />
+        <Image
+          source={PurpleogoImg}
+          style={{ width: 24, height: 24 }}
+          resizeMode="contain"
+        />
       </View>
 
       <View style={styles.header}>
