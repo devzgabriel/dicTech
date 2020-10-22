@@ -26,31 +26,38 @@ const styles = StyleSheet.create({
   },
 
   buttonsContainer: {
-    flexDirection: "row",
-    marginTop: 80,
+    flexDirection: "column",
+    // marginTop: 80,
     justifyContent: "space-between",
+    alignItems: "center",
   },
 
   button: {
-    height: 150,
-    width: "48%",
+    backgroundColor: "#2f2b5c",
     borderRadius: 8,
-    padding: 24,
-    justifyContent: "space-between",
+    padding: 20,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   buttonPrimary: {
-    backgroundColor: "#2f2b5c",
+    height: 60,
+    width: "100%",
+    marginBottom: 20,
+    marginTop: 20,
   },
 
   buttonSecondary: {
-    backgroundColor: "#2f2b5c",
+    width: "90%",
+    height: 52,
   },
 
   buttonText: {
     fontFamily: "Archivo_700Bold",
     color: "#fff",
     fontSize: 16,
+    marginLeft: 26,
   },
 
   totalWords: {
@@ -59,7 +66,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 20,
     // maxWidth: 190,
-    marginTop: 40,
+    marginTop: 20,
   },
 });
 
