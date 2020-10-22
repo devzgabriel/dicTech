@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     lineHeight: 30,
     marginTop: 40,
+    marginBottom: 40,
   },
 
   titleBold: {
@@ -39,13 +40,14 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    marginBottom: 15,
   },
 
   buttonPrimary: {
     height: 60,
     width: "100%",
-    marginBottom: 20,
-    marginTop: 20,
+
+    marginTop: 40,
   },
 
   buttonSecondary: {

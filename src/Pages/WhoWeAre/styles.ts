@@ -5,7 +5,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#ffc547",
     justifyContent: "center",
-    padding: 40,
+    paddingHorizontal: 30,
+    paddingTop: 40,
+    paddingBottom: 20,
+  },
+  personList: {
+    marginTop: 10,
+    height: 200,
   },
 
   content: {
@@ -31,7 +37,7 @@ const styles = StyleSheet.create({
   },
 
   okButton: {
-    marginVertical: 40,
+    marginVertical: 10,
     backgroundColor: "#2f2b5c",
     height: 58,
     alignItems: "center",
