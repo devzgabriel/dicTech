@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { View, ScrollView, Text, TextInput } from "react-native";
 import * as FileSystem from "expo-file-system";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
@@ -36,9 +36,11 @@ interface FileParsed {
 }
 
 function WordList() {
-  const filePath = "../../data/dictionary.csv";
-
-  const [fileParsed, setFileParsed] = useState<FileParsed>({} as any);
+  // const filePath = "../../data/dictionary.csv";
+  const filePath = `${FileSystem.documentDirectory}`;
+  console.log(filePath);
+  const [fileParsed, setFileParsed] = useState<FileParsed>({} as FileParsed);
+  const [toprint, setToPrint] = useState("" as any);
 
   const [words, setWords] = useState([]); // Um array com vários objetos dentro
   const [favorites, setFavorites] = useState<number[]>([]);
@@ -46,26 +48,25 @@ function WordList() {
   const [search, setSearch] = useState("");
 
   async function loadWords() {
-    await FileSystem.readAsStringAsync(filePath)
-      .then((file: any) => {
-        console.log(file);
-      })
-      .catch(() => loadWords());
-    // Papa.parse(file, {
-    //   header: true,
-    //   skipEmptyLines: true,
-    //   complete: (results: FileParsed) => {
-    //     setFileParsed({
-    //       data: results.data,
-    //       errors: results.errors,
-    //       meta: results.meta,
-    //     });
-    //     // fileParsed.data = results.data;
-    //     // fileParsed.errors = results.errors;
-    //     // fileParsed.meta = results.meta;
-    //   },
-    // });
-    console.log(fileParsed);
+    try {
+      const file = await FileSystem.readAsStringAsync(filePath);
+      setToPrint(file);
+      // const file = await FileSystem.getInfoAsync(filePath);
+      // const data = await FileSystem.readAsStringAsync(file.uri);
+      // Papa.parse(file, {
+      //   header: true,
+      //   skipEmptyLines: true,
+      //   complete: (results: FileParsed) => {
+      //     setFileParsed({
+      //       data: results.data,
+      //       errors: results.errors,
+      //       meta: results.meta,
+      //     });
+      //   },
+      // });
+    } catch {
+      setToPrint("Cant execute action");
+    }
   }
 
   function loadFavorites() {
@@ -80,10 +81,10 @@ function WordList() {
     });
   }
 
-  useFocusEffect(() => {
+  useEffect(() => {
     loadWords();
     // loadFavorites();
-  });
+  }, []);
 
   function handleToggleFiltersVisible() {
     setIsFiltersVisible(!isFiltersVisible);
@@ -130,6 +131,7 @@ function WordList() {
           </View>
         )}
       </PageHeader>
+      <Text> {toprint} </Text>
       <ScrollView
         style={styles.wordList}
         contentContainerStyle={{
