@@ -1,19 +1,16 @@
 import React, { useState } from "react";
 import { View, ScrollView, Text, TextInput } from "react-native";
+import * as FileSystem from "expo-file-system";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
+import { useFocusEffect } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-community/async-storage";
-import * as fs from "react-native-fs";
 import Papa from "papaparse";
-
-const filePath = "../../data/dictionary.csv";
 
 import PageHeader from "../../components/PageHeader";
 import WordItem, { Word } from "../../components/WordItem";
-import api from "../../services/api";
 
 import styles from "./styles";
-import { useFocusEffect } from "@react-navigation/native";
 
 interface FileParsed {
   data: Array<{
@@ -39,6 +36,8 @@ interface FileParsed {
 }
 
 function WordList() {
+  const filePath = "../../data/dictionary.csv";
+
   const [fileParsed, setFileParsed] = useState<FileParsed>({} as any);
 
   const [words, setWords] = useState([]); // Um array com vários objetos dentro
@@ -46,9 +45,12 @@ function WordList() {
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
   const [search, setSearch] = useState("");
 
-  function loadWords() {
-    const file = fs.readFile(filePath, "utf8");
-    console.log(file);
+  async function loadWords() {
+    await FileSystem.readAsStringAsync(filePath)
+      .then((file: any) => {
+        console.log(file);
+      })
+      .catch(() => loadWords());
     // Papa.parse(file, {
     //   header: true,
     //   skipEmptyLines: true,
@@ -90,14 +92,7 @@ function WordList() {
   async function handleFiltersSubmit() {
     loadFavorites();
 
-    const response = await api.get("classes", {
-      params: {
-        search,
-      },
-    });
-
-    setIsFiltersVisible(false);
-    setWords(response.data);
+    // logica para filtro
   }
 
   return (
