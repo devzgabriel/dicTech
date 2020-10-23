@@ -3,6 +3,10 @@ import { View, ScrollView, Text, TextInput } from "react-native";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
 import { Feather } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-community/async-storage";
+import * as fs from "react-native-fs";
+import Papa from "papaparse";
+
+const filePath = "../../data/dictionary.csv";
 
 import PageHeader from "../../components/PageHeader";
 import WordItem, { Word } from "../../components/WordItem";
@@ -11,12 +15,56 @@ import api from "../../services/api";
 import styles from "./styles";
 import { useFocusEffect } from "@react-navigation/native";
 
+interface FileParsed {
+  data: Array<{
+    id: number;
+    name: string;
+    syllabicdivision: string;
+    primarymeaning: string;
+    primaryexample: string;
+    primaryreference: string;
+    secondarymeaning: string;
+    secondaryexample: string;
+    secondaryreference: string;
+  }>;
+  errors: Array<{}>;
+  meta: {
+    delimiter: string;
+    linebreak: string;
+    aborted: boolean;
+    truncated: boolean;
+    cursor: number;
+    fields: Array<string>;
+  };
+}
+
 function WordList() {
-  const [words, setWords] = useState([]);
+  const [fileParsed, setFileParsed] = useState<FileParsed>({} as any);
+
+  const [words, setWords] = useState([]); // Um array com vários objetos dentro
   const [favorites, setFavorites] = useState<number[]>([]);
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
+  const [search, setSearch] = useState("");
 
-  const [subject, setSubject] = useState("");
+  function loadWords() {
+    const file = fs.readFile(filePath, "utf8");
+    console.log(file);
+    // Papa.parse(file, {
+    //   header: true,
+    //   skipEmptyLines: true,
+    //   complete: (results: FileParsed) => {
+    //     setFileParsed({
+    //       data: results.data,
+    //       errors: results.errors,
+    //       meta: results.meta,
+    //     });
+    //     // fileParsed.data = results.data;
+    //     // fileParsed.errors = results.errors;
+    //     // fileParsed.meta = results.meta;
+    //   },
+    // });
+    console.log(fileParsed);
+  }
 
   function loadFavorites() {
     AsyncStorage.getItem("favorites").then((response) => {
@@ -31,7 +79,8 @@ function WordList() {
   }
 
   useFocusEffect(() => {
-    loadFavorites();
+    loadWords();
+    // loadFavorites();
   });
 
   function handleToggleFiltersVisible() {
@@ -43,7 +92,7 @@ function WordList() {
 
     const response = await api.get("classes", {
       params: {
-        subject,
+        search,
       },
     });
 
@@ -71,8 +120,8 @@ function WordList() {
             <Text style={styles.label}> Expressão</Text>
             <TextInput
               style={styles.input}
-              value={subject}
-              onChangeText={(text) => setSubject(text)}
+              value={search}
+              onChangeText={(text) => setSearch(text)}
               placeholder="Qual a palavra?"
               placeholderTextColor="#c1bccc"
             />
