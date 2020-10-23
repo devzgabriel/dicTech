@@ -8,13 +8,13 @@ import AsyncStorage from "@react-native-community/async-storage";
 import Papa from "papaparse";
 
 import PageHeader from "../../components/PageHeader";
-import WordItem, { Word } from "../../components/WordItem";
+import WordItem, { FileData } from "../../components/WordItem";
 
 import styles from "./styles";
 
 interface FileParsed {
   data: Array<{
-    id: number;
+    id: string;
     name: string;
     syllabicdivision: string;
     primarymeaning: string;
@@ -38,19 +38,48 @@ interface FileParsed {
 function WordList() {
   // const filePath = "../../data/dictionary.csv";
   const filePath = `${FileSystem.documentDirectory}`;
-  console.log(filePath);
-  const [fileParsed, setFileParsed] = useState<FileParsed>({} as FileParsed);
-  const [toprint, setToPrint] = useState("" as any);
 
-  const [words, setWords] = useState([]); // Um array com vários objetos dentro
+  const [fileParsed, setFileParsed] = useState<FileParsed>({} as FileParsed);
+  const [toprint, setToPrint] = useState("" as any); //Só para testes
+
+  const [data, setData] = useState<FileData[]>([]); // Um array com vários objetos dentro
   const [favorites, setFavorites] = useState<number[]>([]);
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
   const [search, setSearch] = useState("");
 
-  async function loadWords() {
+  async function loadData() {
+    const localData = [
+      {
+        id: "1",
+        name: "Thermistor",
+        syllabicdivision: "Ther-mis-tor",
+        primarymeaning: "Termistor",
+        primaryexample:
+          "Thermistors are easy to use, inexpensive, sturdy, and respond predictably to changes intemperature.",
+        primaryreference: "https://www.teamwavelength.com/thermistor-basics/",
+        secondarymeaning: "",
+        secondaryexample: "",
+        secondaryreference: "",
+      },
+      {
+        id: "2",
+        name: "Equipment",
+        syllabicdivision: "E-quip-ment",
+        primarymeaning: "Equipamento",
+        primaryexample:
+          "Portable and mobile RF communications equipment can affect the performance of the700 Series Ventilator System.",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
+        secondarymeaning: "",
+        secondaryexample: "",
+        secondaryreference: "",
+      },
+    ];
     try {
-      const file = await FileSystem.readAsStringAsync(filePath);
-      setToPrint(file);
+      setData(localData);
+      console.log(data);
+      // const file = await FileSystem.readAsStringAsync(filePath);
+      // setToPrint(file);
       // const file = await FileSystem.getInfoAsync(filePath);
       // const data = await FileSystem.readAsStringAsync(file.uri);
       // Papa.parse(file, {
@@ -73,8 +102,8 @@ function WordList() {
     AsyncStorage.getItem("favorites").then((response) => {
       if (response) {
         const favoritedWords = JSON.parse(response);
-        const favoritedWordsIds = favoritedWords.map((word: Word) => {
-          return word.id;
+        const favoritedWordsIds = favoritedWords.map((word: FileData) => {
+          return Number(word.id);
         });
         setFavorites(favoritedWordsIds);
       }
@@ -82,7 +111,7 @@ function WordList() {
   }
 
   useEffect(() => {
-    loadWords();
+    loadData();
     // loadFavorites();
   }, []);
 
@@ -139,15 +168,16 @@ function WordList() {
           paddingBottom: 16,
         }}
       >
-        {words.map((word: Word) => {
-          return (
-            <WordItem
-              key={word.id}
-              word={word}
-              favorited={favorites.includes(word.id)}
-            />
-          );
-        })}
+        {data &&
+          data.map((data: FileData) => {
+            return (
+              <WordItem
+                key={data.id}
+                word={data}
+                favorited={favorites.includes(Number(data.id))}
+              />
+            );
+          })}
       </ScrollView>
     </View>
   );

@@ -4,7 +4,7 @@ import AsyncStorage from "@react-native-community/async-storage";
 import { useFocusEffect } from "@react-navigation/native";
 
 import PageHeader from "../../components/PageHeader";
-import WordItem, { Word } from "../../components/WordItem";
+import WordItem, { FileData } from "../../components/WordItem";
 import styles from "./styles";
 
 function Favorites() {
@@ -36,8 +36,10 @@ function Favorites() {
           paddingBottom: 16,
         }}
       >
-        {favorites.map((word: Word) => {
-          return <WordItem key={word.id} word={word} favorited={true} />;
+        {favorites.map((word: FileData) => {
+          return (
+            <WordItem key={Number(word.id)} word={word} favorited={true} />
+          );
         })}
       </ScrollView>
     </View>

@@ -20,13 +20,13 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   },
 
-  expression: {
+  name: {
     fontFamily: "Archivo_700Bold",
     color: "#2f2b5c",
     fontSize: 20,
   },
 
-  translation: {
+  primarymeaning: {
     fontFamily: "Poppins_400Regular",
     color: "#2f2b5c",
     fontSize: 12,

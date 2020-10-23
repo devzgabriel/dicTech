@@ -9,15 +9,20 @@ import unfavoriteIcon from "../../assets/images/icons/unfavorite.png";
 
 import styles from "./styles";
 
-export interface Word {
-  id: number;
-  example: string;
-  expression: string;
-  translation: string;
+export interface FileData {
+  id: string;
+  name: string;
+  syllabicdivision: string;
+  primarymeaning: string;
+  primaryexample: string;
+  primaryreference: string;
+  secondarymeaning: string;
+  secondaryexample: string;
+  secondaryreference: string;
 }
 
 interface WordItemProps {
-  word: Word;
+  word: FileData;
   favorited: boolean;
 }
 
@@ -34,8 +39,8 @@ const WordItem: React.FC<WordItemProps> = ({ word, favorited }) => {
     }
 
     if (isFavorited) {
-      const favoriteIndex = favoritesArray.findIndex((wordItem: Word) => {
-        return wordItem.id === word.id;
+      const favoriteIndex = favoritesArray.findIndex((wordItem: FileData) => {
+        return Number(wordItem.id) === Number(word.id);
       });
 
       favoritesArray.splice(favoriteIndex, 1);
@@ -54,12 +59,12 @@ const WordItem: React.FC<WordItemProps> = ({ word, favorited }) => {
     <View style={styles.container}>
       <View style={styles.profile}>
         <View style={styles.profileInfo}>
-          <Text style={styles.expression}>{word.expression}</Text>
-          <Text style={styles.translation}> {word.translation} </Text>
+          <Text style={styles.name}>{word.name}</Text>
+          <Text style={styles.primarymeaning}> {word.primarymeaning} </Text>
         </View>
       </View>
 
-      <Text style={styles.example}>{word.example}</Text>
+      <Text style={styles.example}>{word.primaryexample}</Text>
 
       <View style={styles.footer}>
         <RectButton
