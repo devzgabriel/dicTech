@@ -75,31 +75,27 @@ function WordList() {
         secondaryreference: "",
       },
     ];
-    try {
-      setData(localData);
-      console.log(data);
-      // const file = await FileSystem.readAsStringAsync(filePath);
-      // setToPrint(file);
-      // const file = await FileSystem.getInfoAsync(filePath);
-      // const data = await FileSystem.readAsStringAsync(file.uri);
-      // Papa.parse(file, {
-      //   header: true,
-      //   skipEmptyLines: true,
-      //   complete: (results: FileParsed) => {
-      //     setFileParsed({
-      //       data: results.data,
-      //       errors: results.errors,
-      //       meta: results.meta,
-      //     });
-      //   },
-      // });
-    } catch {
-      setToPrint("Cant execute action");
-    }
+    setData(localData);
+    console.log(data);
+    // const file = await FileSystem.readAsStringAsync(filePath);
+    // setToPrint(file);
+    // const file = await FileSystem.getInfoAsync(filePath);
+    // const data = await FileSystem.readAsStringAsync(file.uri);
+    // Papa.parse(file, {
+    //   header: true,
+    //   skipEmptyLines: true,
+    //   complete: (results: FileParsed) => {
+    //     setFileParsed({
+    //       data: results.data,
+    //       errors: results.errors,
+    //       meta: results.meta,
+    //     });
+    //   },
+    // });
   }
 
-  function loadFavorites() {
-    AsyncStorage.getItem("favorites").then((response) => {
+  async function loadFavorites() {
+    await AsyncStorage.getItem("favorites").then((response) => {
       if (response) {
         const favoritedWords = JSON.parse(response);
         const favoritedWordsIds = favoritedWords.map((word: FileData) => {
@@ -112,7 +108,7 @@ function WordList() {
 
   useEffect(() => {
     loadData();
-    // loadFavorites();
+    loadFavorites();
   }, []);
 
   function handleToggleFiltersVisible() {
