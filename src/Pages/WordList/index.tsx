@@ -76,7 +76,7 @@ function WordList() {
       },
     ];
     setData(localData);
-    console.log(data);
+    // console.log(data);
     // const file = await FileSystem.readAsStringAsync(filePath);
     // setToPrint(file);
     // const file = await FileSystem.getInfoAsync(filePath);
