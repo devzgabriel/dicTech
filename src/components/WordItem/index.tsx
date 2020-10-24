@@ -24,9 +24,14 @@ export interface FileData {
 interface WordItemProps {
   word: FileData;
   favorited: boolean;
+  hideFavoriteButton?: boolean;
 }
 
-const WordItem: React.FC<WordItemProps> = ({ word, favorited }) => {
+const WordItem: React.FC<WordItemProps> = ({
+  word,
+  favorited,
+  hideFavoriteButton,
+}) => {
   const [isFavorited, setIsFavorited] = useState(favorited);
 
   async function handleToggleFavorite() {
@@ -36,6 +41,7 @@ const WordItem: React.FC<WordItemProps> = ({ word, favorited }) => {
 
     if (favorites) {
       favoritesArray = JSON.parse(favorites);
+      // console.log(favoritesArray);
     }
 
     if (isFavorited) {
@@ -66,18 +72,20 @@ const WordItem: React.FC<WordItemProps> = ({ word, favorited }) => {
 
       <Text style={styles.example}>{word.primaryexample}</Text>
 
-      <View style={styles.footer}>
-        <RectButton
-          onPress={handleToggleFavorite}
-          style={[styles.favoriteButton, isFavorited ? styles.favorited : {}]}
-        >
-          {isFavorited ? (
-            <Image source={unfavoriteIcon} />
-          ) : (
-            <Image source={heartOutlineIcon} />
-          )}
-        </RectButton>
-      </View>
+      {!hideFavoriteButton && (
+        <View style={styles.footer}>
+          <RectButton
+            onPress={handleToggleFavorite}
+            style={[styles.favoriteButton, isFavorited ? styles.favorited : {}]}
+          >
+            {isFavorited ? (
+              <Image source={unfavoriteIcon} />
+            ) : (
+              <Image source={heartOutlineIcon} />
+            )}
+          </RectButton>
+        </View>
+      )}
     </View>
   );
 };

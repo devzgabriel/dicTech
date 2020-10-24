@@ -38,7 +38,12 @@ function Favorites() {
       >
         {favorites.map((word: FileData) => {
           return (
-            <WordItem key={Number(word.id)} word={word} favorited={true} />
+            <WordItem
+              key={Number(word.id)}
+              word={word}
+              favorited={true}
+              hideFavoriteButton={true}
+            />
           );
         })}
       </ScrollView>

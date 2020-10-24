@@ -39,22 +39,23 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 24,
     color: "#2f2b5c",
+    paddingBottom: 20,
   },
 
   footer: {
     backgroundColor: "#fafafc",
     padding: 18,
-    alignItems: "flex-end",
+    alignItems: "center",
   },
 
   favoriteButton: {
     backgroundColor: "#ffc547",
-    width: 56,
+    width: 100,
     height: 56,
     borderRadius: 8,
     justifyContent: "center",
     alignItems: "center",
-    marginRight: 8,
+    // marginRight: 8,
   },
 
   favorited: {
