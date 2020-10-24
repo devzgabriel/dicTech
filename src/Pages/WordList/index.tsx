@@ -166,11 +166,14 @@ function WordList() {
       >
         {data &&
           data.map((data: FileData) => {
+            // console.log(data.name, favorites.includes(Number(data.id)));
+            // console.log(word.name, "favorited: ", favorited);
             return (
               <WordItem
                 key={data.id}
                 word={data}
                 favorited={favorites.includes(Number(data.id))}
+                hideFavoriteButton={false}
               />
             );
           })}

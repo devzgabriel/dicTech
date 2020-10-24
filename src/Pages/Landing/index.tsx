@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { View, Image, Text, TouchableOpacity } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
+import AsyncStorage from "@react-native-community/async-storage";
 
 import styles from "./styles";
 
@@ -18,10 +19,16 @@ function Landing() {
 
   const [totalWords, settotalWords] = useState(0);
 
-  useEffect(() => {
+  async function clearStorage() {
+    await AsyncStorage.setItem("favorites", JSON.stringify([]));
+    console.log("clearrrr");
+  }
+
+  useFocusEffect(() => {
     //numero palavras cadastradas
     settotalWords(0);
-  }, []);
+    clearStorage();
+  });
 
   function handleNavigateToWordPages() {
     navigate("WordList");
