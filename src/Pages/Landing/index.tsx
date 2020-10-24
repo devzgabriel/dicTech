@@ -21,7 +21,6 @@ function Landing() {
 
   async function clearStorage() {
     await AsyncStorage.setItem("favorites", JSON.stringify([]));
-    console.log("clearrrr");
   }
 
   useFocusEffect(() => {

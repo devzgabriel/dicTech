@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   profile: {
     flexDirection: "row",
     alignItems: "center",
-    padding: 24,
+    padding: 20,
   },
 
   profileInfo: {
@@ -26,14 +26,23 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
 
+  division: {
+    fontFamily: "Archivo_700Bold",
+    color: "#2f2b5c",
+    fontSize: 15,
+    marginLeft: 3,
+  },
+
   primarymeaning: {
     fontFamily: "Poppins_400Regular",
     color: "#2f2b5c",
     fontSize: 12,
     marginTop: 4,
+    marginLeft: 2,
   },
 
   example: {
+    marginTop: -9,
     marginHorizontal: 24,
     fontFamily: "Poppins_400Regular",
     fontSize: 14,
@@ -44,7 +53,7 @@ const styles = StyleSheet.create({
 
   footer: {
     backgroundColor: "#fafafc",
-    padding: 18,
+    padding: 14,
     alignItems: "center",
   },
 
