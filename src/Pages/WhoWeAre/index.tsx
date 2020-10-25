@@ -5,7 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import PersonItem, { Person } from "../../components/PersonItem";
 
-import whoWeAreImg from "../../assets/images/give-classes-background.png";
+import whoWeAreImg from "../../assets/images/we-background.png";
 import GabrielImg from "../../assets/photos/gabriel.jpg";
 import SarahImg from "../../assets/photos/sarah.jpg";
 import DefaultImg from "../../assets/photos/default.jpg";
