@@ -14,7 +14,6 @@ import yellowLandingImg from "../../assets/images/yellow-landing.png";
 import WordListIcon from "../../assets/images/icons/study.png";
 import WhoWeAreIcon from "../../assets/images/icons/give-classes.png";
 import heartIcon from "../../assets/images/icons/heart.png";
-// import ... from "../../services/";
 
 function Landing() {
   const { navigate } = useNavigation();

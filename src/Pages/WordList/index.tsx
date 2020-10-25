@@ -12,7 +12,7 @@ import Dictionary from "../../data/exportDictionary";
 
 import styles from "./styles";
 
-interface FileParsed {
+export interface FileParsed {
   data: Array<{
     id: string;
     name: string;
@@ -40,7 +40,6 @@ function WordList() {
   // const filePath = `${FileSystem.documentDirectory}`;
 
   const [fileParsed, setFileParsed] = useState<FileParsed>({} as FileParsed);
-  const [toprint, setToPrint] = useState("" as any); //Só para testes
 
   const [data, setData] = useState<FileData[]>([]); // Um array com vários objetos dentro
   const [favorites, setFavorites] = useState<number[]>([]);
@@ -115,7 +114,6 @@ function WordList() {
           </View>
         )}
       </PageHeader>
-      <Text> {toprint} </Text>
       <ScrollView
         style={styles.wordList}
         contentContainerStyle={{
