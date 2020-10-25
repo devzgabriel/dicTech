@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { View, ScrollView, Text, TextInput } from "react-native";
-import * as FileSystem from "expo-file-system";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
 import { useFocusEffect } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
@@ -9,6 +8,7 @@ import Papa from "papaparse";
 
 import PageHeader from "../../components/PageHeader";
 import WordItem, { FileData } from "../../components/WordItem";
+import Dictionary from "../../data/exportDictionary";
 
 import styles from "./styles";
 
@@ -37,7 +37,7 @@ interface FileParsed {
 
 function WordList() {
   // const filePath = "../../data/dictionary.csv";
-  const filePath = `${FileSystem.documentDirectory}`;
+  // const filePath = `${FileSystem.documentDirectory}`;
 
   const [fileParsed, setFileParsed] = useState<FileParsed>({} as FileParsed);
   const [toprint, setToPrint] = useState("" as any); //Só para testes
@@ -48,50 +48,9 @@ function WordList() {
   const [search, setSearch] = useState("");
 
   async function loadData() {
-    const localData = [
-      {
-        id: "1",
-        name: "Thermistor",
-        syllabicdivision: "Ther-mis-tor",
-        primarymeaning: "Termistor",
-        primaryexample:
-          "Thermistors are easy to use, inexpensive, sturdy, and respond predictably to changes intemperature.",
-        primaryreference: "https://www.teamwavelength.com/thermistor-basics/",
-        secondarymeaning: "",
-        secondaryexample: "",
-        secondaryreference: "",
-      },
-      {
-        id: "2",
-        name: "Equipment",
-        syllabicdivision: "E-quip-ment",
-        primarymeaning: "Equipamento",
-        primaryexample:
-          "Portable and mobile RF communications equipment can affect the performance of the700 Series Ventilator System.",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
-        secondarymeaning: "",
-        secondaryexample: "",
-        secondaryreference: "",
-      },
-    ];
+    const localData = Dictionary().data;
     setData(localData);
     // console.log(data);
-    // const file = await FileSystem.readAsStringAsync(filePath);
-    // setToPrint(file);
-    // const file = await FileSystem.getInfoAsync(filePath);
-    // const data = await FileSystem.readAsStringAsync(file.uri);
-    // Papa.parse(file, {
-    //   header: true,
-    //   skipEmptyLines: true,
-    //   complete: (results: FileParsed) => {
-    //     setFileParsed({
-    //       data: results.data,
-    //       errors: results.errors,
-    //       meta: results.meta,
-    //     });
-    //   },
-    // });
   }
 
   async function loadFavorites() {

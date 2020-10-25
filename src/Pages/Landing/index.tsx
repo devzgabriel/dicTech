@@ -4,6 +4,8 @@ import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { RectButton } from "react-native-gesture-handler";
 import AsyncStorage from "@react-native-community/async-storage";
 
+import Dictionary from "../../data/exportDictionary";
+
 import styles from "./styles";
 
 import landingImg from "../../assets/images/landing.png";
@@ -24,8 +26,7 @@ function Landing() {
   }
 
   useFocusEffect(() => {
-    //numero palavras cadastradas
-    settotalWords(0);
+    settotalWords(Dictionary().data.length);
     clearStorage();
   });
 
