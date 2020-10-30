@@ -8,6 +8,9 @@ import PersonItem, { Person } from "../../components/PersonItem";
 import whoWeAreImg from "../../assets/images/we-background.png";
 import GabrielImg from "../../assets/photos/gabriel.jpg";
 import SarahImg from "../../assets/photos/sarah.jpg";
+import MoniqueImg from "../../assets/photos/monique.jpg";
+import YasminImg from "../../assets/photos/yasmin.jpg";
+import MarianaImg from "../../assets/photos/mariana.jpg";
 import DefaultImg from "../../assets/photos/default.jpg";
 
 import styles from "./styles";
@@ -29,31 +32,31 @@ const WhoWeAre = () => {
     },
     {
       avatar: SarahImg,
-      bio: "Looking for a description",
+      bio: "Student at ETE FMC",
       name: "Sarah Beatriz",
       occupation: "Programadora",
     },
     {
       avatar: DefaultImg,
-      bio: "Looking for a description",
+      bio: "Student at ETE FMC",
       name: "Ana Luiza",
       occupation: "Programadora",
     },
     {
-      avatar: DefaultImg,
-      bio: "Looking for a description",
+      avatar: MoniqueImg,
+      bio: "Student at ETE FMC",
       name: "Monique",
       occupation: "Pesquisadora",
     },
     {
-      avatar: DefaultImg,
-      bio: "Looking for a description",
+      avatar: YasminImg,
+      bio: "Student at ETE FMC",
       name: "Yasmin",
       occupation: "Pesquisadora",
     },
     {
-      avatar: DefaultImg,
-      bio: "Looking for a description",
+      avatar: MarianaImg,
+      bio: "Student at ETE FMC",
       name: "Mariana",
       occupation: "Pesquisadora",
     },
