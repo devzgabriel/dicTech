@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 
   wordList: {
-    marginTop: -50,
+    marginTop: 16,
   },
 });
 

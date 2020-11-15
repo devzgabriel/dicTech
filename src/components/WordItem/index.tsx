@@ -75,8 +75,10 @@ const WordItem: React.FC<WordItemProps> = ({
     <View style={styles.container}>
       <View style={styles.profile}>
         <View style={styles.profileInfo}>
-          <Text style={styles.name}>{word.name}</Text>
-          <Text style={styles.division}>{word.syllabicdivision}</Text>
+          <View style={styles.primaryVision}>
+            <Text style={styles.name}>{word.name}</Text>
+            <Text style={styles.division}>{word.syllabicdivision}</Text>
+          </View>
           <Text style={styles.primarymeaning}> {word.primarymeaning} </Text>
         </View>
       </View>

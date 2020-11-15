@@ -13,11 +13,17 @@ const styles = StyleSheet.create({
   profile: {
     flexDirection: "row",
     alignItems: "center",
-    padding: 20,
+    padding: 14,
   },
 
   profileInfo: {
-    marginLeft: 16,
+    marginLeft: 10,
+  },
+
+  primaryVision: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   name: {
@@ -30,7 +36,8 @@ const styles = StyleSheet.create({
     fontFamily: "Archivo_700Bold",
     color: "#2f2b5c",
     fontSize: 15,
-    marginLeft: 3,
+    marginTop: 3,
+    marginLeft: 12,
   },
 
   primarymeaning: {
@@ -38,29 +45,28 @@ const styles = StyleSheet.create({
     color: "#2f2b5c",
     fontSize: 12,
     marginTop: 4,
-    marginLeft: 2,
   },
 
   example: {
-    marginTop: -9,
-    marginHorizontal: 24,
+    marginTop: 0,
+    marginHorizontal: 26,
     fontFamily: "Poppins_400Regular",
     fontSize: 14,
-    lineHeight: 24,
+    lineHeight: 18,
     color: "#2f2b5c",
-    paddingBottom: 20,
+    paddingBottom: 12,
   },
 
   footer: {
     backgroundColor: "#fafafc",
-    padding: 14,
+    padding: 8,
     alignItems: "center",
   },
 
   favoriteButton: {
     backgroundColor: "#ffc547",
     width: 100,
-    height: 56,
+    height: 50,
     borderRadius: 8,
     justifyContent: "center",
     alignItems: "center",
