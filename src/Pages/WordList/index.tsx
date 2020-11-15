@@ -44,6 +44,7 @@ function WordList() {
   const [data, setData] = useState<FileData[]>([]); // Um array com vários objetos dentro
   const [favorites, setFavorites] = useState<number[]>([]);
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
+  const [isResetSearchVisible, setIsResetSearchVisible] = useState(false);
   const [search, setSearch] = useState("");
 
   async function loadData() {
@@ -73,10 +74,28 @@ function WordList() {
     setIsFiltersVisible(!isFiltersVisible);
   }
 
-  async function handleFiltersSubmit() {
+  function handleFiltersSubmit() {
     loadFavorites();
+    let searchArray: any[] = [];
 
-    // logica para filtro
+    data.forEach((element) => {
+      if (element.name.indexOf(search) > -1) {
+        searchArray.push(element);
+      }
+    });
+
+    if (searchArray.length !== 0) {
+      setData(searchArray);
+    } else if (searchArray.length === 0) {
+    }
+
+    setIsFiltersVisible(false);
+    setIsResetSearchVisible(true);
+  }
+
+  function handleResetFilter() {
+    setIsResetSearchVisible(false);
+    loadData();
   }
 
   return (
@@ -121,6 +140,14 @@ function WordList() {
           paddingBottom: 16,
         }}
       >
+        {isResetSearchVisible && (
+          <BorderlessButton
+            style={styles.resetSearch}
+            onPress={handleResetFilter}
+          >
+            <Text style={styles.submitButtonText}>Retirar Filtro</Text>
+          </BorderlessButton>
+        )}
         {data &&
           data.map((data: FileData) => {
             // console.log(data.name, favorites.includes(Number(data.id)));

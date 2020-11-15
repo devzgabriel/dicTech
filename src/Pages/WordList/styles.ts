@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 
   wordList: {
-    marginTop: -50,
+    paddingTop: 16,
   },
 
   searchForm: {
@@ -47,7 +47,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
+  resetSearch: {
+    margin: 10,
+    marginTop: -4,
+    backgroundColor: "#2f2b5c",
+    height: 56,
+    borderRadius: 8,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
   submitButtonText: {
+    zIndex: -10,
     color: "#fff",
     fontFamily: "Archivo_700Bold",
     fontSize: 16,

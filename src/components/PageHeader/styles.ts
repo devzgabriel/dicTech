@@ -4,7 +4,10 @@ const sytles = StyleSheet.create({
   container: {
     // paddingHorizontal: 40,
     // paddingVertical: 20,
-    padding: 40,
+    zIndex: 1,
+    padding: 25,
+    paddingTop: 35,
+    paddingBottom: 10,
     backgroundColor: "#ffc547",
   },
 
@@ -26,7 +29,7 @@ const sytles = StyleSheet.create({
     fontSize: 24,
     lineHeight: 32,
     maxWidth: 160,
-    marginVertical: 20,
+    marginVertical: 10,
   },
 });
 
