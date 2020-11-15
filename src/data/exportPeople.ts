@@ -1,5 +1,6 @@
 import GabrielImg from "../assets/photos/gabriel.jpg";
 import SarahImg from "../assets/photos/sarah.jpg";
+import AnaLuizaImg from "../assets/photos/analuiza.png";
 import MoniqueImg from "../assets/photos/monique.png";
 import YasminImg from "../assets/photos/yasmin.png";
 import MarianaImg from "../assets/photos/mariana.png";
@@ -22,7 +23,7 @@ export default function People() {
         occupation: "Programadora",
       },
       {
-        avatar: DefaultImg,
+        avatar: AnaLuizaImg,
         bio: "Student at ETE FMC",
         name: "Ana Luiza",
         occupation: "Programadora",
