@@ -20,18 +20,18 @@ export interface FileParsed {
     primarymeaning: string;
     primaryexample: string;
     primaryreference: string;
-    secondarymeaning: string;
-    secondaryexample: string;
-    secondaryreference: string;
+    secondarymeaning?: string;
+    secondaryexample?: string;
+    secondaryreference?: string;
   }>;
   errors: Array<{}>;
   meta: {
-    delimiter: string;
-    linebreak: string;
-    aborted: boolean;
-    truncated: boolean;
-    cursor: number;
-    fields: Array<string>;
+    delimiter?: string;
+    linebreak?: string;
+    aborted?: boolean;
+    truncated?: boolean;
+    cursor?: number;
+    fields?: Array<string>;
   };
 }
 
@@ -79,7 +79,7 @@ function WordList() {
     let searchArray: any[] = [];
 
     data.forEach((element) => {
-      if (element.name.indexOf(search) > -1) {
+      if (element.name.indexOf(search.toLowerCase()) > -1) {
         searchArray.push(element);
       }
     });
