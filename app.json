@@ -15,7 +15,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "com.devzgabriel.dictech",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.devzgabriel.dictech",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
