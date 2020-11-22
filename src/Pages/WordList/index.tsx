@@ -46,6 +46,7 @@ function WordList() {
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
   const [isResetSearchVisible, setIsResetSearchVisible] = useState(false);
   const [search, setSearch] = useState("");
+  const [wait, setWait] = useState(true);
 
   async function loadData() {
     const localData = Dictionary().data;
@@ -68,6 +69,7 @@ function WordList() {
   useEffect(() => {
     loadData();
     loadFavorites();
+    setWait(false);
   }, []);
 
   function handleToggleFiltersVisible() {
@@ -133,6 +135,13 @@ function WordList() {
           </View>
         )}
       </PageHeader>
+      {wait && (
+        <View style={styles.wait}>
+          <Text style={styles.waitText}>
+            Aguarde enquanto carregamos as palavras!
+          </Text>
+        </View>
+      )}
       <ScrollView
         style={styles.wordList}
         contentContainerStyle={{

@@ -6,6 +6,20 @@ const styles = StyleSheet.create({
     backgroundColor: "#f0f0f7",
   },
 
+  wait: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  waitText: {
+    maxWidth: 200,
+    fontSize: 18,
+    fontFamily: "Poppins_600SemiBold",
+    color: "#2f2b5c",
+    textAlign: "center",
+  },
+
   wordList: {
     paddingTop: 16,
   },
