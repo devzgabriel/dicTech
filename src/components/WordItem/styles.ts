@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
   },
 
   primaryVision: {
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "center",
-    alignItems: "center",
+    // alignItems: "center",
   },
 
   name: {
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     color: "#2f2b5c",
     fontSize: 15,
     marginTop: 3,
-    marginLeft: 12,
+    marginLeft: 2,
   },
 
   primarymeaning: {
@@ -58,8 +58,13 @@ const styles = StyleSheet.create({
   },
 
   footer: {
-    backgroundColor: "#fafafc",
+    alignItems: "center",
+  },
+  buttonContainer: {
     padding: 8,
+    backgroundColor: "#fafafc",
+    flexDirection: "row",
+    justifyContent: "space-evenly",
     alignItems: "center",
   },
 
@@ -75,6 +80,19 @@ const styles = StyleSheet.create({
 
   favorited: {
     backgroundColor: "#2f2b5c",
+  },
+  linkReference: {
+    backgroundColor: "#2f2b5c",
+    width: 130,
+    height: 50,
+    borderRadius: 8,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  linkText: {
+    color: "#FFF",
+    fontFamily: "Archivo_700Bold",
+    fontSize: 13,
   },
 });
 

@@ -32,11 +32,11 @@ const PageHeader: React.FC<PageHeaderProps> = ({
           <Image source={backIcon} resizeMode="contain" />
         </BorderlessButton>
 
-        <Image
+        {/* <Image
           source={PurpleogoImg}
           style={{ width: 24, height: 24 }}
           resizeMode="contain"
-        />
+        /> */}
       </View>
 
       <View style={styles.header}>

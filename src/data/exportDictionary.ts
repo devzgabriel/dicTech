@@ -5,7 +5,8 @@ export default function Dictionary() {
         id: "1",
         name: "accelerometer",
         syllabicdivision: "ac-cel-er-om-e-ter",
-        primarymeaning: "acelerômetro",
+        primarymeaning:
+          "Dispositivo que mede a vibração ou a aceleração do movimento de uma estrutura",
         primaryexample:
           "Each sensor comprises an accelerometer, gyroscope and compass.",
         primaryreference:
@@ -15,7 +16,7 @@ export default function Dictionary() {
         id: "2",
         name: "access",
         syllabicdivision: "ac-cess",
-        primarymeaning: "acesso",
+        primarymeaning: "Ação ou oportunidade de entrar ou de sair",
         primaryexample:
           "Instructions that access the registers this way are code eficiente [...]",
         primaryreference:
@@ -25,7 +26,7 @@ export default function Dictionary() {
         id: "3",
         name: "accuracy",
         syllabicdivision: "ac-cu-ra-cy",
-        primarymeaning: "precisão",
+        primarymeaning: "Rigor no registro e na definição do valor",
         primaryexample:
           "AM and FM radio broadcast and TV broadcast cannot be predicted theoretically with accuracy.",
         primaryreference:
@@ -35,7 +36,8 @@ export default function Dictionary() {
         id: "4",
         name: "address",
         syllabicdivision: "ad-dress",
-        primarymeaning: "endereço",
+        primarymeaning:
+          "Reunião dos dados necessários para que se consiga localizar algo",
         primaryexample:
           "Program execution continues with the instruction at this address.",
         primaryreference:
@@ -45,7 +47,7 @@ export default function Dictionary() {
         id: "5",
         name: "alarms",
         syllabicdivision: "alarms",
-        primarymeaning: "alarmes",
+        primarymeaning: "Sinal sonoro de lembrete",
         primaryexample:
           "The accompanying app lets you check sleep data, see your set alarms, play music, enter diet and exercise regimes.",
         primaryreference:
@@ -55,7 +57,8 @@ export default function Dictionary() {
         id: "6",
         name: "algorithms",
         syllabicdivision: "al-go-ri-thms",
-        primarymeaning: "algoritmos",
+        primarymeaning:
+          "Conjunto de regras que fornecem uma sequência de operações capazes de resolver um problema específico",
         primaryexample:
           "Thirdly, algorithms for analyzing heterogeneous image data are needed.",
         primaryreference:
@@ -65,7 +68,7 @@ export default function Dictionary() {
         id: "7",
         name: "amplification",
         syllabicdivision: "am-pli-fi-ca-tion",
-        primarymeaning: "amplificação",
+        primarymeaning: "Aumentar o volume a extensão ou a intensidade",
         primaryexample:
           "Effect of DNA damage on PCR amplification efficiency with the relative threshold cycle method.",
         primaryreference:
@@ -75,7 +78,7 @@ export default function Dictionary() {
         id: "8",
         name: "analysis",
         syllabicdivision: "a-nal-y-sis",
-        primarymeaning: "análise",
+        primarymeaning: "Ação ou efeito de analisar",
         primaryexample: "One example is MRI image analysis.",
         primaryreference:
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
@@ -84,7 +87,7 @@ export default function Dictionary() {
         id: "9",
         name: "automatic",
         syllabicdivision: "au-to-mat-ic",
-        primarymeaning: "automático",
+        primarymeaning: "Que opera por meios mecânicos",
         primaryexample:
           "The framework can be adapted for the automatic segmentation of anatomical structures with well-defined shape [...]",
         primaryreference:
@@ -94,7 +97,7 @@ export default function Dictionary() {
         id: "10",
         name: "available",
         syllabicdivision: "a-vail-a-ble",
-        primarymeaning: "disponíveis",
+        primarymeaning: "Que se encontra ao dispor",
         primaryexample:
           "[..] approaches which optimally exploit the available images and GT annotations are becoming more interesting.",
         primaryreference:
@@ -104,7 +107,7 @@ export default function Dictionary() {
         id: "11",
         name: "accumulator",
         syllabicdivision: "ac-cu-mu-la-tor",
-        primarymeaning: "acumulador",
+        primarymeaning: "Que acumula e amontoa",
         primaryexample:
           "If the operation is in response to an interrupt, not using the Accumulator saves the time and effort to stack it in the service routine",
         primaryreference:
@@ -114,7 +117,7 @@ export default function Dictionary() {
         id: "12",
         name: "activation",
         syllabicdivision: "ac-ti-va-tion",
-        primarymeaning: "ativação",
+        primarymeaning: "Ação ou efeito de ativar",
         primaryexample:
           "This activation takes place even when the cycle involves no external fetch",
         primaryreference:
@@ -124,7 +127,7 @@ export default function Dictionary() {
         id: "13",
         name: "activity",
         syllabicdivision: "ac-ti-vity",
-        primarymeaning: "atividade",
+        primarymeaning: "Capacidade ou tendência para agir",
         primaryexample:
           "Meet the world’s first device that can observe and model human brain activity during free movements.",
         primaryreference:
@@ -134,7 +137,7 @@ export default function Dictionary() {
         id: "14",
         name: "addressable",
         syllabicdivision: "ad-dres-sa-ble",
-        primarymeaning: "endereçável",
+        primarymeaning: "Que é capaz de se colocar um endereço",
         primaryexample:
           "SETB can operate on the carry flag or any directly addressable bit.",
         primaryreference:
@@ -144,7 +147,7 @@ export default function Dictionary() {
         id: "15",
         name: "alternate",
         syllabicdivision: "al-ter-na-te",
-        primarymeaning: "alternativa",
+        primarymeaning: "Sucessão de coisas que se repetem com alternação",
         primaryexample:
           "The alternate functions can only be activated if the corresponding bit latch in the port SFR contains a 1.",
         primaryreference:
@@ -154,7 +157,8 @@ export default function Dictionary() {
         id: "16",
         name: "app",
         syllabicdivision: "app",
-        primarymeaning: "aplicativo",
+        primarymeaning:
+          "Programa de computador desenvolvido para processar dados de modo eletrônico",
         primaryexample:
           "The accompanying app lets you check sleep data, see your set alarms, play music, enter diet and exercise regimes.",
         primaryreference:
@@ -164,7 +168,7 @@ export default function Dictionary() {
         id: "17",
         name: "asynchronous",
         syllabicdivision: "as-yn-ch-ro-nous",
-        primarymeaning: "assíncrono",
+        primarymeaning: "Que não acontece juntamente com outra coisa",
         primaryexample:
           "Asynchronous transmission and reception can occur simultaneously and at different baud rates.",
         primaryreference:
@@ -174,7 +178,7 @@ export default function Dictionary() {
         id: "18",
         name: "battery",
         syllabicdivision: "bat-ter-y",
-        primarymeaning: "bateria",
+        primarymeaning: "Pilhas ou acumuladores elétricos de alimentação",
         primaryexample:
           "The 700 Series Ventilator System can be mains or battery powered.",
         primaryreference:
@@ -184,7 +188,8 @@ export default function Dictionary() {
         id: "19",
         name: "bus",
         syllabicdivision: "bus",
-        primarymeaning: "barramento",
+        primarymeaning:
+          "Elo de comunicação consistindo de um conjunto de vias ou fios que conectam diferentes partes do sistema de hardware de um computador",
         primaryexample:
           "Bus monitor test  Verifies the microcontroller’s bus monitor can detect bus error conditions.",
         primaryreference:
@@ -194,7 +199,8 @@ export default function Dictionary() {
         id: "20",
         name: "calculated",
         syllabicdivision: "cal-cu-lat-ed",
-        primarymeaning: "calculado",
+        primarymeaning:
+          "Resultado determinado por uma operação que envolve cálculos",
         primaryexample:
           "Transformation frequency was calculated as transformant cell density [...]",
         primaryreference:
@@ -204,7 +210,7 @@ export default function Dictionary() {
         id: "21",
         name: "calibration",
         syllabicdivision: "cal-i-bra-tion",
-        primarymeaning: "calibração",
+        primarymeaning: "Ajustar algo usando calibre e instrumento de medição",
         primaryexample:
           "[...] a method for the calibration of radiometer detectors [...]",
         primaryreference:
@@ -214,7 +220,8 @@ export default function Dictionary() {
         id: "22",
         name: "capacitance",
         syllabicdivision: "ca-pac-i-tance",
-        primarymeaning: "capacitância",
+        primarymeaning:
+          "Grandeza que mede a capacidade de armazenamento de energia em equipamentos e dispositivos elétricos",
         primaryexample: "The parasitic capacitance is equal to 1000pF.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -223,7 +230,8 @@ export default function Dictionary() {
         id: "23",
         name: "chip",
         syllabicdivision: "chip",
-        primarymeaning: "chip",
+        primarymeaning:
+          "Microcircuito integrado que realiza variado número de funções",
         primaryexample:
           "It also includes the location of the user via a GPS chip in the device.",
         primaryreference:
@@ -233,7 +241,8 @@ export default function Dictionary() {
         id: "24",
         name: "circuitry",
         syllabicdivision: "cir-cui-try",
-        primarymeaning: "circuito",
+        primarymeaning:
+          "Série de condutores elétricos que podem ser percorridos por uma corrente",
         primaryexample:
           "The values are not actualIy polIed by the circuitry until the next machine cycle.",
         primaryreference:
@@ -243,7 +252,8 @@ export default function Dictionary() {
         id: "25",
         name: "code",
         syllabicdivision: "code",
-        primarymeaning: "código",
+        primarymeaning:
+          "Sistema de símbolos que permite a representação de uma informação",
         primaryexample:
           "Separately, two codes bytes are fetched from Program Memory during every machine cycle.",
         primaryreference:
@@ -253,7 +263,7 @@ export default function Dictionary() {
         id: "26",
         name: "communication",
         syllabicdivision: "com-mu-ni-ca-tion",
-        primarymeaning: "comunicação",
+        primarymeaning: "Transmissão ou recepção de informações",
         primaryexample:
           "The walking stick connects directly to GSM (global system for mobile communication) [...]",
         primaryreference:
@@ -273,7 +283,8 @@ export default function Dictionary() {
         id: "28",
         name: "components",
         syllabicdivision: "com-po-nents",
-        primarymeaning: "componentes",
+        primarymeaning:
+          "Estrutura de um circuito eletrônico que estão interligados",
         primaryexample:
           "The on-chip circuitry, and selection of off-chip components to configure the oscillator [...]",
         primaryreference:
@@ -283,7 +294,7 @@ export default function Dictionary() {
         id: "29",
         name: "computed",
         syllabicdivision: "com-put-ed",
-        primarymeaning: "computado",
+        primarymeaning: "Passar pelo processo de cálculo de avaliação",
         primaryexample:
           "The destination address is computed at execution time [...]",
         primaryreference:
@@ -293,14 +304,17 @@ export default function Dictionary() {
         id: "30",
         name: "configuration",
         syllabicdivision: "con-fig-u-ra-tion",
-        primarymeaning: "Details of reactor configurations [...]",
-        primaryexample: "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
+        primarymeaning: "Ação ou efeito de configurar ou modificar",
+        primaryexample: "Details of reactor configurations [...]",
+        primaryreference:
+          "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
         id: "31",
         name: "configured",
         syllabicdivision: "con-fig-ur-ed",
-        primarymeaning: "configurado",
+        primarymeaning:
+          "Estabelecer parâmetros para que algo funcione de determinada forma",
         primaryexample:
           "XTAL1 and XTAL2 are the input and output of a single-stage on-chip inverter, which can be configured with off-chip components as a Pierce oscillator, as shown in Figure 2-2.",
         primaryreference:
@@ -310,7 +324,7 @@ export default function Dictionary() {
         id: "32",
         name: "contains",
         syllabicdivision: "con-ta-ins",
-        primarymeaning: "contém",
+        primarymeaning: "Ato de reter ou guardar",
         primaryexample:
           "The Program Status Word (PSW) contains several status bits that reflect the current state of the CPU.",
         primaryreference:
@@ -320,7 +334,7 @@ export default function Dictionary() {
         id: "33",
         name: "control",
         syllabicdivision: "con-trol",
-        primarymeaning: "controle",
+        primarymeaning: "Ação de comandar e dominar",
         primaryexample:
           "[...] but it would have left the interrupt control system thinking na interrupt was still in progress.",
         primaryreference:
@@ -330,7 +344,7 @@ export default function Dictionary() {
         id: "34",
         name: "convert",
         syllabicdivision: "con-vert",
-        primarymeaning: "converter",
+        primarymeaning: "Sofrer ou ser alvo de alteração e transformação",
         primaryexample:
           "Note that DAA will not convert a binary number to BCD.",
         primaryreference:
@@ -340,7 +354,7 @@ export default function Dictionary() {
         id: "35",
         name: "counter",
         syllabicdivision: "coun-ter",
-        primarymeaning: "contador",
+        primarymeaning: "Recurso destinado a realizar contagens em geral",
         primaryexample:
           "They are identified as Timer 0 and Timer 1, and can be independently configured to operate in a variety of modes as a timer or as an event counter.",
         primaryreference:
@@ -350,7 +364,7 @@ export default function Dictionary() {
         id: "36",
         name: "counting",
         syllabicdivision: "coun-ting",
-        primarymeaning: "contagem",
+        primarymeaning: "Valor final de uma somatória ou cômputo",
         primaryexample:
           "Register pairs (TH0, TL0), (TH1, TL1), and (TH2, TL2) are the 16-bit counting registers for Timer/Counters 0, 1, and 2, respectively.",
         primaryreference:
@@ -360,7 +374,7 @@ export default function Dictionary() {
         id: "37",
         name: "current",
         syllabicdivision: "cur-rent",
-        primarymeaning: "corrente",
+        primarymeaning: "Movimento de cargas elétricas em um condutor",
         primaryexample:
           "A circuit breaker in the power assembly opens when current draw exceeds 4 A.",
         primaryreference:
@@ -370,7 +384,7 @@ export default function Dictionary() {
         id: "38",
         name: "cycle",
         syllabicdivision: "cy-cle",
-        primarymeaning: "ciclo",
+        primarymeaning: "Série de fenômenos que ocorrem numa determinada ordem",
         primaryexample:
           "The timer register is incremented once every peripheral cycle (6 peripheral clock periods).",
         primaryreference:
@@ -380,7 +394,7 @@ export default function Dictionary() {
         id: "39",
         name: "damage",
         syllabicdivision: "dam-age",
-        primarymeaning: "danos",
+        primarymeaning: "Deteriorações ou estragos em algo",
         primaryexample:
           "Although DNA can also sustain damage at 5?-TC3?, 5?-CT-3? [...]",
         primaryreference:
@@ -390,7 +404,7 @@ export default function Dictionary() {
         id: "40",
         name: "data",
         syllabicdivision: "da-ta",
-        primarymeaning: "dados",
+        primarymeaning: "Informação que identifica algo",
         primaryexample: "Heterogeneous data [...]",
         primaryreference:
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
@@ -399,7 +413,7 @@ export default function Dictionary() {
         id: "41",
         name: "development",
         syllabicdivision: "de-vel-op-ment",
-        primarymeaning: "desenvolvimento",
+        primarymeaning: "Ação de compor ou elaborar",
         primaryexample:
           "[...] can be integrated within the development process into a solution for a clinical application",
         primaryreference:
@@ -408,7 +422,8 @@ export default function Dictionary() {
       {
         id: "42",
         name: "device-de-vice",
-        syllabicdivision: "dispositivo",
+        syllabicdivision:
+          "Aparelho ligado ou adaptado a instrumento ou máquina",
         primarymeaning: "It requires a pressure measurement device [...]",
         primaryexample:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -417,7 +432,7 @@ export default function Dictionary() {
         id: "43",
         name: "disable",
         syllabicdivision: "di-sa-ble",
-        primarymeaning: "desabilitar",
+        primarymeaning: "Deixar de ter habilidade ou desativar algo",
         primaryexample:
           "Clear to disable multiprocessor communication feature.",
         primaryreference:
@@ -427,7 +442,7 @@ export default function Dictionary() {
         id: "44",
         name: "disease",
         syllabicdivision: "dis-ease",
-        primarymeaning: "doença",
+        primarymeaning: "Alteração da saúde que se manifesta por sintomas",
         primaryexample:
           "Quantitative imaging bio-markers could be better correlated to the disease status [...]",
         primaryreference:
@@ -437,7 +452,8 @@ export default function Dictionary() {
         id: "45",
         name: "eletronic",
         syllabicdivision: "el-etron-ic",
-        primarymeaning: "eletrônico",
+        primarymeaning:
+          "Diz-se de aparelho ou equipamento que funciona por meio de circuitos eletrônicos",
         primaryexample:
           "The Consumer Electronics Show (CES) 2017 showcased hundreds of new electronic inventions [...]",
         primaryreference:
@@ -447,7 +463,7 @@ export default function Dictionary() {
         id: "46",
         name: "enable",
         syllabicdivision: "en-a-ble",
-        primarymeaning: "habilitar",
+        primarymeaning: "Tornar apto e capaz para alguma coisa",
         primaryexample: "[...] to enable an efficient work flow.",
         primaryreference:
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
@@ -456,7 +472,7 @@ export default function Dictionary() {
         id: "47",
         name: "entry",
         syllabicdivision: "en-try",
-        primarymeaning: "entrada",
+        primarymeaning: "Possibilidade de ter acesso e entrar",
         primaryexample: "An entry numbered 0 would be the RET opcode itself.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -465,7 +481,8 @@ export default function Dictionary() {
         id: "48",
         name: "equipment",
         syllabicdivision: "e-quip-ment",
-        primarymeaning: "equipamento",
+        primarymeaning:
+          "Ferramenta utilizada para realizar alguma tarefa ou função",
         primaryexample:
           "Portable and mobile RF communications equipment can affect the performance of the 700 Series Ventilator System.",
         primaryreference:
@@ -475,7 +492,8 @@ export default function Dictionary() {
         id: "49",
         name: "examinations",
         syllabicdivision: "ex-am-i-na-tions",
-        primarymeaning: "exames",
+        primarymeaning:
+          "Provas perante pessoas legalmente habilitadas em que se apura a aptidão ou capacidade de alguma coisa.",
         primaryexample:
           "[...] to support screening, diagnosis, therapy planning, treatment and follow-up examinations.",
         primaryreference:
@@ -485,7 +503,7 @@ export default function Dictionary() {
         id: "50",
         name: "execution",
         syllabicdivision: "ex-e-cu-tion",
-        primarymeaning: "execução",
+        primarymeaning: "Ação de executar alguma atividade",
         primaryexample:
           "The read and write strobes to external RAM are activated only during the execution of a MOVX instruction.",
         primaryreference:
@@ -495,7 +513,7 @@ export default function Dictionary() {
         id: "51",
         name: "external",
         syllabicdivision: "ex-ter-nal",
-        primarymeaning: "externo",
+        primarymeaning: "Que está por fora que vem do exterior",
         primaryexample:
           "Accesses to external Program Memory use signal PSEN (program store enable) as the read strobe.",
         primaryreference:
@@ -505,7 +523,8 @@ export default function Dictionary() {
         id: "52",
         name: "features",
         syllabicdivision: "fea-tures",
-        primarymeaning: "características",
+        primarymeaning:
+          "Conjunto das qualidades e particularidades que difere uma pessoa de outra ou uma coisa de outra",
         primaryexample:
           "For complete description of the features of the BSL and its implementation, see the MSP430 Programming Via the Bootstrap Loader User’s Guide [..]",
         primaryreference:
@@ -515,7 +534,8 @@ export default function Dictionary() {
         id: "53",
         name: "frequency",
         syllabicdivision: "fre-quen-cy",
-        primarymeaning: "frequência",
+        primarymeaning:
+          "Número de vibrações por unidade de tempo em um fenômeno periódico",
         primaryexample:
           "Normalized (log10-scale) measured transformation frequency [...]",
         primaryreference:
@@ -525,7 +545,7 @@ export default function Dictionary() {
         id: "54",
         name: "generate",
         syllabicdivision: "ge-ne-ra-te",
-        primarymeaning: "gerar",
+        primarymeaning: "Dar origem ou produzir",
         primaryexample:
           "The Data Pointer is used to generate 16-bit addresses [...]",
         primaryreference:
@@ -535,7 +555,7 @@ export default function Dictionary() {
         id: "55",
         name: "generation",
         syllabicdivision: "gen-er-a-tion",
-        primarymeaning: "geração",
+        primarymeaning: "Ato de gerar",
         primaryexample:
           "[...] they enabled also the generation of many more images.",
         primaryreference:
@@ -545,7 +565,8 @@ export default function Dictionary() {
         id: "56",
         name: "ground",
         syllabicdivision: "ground",
-        primarymeaning: "terra",
+        primarymeaning:
+          "Ponto de referência para um potencial elétrico de zero volt",
         primaryexample:
           "Static-dissipative field service kit (includes wrist strap, static-dissipative mat, and ground cord.",
         primaryreference:
@@ -555,7 +576,8 @@ export default function Dictionary() {
         id: "57",
         name: "gyroscope",
         syllabicdivision: "gy-ro-scope",
-        primarymeaning: "giroscópio",
+        primarymeaning:
+          "Dispositivo cujo eixo de rotação mantém sempre a mesma direção na ausência de forças que o perturbem",
         primaryexample:
           "[...] to create a ‘smart cane’ that incorporates several movement sensors, including an accelerometer and gyroscope.",
         primaryreference:
@@ -565,7 +587,7 @@ export default function Dictionary() {
         id: "58",
         name: "impedance",
         syllabicdivision: "im-ped-ance",
-        primarymeaning: "impedância",
+        primarymeaning: "Medida da resistência de um circuito elétrico",
         primaryexample:
           "In that conditions it can be used as a high-impedance input.",
         primaryreference:
@@ -575,7 +597,7 @@ export default function Dictionary() {
         id: "59",
         name: "incremented",
         syllabicdivision: "in-cre-men-ted",
-        primarymeaning: "incrementado",
+        primarymeaning: "Acrescentar ou aumentar alguma coisa",
         primaryexample: "[...] and the Program Counter is not incremented.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -584,7 +606,7 @@ export default function Dictionary() {
         id: "60",
         name: "initialize",
         syllabicdivision: "i-ni-ti-a-li-ze",
-        primarymeaning: "inicializar",
+        primarymeaning: "Ato de iniciar e dar partida",
         primaryexample:
           "The Data Transfer instructions include a 16-bit MOV that can be used to initialize the Data Pointer (DPTR) for look-up tables in Program Memory, or for 16-bit external Data Memory accesses.",
         primaryreference:
@@ -594,7 +616,7 @@ export default function Dictionary() {
         id: "61",
         name: "instruction",
         syllabicdivision: "in-struc-tion",
-        primarymeaning: "instrução",
+        primarymeaning: "Preceito instrutivo",
         primaryexample:
           "Another application of this instruction is in “greater than, less than” comparisons.",
         primaryreference:
@@ -604,7 +626,7 @@ export default function Dictionary() {
         id: "62",
         name: "internal",
         syllabicdivision: "in-ter-nal",
-        primarymeaning: "interno",
+        primarymeaning: "Que está dentro",
         primaryexample:
           "Note that Boolean operations can be performed on any byte in the internal Data Memory space without going through the Accumulator.",
         primaryreference:
@@ -614,7 +636,8 @@ export default function Dictionary() {
         id: "63",
         name: "interrupt",
         syllabicdivision: "in-ter-rupt",
-        primarymeaning: "interrupção",
+        primarymeaning:
+          "Ação ou efeito de interromper cessar ou suspender a ação",
         primaryexample:
           "When operating as a timer, the timer/counter runs for a programmed length of time, then issues an interrupt request.",
         primaryreference:
@@ -624,17 +647,19 @@ export default function Dictionary() {
         id: "64",
         name: "inventions",
         syllabicdivision: "in-ven-tions",
-        primarymeaning: "invenções",
-        primaryexample:
-          "The Consumer Electronics Show (CES) 2017 showcased hundreds of new electronic inventions [...]",
+        primarymeaning: "Ato de criar uma nova tecnologia",
+        primaryexample: " processo ou objeto",
         primaryreference:
+          "The Consumer Electronics Show (CES) 2017 showcased hundreds of new electronic inventions [...]",
+        __parsed_extra: [
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
+        ],
       },
       {
         id: "65",
         name: "lenght",
         syllabicdivision: "lenght",
-        primarymeaning: "comprimento",
+        primarymeaning: "Extensão de algo",
         primaryexample:
           "[...] values with the length and nucleotide content of each amplicon [...]",
         primaryreference:
@@ -644,7 +669,7 @@ export default function Dictionary() {
         id: "66",
         name: "level",
         syllabicdivision: "lev-el",
-        primarymeaning: "nível",
+        primarymeaning: "Valor atingido por uma grandeza",
         primaryexample:
           "So this figure shows it takes some machine cycles before having a true high level during a 0-to-1 transition.",
         primaryreference:
@@ -654,7 +679,7 @@ export default function Dictionary() {
         id: "67",
         name: "logical",
         syllabicdivision: "lo-gi-cal",
-        primarymeaning: "lógico",
+        primarymeaning: "Conforme com as regras da lógica e coerência",
         primaryexample:
           "All of the logical instructions that are Accumulator specific execute in 1 ?s (using a 12 MHz clock and X1 mode).",
         primaryreference:
@@ -664,7 +689,8 @@ export default function Dictionary() {
         id: "68",
         name: "machine",
         syllabicdivision: "ma-chine",
-        primarymeaning: "máquina",
+        primarymeaning:
+          "Aparelho que transforma o trabalho mecânico em energia elétrica",
         primaryexample:
           "[...] efficient approaches for ground truth generation are needed to match the increasing demands regarding validation and machine learning.",
         primaryreference:
@@ -674,7 +700,8 @@ export default function Dictionary() {
         id: "69",
         name: "manual",
         syllabicdivision: "ma-nu-al",
-        primarymeaning: "manual",
+        primarymeaning:
+          "Livro pequeno que encerra os conhecimentos básicos de uma ciência ou uma técnica",
         primaryexample: "Atmel 8051 Microcontrollers Hardware Manual.",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
@@ -683,7 +710,7 @@ export default function Dictionary() {
         id: "70",
         name: "master",
         syllabicdivision: "mas-ter",
-        primarymeaning: "mestre",
+        primarymeaning: "Algo muito entendido sobre determinado assunto",
         primaryexample:
           "To communicate with all of the slaves, the master must send an address FFh.",
         primaryreference:
@@ -693,7 +720,8 @@ export default function Dictionary() {
         id: "71",
         name: "materials",
         syllabicdivision: "ma-te-ri-als",
-        primarymeaning: "materiais",
+        primarymeaning:
+          "Objetos ou recursos necessários para se realizar uma tarefa",
         primaryexample: "Chemicals and Materials [...]",
         primaryreference:
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
@@ -702,7 +730,7 @@ export default function Dictionary() {
         id: "72",
         name: "measurement",
         syllabicdivision: "meas-ure-ment",
-        primarymeaning: "medição",
+        primarymeaning: "Ação ou efeito de medir e determinar o valor",
         primaryexample:
           "Details of reactor configurations, additional experiments, disinfectant exposure measurements [...]",
         primaryreference:
@@ -712,7 +740,8 @@ export default function Dictionary() {
         id: "73",
         name: "mechanics",
         syllabicdivision: "me-chan-ics",
-        primarymeaning: "mecânica",
+        primarymeaning:
+          "Combinação de órgãos próprios para produzir ou transmitir movimentos",
         primaryexample:
           "[...] complex patient-specific simulations of the heart including cardiac mechanics [...]",
         primaryreference:
@@ -722,7 +751,7 @@ export default function Dictionary() {
         id: "74",
         name: "memory",
         syllabicdivision: "mem-o-ry",
-        primarymeaning: "memória",
+        primarymeaning: "Faculdade de reter ideias anteriores adquiridas",
         primaryexample:
           "Only Program Memory can be accessed with indexed addressing [...]",
         primaryreference:
@@ -732,7 +761,7 @@ export default function Dictionary() {
         id: "75",
         name: "microcontroller",
         syllabicdivision: "mi-cro-con-trol-ler",
-        primarymeaning: "microcontrolador",
+        primarymeaning: "Pequeno computador num único circuito integrado",
         primaryexample:
           "The Atmel 80C51 Microcontrollers implement two general purpose, 16-bit timers/counters.",
         primaryreference:
@@ -742,7 +771,7 @@ export default function Dictionary() {
         id: "76",
         name: "mobile",
         syllabicdivision: "mo-bile",
-        primarymeaning: "móvel",
+        primarymeaning: "Que pode ser movido ou algo instável",
         primaryexample:
           "The walking stick connects directly to GSM (global system for mobile communication) networks [...] ",
         primaryreference:
@@ -752,7 +781,7 @@ export default function Dictionary() {
         id: "77",
         name: "mode",
         syllabicdivision: "mode",
-        primarymeaning: "modo",
+        primarymeaning: "Maneira de realizar algo",
         primaryexample:
           "The two operands allow six addressing mode combinations.",
         primaryreference:
@@ -762,7 +791,8 @@ export default function Dictionary() {
         id: "78",
         name: "monitoring",
         syllabicdivision: "mon-i-tor-ing",
-        primarymeaning: "monitoramento",
+        primarymeaning:
+          "Reunião dos mecanismos desenvolvidos para observar continuamente e de modo repetido",
         primaryexample:
           "OH exposures were determined by monitoring pCBA degradation in near-UV/H2O2 experiments.",
         primaryreference:
@@ -772,7 +802,7 @@ export default function Dictionary() {
         id: "79",
         name: "motion",
         syllabicdivision: "mo-tion",
-        primarymeaning: "movimento",
+        primarymeaning: "Mudança sucessiva de algo",
         primaryexample:
           "This 3D motion sensor pack tracks total body movement by six triangular sensors that can be placed anywhere on the body and visualise the user’s movement in real-time.",
         primaryreference:
@@ -782,7 +812,8 @@ export default function Dictionary() {
         id: "80",
         name: "MRI-Magnetic Resonance Imaging",
         syllabicdivision: "MRI-Mag-net-ic  Res-o-nance  Im-ag-ing",
-        primarymeaning: "MRI-magem por Ressonância Magnética",
+        primarymeaning:
+          "Método de diagnóstico por imagem que não utiliza radiação e permite retratar imagens de alta definição dos órgãos do corpo",
         primaryexample:
           "In MRI, the ability to flexibly design pulse sequences, and thereby exploit a range of different physical properties [...]",
         primaryreference:
@@ -792,7 +823,8 @@ export default function Dictionary() {
         id: "81",
         name: "multiprocessor",
         syllabicdivision: "mul-ti-pro-ces-sor",
-        primarymeaning: "multiprocessador",
+        primarymeaning:
+          "Computador no qual duas ou mais unidades centrais de processamento funcionam simultaneamente",
         primaryexample: "Clear to disable multiprocessor communication feature",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
@@ -801,7 +833,8 @@ export default function Dictionary() {
         id: "82",
         name: "networks",
         syllabicdivision: "net-works",
-        primarymeaning: "redes",
+        primarymeaning:
+          "Estabelecimneto de uma rede de contatos ou uma conexão com algo",
         primaryexample:
           "The walking stick connects directly to GSM (global system for mobile communication) networks and issues an alert to family members [...]",
         primaryreference:
@@ -811,7 +844,8 @@ export default function Dictionary() {
         id: "83",
         name: "operation",
         syllabicdivision: "op-er-a-tion",
-        primarymeaning: "operação",
+        primarymeaning:
+          "Conjunto de meios que se combinam para obter-se um resultado",
         primaryexample:
           "If the operation is in response to an interrupt, not using the Accumulator saves the timeand effort to stack it in the service routine.",
         primaryreference:
@@ -821,7 +855,8 @@ export default function Dictionary() {
         id: "84",
         name: "operational",
         syllabicdivision: "op-er-a-tion-al",
-        primarymeaning: "operacional",
+        primarymeaning:
+          "Que influencia para que o resultado pretendido seja alcançado",
         primaryexample: "The effect of operational parameters [...]",
         primaryreference:
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
@@ -830,7 +865,7 @@ export default function Dictionary() {
         id: "85",
         name: "oscillator",
         syllabicdivision: "os-cil-la-tor",
-        primarymeaning: "oscilador",
+        primarymeaning: "Aparelho que produz correntes elétricas oscilantes",
         primaryexample:
           "The oscillator, in any case, drives the internal clock generator.",
         primaryreference:
@@ -840,7 +875,8 @@ export default function Dictionary() {
         id: "86",
         name: "output",
         syllabicdivision: "out-put",
-        primarymeaning: "saída",
+        primarymeaning:
+          "Local para a conexão de cabo ou dispositivo para a transferência de dados",
         primaryexample:
           "The ventilator compensates by adjusting the piston/cylinder output",
         primaryreference:
@@ -850,7 +886,8 @@ export default function Dictionary() {
         id: "87",
         name: "oxidation",
         syllabicdivision: "ox-i-da-tion",
-        primarymeaning: "oxidação",
+        primarymeaning:
+          "Reação que provoca perda de elétrons e aumento da carga",
         primaryexample:
           "one-electron oxidation reactions preferentially lead to damage [...]",
         primaryreference:
@@ -860,7 +897,7 @@ export default function Dictionary() {
         id: "88",
         name: "pack",
         syllabicdivision: "pack",
-        primarymeaning: "pacote",
+        primarymeaning: "Conjunto de unidades incluídas num embrulho",
         primaryexample:
           "This 3D motion sensor pack tracks total body movement by six triangular sensors that can be placed anywhere on the body [...]",
         primaryreference:
@@ -870,7 +907,7 @@ export default function Dictionary() {
         id: "89",
         name: "package",
         syllabicdivision: "pack-age",
-        primarymeaning: "encapsulamento",
+        primarymeaning: "Cápsula que envolve e agrupa alguma coisa com outra",
         primaryexample:
           "Follow the information contained on the replacement oxygen sensor's package [...]",
         primaryreference:
@@ -880,7 +917,7 @@ export default function Dictionary() {
         id: "90",
         name: "pair",
         syllabicdivision: "pair",
-        primarymeaning: "emparelhar",
+        primarymeaning: "Pôr lado a lado e equiparar",
         primaryexample:
           "The walking stick doesn’t need to be paired to any other device to be used. ",
         primaryreference:
@@ -890,9 +927,10 @@ export default function Dictionary() {
         id: "91",
         name: "parameter",
         syllabicdivision: "pa-ram-e-ter",
-        primarymeaning: "parâmetro",
+        primarymeaning:
+          "Princípio através do qual é possível estabelecer uma comparação",
         primaryexample:
-          "These fundamental kinetics parameters were in turn applied to predict the kinetics [...]",
+          "These fundamental kinetics parameters were in turn applied to predict the kinetics[...]",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
@@ -900,7 +938,8 @@ export default function Dictionary() {
         id: "92",
         name: "parity",
         syllabicdivision: "pa-ri-ty",
-        primarymeaning: "paridade",
+        primarymeaning:
+          "Comparação efetuada para provar que uma coisa pode ser igual ou semelhante a outra",
         primaryexample:
           "The parity bit reflects the number of 1’s in the Accumulator",
         primaryreference:
@@ -910,7 +949,8 @@ export default function Dictionary() {
         id: "93",
         name: "PC - program counter",
         syllabicdivision: "PC - pro-gram coun-ter",
-        primarymeaning: "PC - contador do programa",
+        primarymeaning:
+          "Registrador de uma Unidade Central de Processamento que indica qual é a posição atual na sequência de execução de um processo",
         primaryexample:
           "Whenever the program counter (PC) contains a number that is larger than the memory size.",
         primaryreference:
@@ -920,7 +960,8 @@ export default function Dictionary() {
         id: "94",
         name: "PCB - printed circuit board",
         syllabicdivision: "PCB - printed-cir-cuit-board",
-        primarymeaning: "PCB - placa de circuito impresso",
+        primarymeaning:
+          "Placa formada por camadas de materiais plásticos e fibrosos",
         primaryexample:
           "Next it describes the electrical system, including the operations of the printed circuit boards (PCBs).",
         primaryreference:
@@ -930,7 +971,8 @@ export default function Dictionary() {
         id: "95",
         name: "period",
         syllabicdivision: "pe-ri-od",
-        primarymeaning: "período",
+        primarymeaning:
+          " Intervalo de tempo constante que separa duas passagens sucessivas de uma grandeza variável",
         primaryexample:
           "However, port latches are in fact sampled by their output buffers only during Phase 1 of any clock period.",
         primaryreference:
@@ -940,7 +982,8 @@ export default function Dictionary() {
         id: "96",
         name: "peripheral",
         syllabicdivision: "pe-riph-er-al",
-        primarymeaning: "periférico",
+        primarymeaning:
+          "Que está na periferia e no contorno ou na parte exterior de algum centro",
         primaryexample: "The external input is sampled every peripheral cycle.",
         primaryreference:
           "The external input is sampled every peripheral cycle.",
@@ -952,7 +995,8 @@ export default function Dictionary() {
         id: "97",
         name: "PET - Photon Emission Tomography",
         syllabicdivision: "PET - Pho-ton  E-mis-sion  To-mogra-phy",
-        primarymeaning: "PET - Tomografia por Emissão de Fótons",
+        primarymeaning:
+          "Técnica tomográfica de imagem médica da medicina nuclear que utiliza a radiação ionizante de raios gama",
         primaryexample:
           "Advances in acquisition technology such as multislice Computed Tomography (CT), digital Photon Emission Tomography (PET) [...]",
         primaryreference:
@@ -960,11 +1004,11 @@ export default function Dictionary() {
       },
       {
         id: "98",
-        name: "photoreactor",
-        syllabicdivision: "pho-tor-e-ac-tor",
-        primarymeaning: "fotorreator",
-        primaryexample:
-          "[...] a low-pressure Hg lamp emitting monochromatic UV light at 254 nm in a “merry-go-round” photoreactor apparatus [...]",
+        name: "tube",
+        syllabicdivision: "tu-be",
+        primarymeaning:
+          "Canal cilíndrico reto ou curvo pelo qual passam fluidos líquidos ",
+        primaryexample: " Pressure solenoid PCB tube connectors",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
@@ -972,7 +1016,8 @@ export default function Dictionary() {
         id: "99",
         name: "pin",
         syllabicdivision: "pin",
-        primarymeaning: "pino",
+        primarymeaning:
+          "Haste de metal que se introduz em orifícios de duas ou mais peças para as ligar",
         primaryexample:
           "The actual P3.X pin level is always available to the pin’s alternate input function, if any.",
         primaryreference:
@@ -982,7 +1027,7 @@ export default function Dictionary() {
         id: "100",
         name: "piston",
         syllabicdivision: "pis-ton",
-        primarymeaning: "pistão",
+        primarymeaning: "Peça movível pela pressão de um fluído",
         primaryexample:
           "The gas displaced by piston movement is vented through the air intake filter also.",
         primaryreference:
@@ -992,7 +1037,7 @@ export default function Dictionary() {
         id: "101",
         name: "pressure",
         syllabicdivision: "pres-sure",
-        primarymeaning: "pressão",
+        primarymeaning: "Grandeza definida como força por unidade de área",
         primaryexample:
           "If the pressure is greater than 6 cmH2O, the test fails.",
         primaryreference:
@@ -1002,7 +1047,7 @@ export default function Dictionary() {
         id: "102",
         name: "previously",
         syllabicdivision: "pre-vi-ous-ly",
-        primarymeaning: "previamente",
+        primarymeaning: "Que ocorre de maneira antecipada",
         primaryexample: "The data previously written to[...]",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
@@ -1011,7 +1056,8 @@ export default function Dictionary() {
         id: "103",
         name: "processor",
         syllabicdivision: "pro-ces-sor",
-        primarymeaning: "processador",
+        primarymeaning:
+          "Circuito que processa e executa os dados de um computador mediante instruções predeterminadas",
         primaryexample:
           "The Carry bit in the PSW is used as the single-bit Accumulator of the Boolean processor.",
         primaryreference:
@@ -1030,17 +1076,20 @@ export default function Dictionary() {
       {
         id: "105",
         name: "program",
-        syllabicdivision: "pro-gram-programa",
+        syllabicdivision: "pro-gram",
         primarymeaning:
-          "AJMP transfers program execution to the indicated address [...]",
+          "Elaboração escrita do plano de atividades de um evento",
         primaryexample:
+          "AJMP transfers program execution to the indicated address [...]",
+        primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
         id: "106",
         name: "programmable",
         syllabicdivision: "pro-gram-ma-ble",
-        primarymeaning: "programável",
+        primarymeaning:
+          "Diz-se do aparelho que pode receber e armazenar instruções para cumprir tarefas determinadas",
         primaryexample:
           "The baud rate is programmable to either 1/32 or 1/64 the oscillator frequency.",
         primaryreference:
@@ -1050,7 +1099,7 @@ export default function Dictionary() {
         id: "107",
         name: "progress",
         syllabicdivision: "pro-gress",
-        primarymeaning: "progresso",
+        primarymeaning: "Movimento para a frente",
         primaryexample:
           "The RETI instruction informs the processor that this interrupt routine is no longer in progress, then pops the top two bytes from the stack and reloads the Program Counter",
         primaryreference:
@@ -1060,7 +1109,8 @@ export default function Dictionary() {
         id: "108",
         name: "protocols",
         syllabicdivision: "pro-to-cols",
-        primarymeaning: "protocolos",
+        primarymeaning:
+          "Atos oficiais ou regimes de requerimentos de execução de algo",
         primaryexample:
           "[..] with key steps depicted in Scheme 1 and detailed protocols provided in SI Text S3.",
         primaryreference:
@@ -1070,7 +1120,8 @@ export default function Dictionary() {
         id: "109",
         name: "pulse",
         syllabicdivision: "pul-se",
-        primarymeaning: "pulso",
+        primarymeaning:
+          "Mudança passageira na amplitude de um sinal de um valor básico para um mais alto ou mais baixo",
         primaryexample: "Each pulse lasts three machine cycles.",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
@@ -1079,7 +1130,7 @@ export default function Dictionary() {
         id: "110",
         name: "purpose",
         syllabicdivision: "pur-po-se",
-        primarymeaning: "propósito",
+        primarymeaning: "Aquilo que se tem intenção de realizar",
         primaryexample:
           "Ports 0 and 2 may not be used as general purpose I/O when being used as the ADDR/DATA BUS.",
         primaryreference:
@@ -1089,7 +1140,7 @@ export default function Dictionary() {
         id: "111",
         name: "pushes",
         syllabicdivision: "pu-shes",
-        primarymeaning: "empurra",
+        primarymeaning: "Empuxar",
         primaryexample:
           "The instruction increments the PC twice to obtain the address of the following instruction, then pushes the 16-bit result onto the stack [...]",
         primaryreference:
@@ -1099,7 +1150,7 @@ export default function Dictionary() {
         id: "112",
         name: "range",
         syllabicdivision: "range",
-        primarymeaning: "faixa",
+        primarymeaning: "Porção específica de alguma coisa",
         primaryexample:
           "If voltage is in range, replace pressure solenoid or controller PCB",
         primaryreference:
@@ -1109,7 +1160,7 @@ export default function Dictionary() {
         id: "113",
         name: "rate",
         syllabicdivision: "ra-te",
-        primarymeaning: "taxa",
+        primarymeaning: "Valor limitante estabelecido para algo",
         primaryexample:
           "Shows the calculated value of the total respiratory rate.",
         primaryreference:
@@ -1119,7 +1170,7 @@ export default function Dictionary() {
         id: "114",
         name: "reveice",
         syllabicdivision: "re-cei-ve",
-        primarymeaning: "recepção",
+        primarymeaning: "Ato ou efeito de receber",
         primaryexample:
           "The Serial Data Buffer is actually two separate registers, a transmit buffer and a receive buffer register.",
         primaryreference:
@@ -1129,7 +1180,7 @@ export default function Dictionary() {
         id: "115",
         name: "reception",
         syllabicdivision: "re-cep-tion",
-        primarymeaning: "recepção",
+        primarymeaning: "Ato ou efeito de receber",
         primaryexample: "Clear to disable serial reception.",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
@@ -1138,7 +1189,7 @@ export default function Dictionary() {
         id: "116",
         name: "recognition",
         syllabicdivision: "rec-og-ni-tion",
-        primarymeaning: "reconhecimento",
+        primarymeaning: "Ato ou efeito de reconhecer e lembrar",
         primaryexample:
           "If desired, you may enable the automatic address recognition feature in mode 1",
         primaryreference:
@@ -1148,7 +1199,7 @@ export default function Dictionary() {
         id: "117",
         name: "register",
         syllabicdivision: "reg-is-ter",
-        primarymeaning: "registro",
+        primarymeaning: "Dar propriedade ou nomear",
         primaryexample:
           "[...] but the stack itself is accessed by indirect addressing using the SP register.",
         primaryreference:
@@ -1158,7 +1209,7 @@ export default function Dictionary() {
         id: "118",
         name: "reliable",
         syllabicdivision: "re-li-a-ble",
-        primarymeaning: "confiável",
+        primarymeaning: "Em que se consegue estar tranquilo sobre",
         primaryexample:
           "[...] more reliable and faster algorithms and dedicated algorithms for specific applications",
         primaryreference:
@@ -1168,7 +1219,7 @@ export default function Dictionary() {
         id: "119",
         name: "reload",
         syllabicdivision: "re-lo-ad",
-        primarymeaning: "recarga",
+        primarymeaning: "Carregar novamente colocar nova carga",
         primaryexample: "[...]hold the reload value for this mode",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -1177,7 +1228,7 @@ export default function Dictionary() {
         id: "120",
         name: "resistance",
         syllabicdivision: "re-sist-ance",
-        primarymeaning: "resistência",
+        primarymeaning: "Opor forte resistência a algo",
         primaryexample:
           "Verify that resistance of PEEP pump is between 12 and 15 W measured when pump is at ambient temperature.",
         primaryreference:
@@ -1187,7 +1238,7 @@ export default function Dictionary() {
         id: "121",
         name: "restore",
         syllabicdivision: "res-to-re",
-        primarymeaning: "restaurar",
+        primarymeaning: "Colocar em melhor estado fazendo reparos",
         primaryexample:
           "Its function is to restore a 1 to the pin in the event the pin had a 1 and lost it to a glitch.",
         primaryreference:
@@ -1197,7 +1248,7 @@ export default function Dictionary() {
         id: "122",
         name: "result",
         syllabicdivision: "re-sult",
-        primarymeaning: "resultado",
+        primarymeaning: "Aquilo que resulta de alguma coisa",
         primaryexample:
           "On the other hand, if bit2 = 1 C now contains the complement of the correct result.",
         primaryreference:
@@ -1207,7 +1258,8 @@ export default function Dictionary() {
         id: "123",
         name: "rotation",
         syllabicdivision: "ro-ta-tion",
-        primarymeaning: "rotação",
+        primarymeaning:
+          "Movimento giratório de um corpo em torno de um eixo fixo",
         primaryexample:
           "For a right rotation, the LSB rolls into the MSB position.",
         primaryreference:
@@ -1217,7 +1269,7 @@ export default function Dictionary() {
         id: "124",
         name: "safety",
         syllabicdivision: "safe-ty",
-        primarymeaning: "segurança",
+        primarymeaning: "Situação do que está seguro e certo",
         primaryexample:
           "It includes a safety valve to vent excessive pressure.",
         primaryreference:
@@ -1227,7 +1279,7 @@ export default function Dictionary() {
         id: "125",
         name: "save",
         syllabicdivision: "sa-ve",
-        primarymeaning: "salvar",
+        primarymeaning: "Reservar alguma coisa para uso posterior",
         primaryexample:
           "The hardware-generated LCALL pushes the contents of the Program Counter onto the stack (but it does not save the PSW) [...]",
         primaryreference:
@@ -1237,7 +1289,7 @@ export default function Dictionary() {
         id: "126",
         name: "scratch",
         syllabicdivision: "s-cra-tch",
-        primarymeaning: "bloco",
+        primarymeaning: "Conjunto cujos componentes dependem uns dos outros",
         primaryexample:
           "For other instructions it can be treated as another scratch pad register.",
         primaryreference:
@@ -1247,7 +1299,8 @@ export default function Dictionary() {
         id: "127",
         name: "sensing",
         syllabicdivision: "sens-ing",
-        primarymeaning: "sensoriamento",
+        primarymeaning:
+          "Procedimento através do qual as condições são detectadas",
         primaryexample: "Verify pressure sensing tubes are not leaking.",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1256,7 +1309,7 @@ export default function Dictionary() {
         id: "128",
         name: "sensor",
         syllabicdivision: "sen-sor",
-        primarymeaning: "sensor",
+        primarymeaning: "Aparelhos detectores e medidores de sensibilidade",
         primaryexample:
           "This 3D motion sensor pack tracks total body movement [...] ",
         primaryreference:
@@ -1266,7 +1319,7 @@ export default function Dictionary() {
         id: "129",
         name: "sequence",
         syllabicdivision: "se-quence",
-        primarymeaning: "sequência",
+        primarymeaning: "Continuação de algo que se iniciou",
         primaryexample:
           "If the Accumulator equals 04H when starting this sequence, execution jumps to label LABEL2.",
         primaryreference:
@@ -1276,7 +1329,7 @@ export default function Dictionary() {
         id: "130",
         name: "service",
         syllabicdivision: "serv-ice",
-        primarymeaning: "serviço",
+        primarymeaning: "Desempenho de funções obrigatórias",
         primaryexample:
           "RETI is used to return from an interrupt service routine.",
         primaryreference:
@@ -1286,7 +1339,7 @@ export default function Dictionary() {
         id: "131",
         name: "shift",
         syllabicdivision: "shift",
-        primarymeaning: "mudança",
+        primarymeaning: "Alteração ou modificação do estado normal de algo",
         primaryexample:
           "In shift operations, dividing a number by 2n shifts its n bits to the right.",
         primaryreference:
@@ -1296,7 +1349,8 @@ export default function Dictionary() {
         id: "132",
         name: "signal",
         syllabicdivision: "sig-nal",
-        primarymeaning: "sinal",
+        primarymeaning:
+          "Marca deixada em razão da presença e detecção de algo ",
         primaryexample:
           "The level of the port pin itself is placed on the internal bus in response to a “read pin” signal from the CPU.",
         primaryreference:
@@ -1306,7 +1360,7 @@ export default function Dictionary() {
         id: "133",
         name: "simulation",
         syllabicdivision: "sim-u-la-tion",
-        primarymeaning: "simulação",
+        primarymeaning: "Ação ou efeito de simular e testar",
         primaryexample:
           "Increasingly, anatomical models are being combined with simulation approaches [...]",
         primaryreference:
@@ -1316,7 +1370,8 @@ export default function Dictionary() {
         id: "134",
         name: "slave",
         syllabicdivision: "sla-ve",
-        primarymeaning: "escravo",
+        primarymeaning:
+          "Algo submetido à vontade de outro e privado de sua liberdade",
         primaryexample:
           "The addressed slave will clear its SM2 bit and prepare to receive the data bytes that will be coming.",
         primaryreference:
@@ -1326,7 +1381,8 @@ export default function Dictionary() {
         id: "135",
         name: "smart",
         syllabicdivision: "smart",
-        primarymeaning: "inteligente",
+        primarymeaning:
+          "Característica atribuída a tecnologias com grande autonomia e funcionalidades",
         primaryexample:
           "This ‘smart pillow’ records your natural sleep movements and can also wake you up at the ideal moment in your sleep cycle.",
         primaryreference:
@@ -1336,7 +1392,8 @@ export default function Dictionary() {
         id: "136",
         name: "source",
         syllabicdivision: "source",
-        primarymeaning: "fonte",
+        primarymeaning:
+          "Equipamento ou recurso usado para alimentar cargas elétricas",
         primaryexample:
           "Make sure oxygen source pressure is between 40 and 90 psi (275 to 620 kPa).",
         primaryreference:
@@ -1346,7 +1403,7 @@ export default function Dictionary() {
         id: "137",
         name: "space",
         syllabicdivision: "space",
-        primarymeaning: "espaço",
+        primarymeaning: "Extensão indefinida",
         primaryexample:
           "Note that any byte in the internal Data Memory space can be incremented [...]",
         primaryreference:
@@ -1356,7 +1413,8 @@ export default function Dictionary() {
         id: "138",
         name: "speaker",
         syllabicdivision: "speak-er",
-        primarymeaning: "auto-falante",
+        primarymeaning:
+          "Aparelho capaz de transformar em onda acústica um sinal de audiofrequência",
         primaryexample: "The piezo alarm serves as a backup for the speaker.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1365,7 +1423,8 @@ export default function Dictionary() {
         id: "139",
         name: "stack",
         syllabicdivision: "s-ta-ck",
-        primarymeaning: "pilha",
+        primarymeaning:
+          "Geradores elétricos que tranformam energia química em energia elétrica",
         primaryexample: "This causes the stack to begin at location 08H",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -1374,7 +1433,7 @@ export default function Dictionary() {
         id: "140",
         name: "standard",
         syllabicdivision: "stand-ard",
-        primarymeaning: "padrão",
+        primarymeaning: "Aquilo que serve para ser imitado como modelo",
         primaryexample:
           "Adapters may be used to connect Bennett barbed cuff fittings to ISO standard cone and socket fittings.",
         primaryreference:
@@ -1384,7 +1443,7 @@ export default function Dictionary() {
         id: "141",
         name: "state",
         syllabicdivision: "state",
-        primarymeaning: "estado",
+        primarymeaning: "Circunstância atual em que algo se encontra",
         primaryexample:
           "Under these conditions the Timer is being incremented every state time [...]",
         primaryreference:
@@ -1394,7 +1453,7 @@ export default function Dictionary() {
         id: "142",
         name: "supply",
         syllabicdivision: "sup-ply",
-        primarymeaning: "alimentação",
+        primarymeaning: "Abastecimento de cargas elétricas",
         primaryexample:
           "It is recommended that the 700 Series Ventilator System be powered from an uninterruptible power supply or a battery.",
         primaryreference:
@@ -1404,7 +1463,7 @@ export default function Dictionary() {
         id: "143",
         name: "synchronous",
         syllabicdivision: "syn-ch-ro-nous",
-        primarymeaning: "síncrona",
+        primarymeaning: "Que ocorre ao mesmo tempo que outra coisa",
         primaryexample:
           "It provides both synchronous and asynchronous communication modes.",
         primaryreference:
@@ -1414,7 +1473,8 @@ export default function Dictionary() {
         id: "144",
         name: "system",
         syllabicdivision: "sys-tem",
-        primarymeaning: "sistema",
+        primarymeaning:
+          "Aquilo que está ligado de modo a fazer com que alguma coisa funcione",
         primaryexample:
           "Therefore, manufacturers of medical imaging systems also provide software [...]",
         primaryreference:
@@ -1424,7 +1484,7 @@ export default function Dictionary() {
         id: "145",
         name: "target",
         syllabicdivision: "tar-get",
-        primarymeaning: "alvo",
+        primarymeaning: "Objetivo a que se dirige algum intento",
         primaryexample:
           "The 266 and 832 bp amplicons target the blt gene [...]",
         primaryreference:
@@ -1434,7 +1494,7 @@ export default function Dictionary() {
         id: "146",
         name: "techniques",
         syllabicdivision: "tech-niques",
-        primarymeaning: "técnicas",
+        primarymeaning: "Habilidade própria para realizar algo",
         primaryexample:
           "Multi-atlas segmentation techniques are today a very widespread approach",
         primaryreference:
@@ -1444,7 +1504,8 @@ export default function Dictionary() {
         id: "147",
         name: "technology",
         syllabicdivision: "tech-nol-o-gy",
-        primarymeaning: "tecnologia",
+        primarymeaning:
+          "Procedimento ou grupo de métodos que se organiza num domínio específico",
         primaryexample: "Institute of Science and Technology [...]",
         primaryreference:
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
@@ -1453,7 +1514,7 @@ export default function Dictionary() {
         id: "148",
         name: "thermistor",
         syllabicdivision: "ther-mis-tor",
-        primarymeaning: "termistor",
+        primarymeaning: "Semicondutores sensíveis à temperatura",
         primaryexample:
           "Thermistors are easy to use, inexpensive, sturdy, and respond predictably to changes in temperature.",
         primaryreference: "https://www.teamwavelength.com/thermistor-basics/",
@@ -1462,7 +1523,8 @@ export default function Dictionary() {
         id: "149",
         name: "transducer",
         syllabicdivision: "trans-duc-er",
-        primarymeaning: "transdutor",
+        primarymeaning:
+          "Dispositivo utilizado em conversão de energia de uma natureza para outra",
         primaryexample:
           "The oxygen regulator assembly does not include the oxygen regulator pressure transducer.",
         primaryreference:
@@ -1472,7 +1534,7 @@ export default function Dictionary() {
         id: "150",
         name: "transition",
         syllabicdivision: "tran-si-tion",
-        primarymeaning: "transição",
+        primarymeaning: "Processo de mudança de um estado para outro",
         primaryexample: "This is done to increase the transition speed.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
@@ -1481,7 +1543,8 @@ export default function Dictionary() {
         id: "151",
         name: "trasmission",
         syllabicdivision: "trans-mis-sion",
-        primarymeaning: "transmissão",
+        primarymeaning:
+          "Transferência de dados físicos num fluxo de bits digital ou um sinal analógico digitalizado ao longo de um canal de comunicação",
         primaryexample:
           "Transmission is initiated by any instruction that uses SBUF as a destination register.",
         primaryreference:
@@ -1491,7 +1554,8 @@ export default function Dictionary() {
         id: "152",
         name: "ultrasound",
         syllabicdivision: "ul-tra-sound",
-        primarymeaning: "ultrassom",
+        primarymeaning:
+          "Vibração da mesma natureza que o som mas de frequência elevada",
         primaryexample:
           "Advances in acquisition technology such as multislice Computed Tomography (CT), digital Photon Emission Tomography (PET), parallel Magnetic Resonance Imaging (MRI) or Ultrasound (US) [...]",
         primaryreference:
@@ -1501,7 +1565,8 @@ export default function Dictionary() {
         id: "153",
         name: "ultraviolet",
         syllabicdivision: "ul-tra-vi-o-let",
-        primarymeaning: "ultravioleta",
+        primarymeaning:
+          "Radiação invisível que no espectro solar se situa além do violeta",
         primaryexample:
           "[...] including free available chlorine (FAC),19 monochloramine (NH2Cl),20,21 chlorine dioxide (ClO2),22 ozone (O3),23,24 ultraviolet (UV) light [...]",
         primaryreference:
@@ -1511,7 +1576,8 @@ export default function Dictionary() {
         id: "154",
         name: "value",
         syllabicdivision: "val-ue",
-        primarymeaning: "valor",
+        primarymeaning:
+          "Indicação numérica que corresponde ao resultado de um número",
         primaryexample:
           "Adjusts the value of a setting or selects a menu option.",
         primaryreference:
@@ -1521,7 +1587,8 @@ export default function Dictionary() {
         id: "155",
         name: "valve",
         syllabicdivision: "valve",
-        primarymeaning: "válvula",
+        primarymeaning:
+          "Dispositivos mecânicos que abrem e fecham para controlar o fluxo de fluidos em tubulações e recipientes",
         primaryexample: "It also provides a vent for the safety valve.",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1530,7 +1597,7 @@ export default function Dictionary() {
         id: "156",
         name: "variable",
         syllabicdivision: "var-i-a-ble",
-        primarymeaning: "variável",
+        primarymeaning: "Medida ou quantidade que se altera em cada caso",
         primaryexample:
           "The byte variable indicated by the second operand is copied into the location specified by the first operand.",
         primaryreference:
@@ -1540,7 +1607,8 @@ export default function Dictionary() {
         id: "157",
         name: "vector",
         syllabicdivision: "vec-tor",
-        primarymeaning: "vetor",
+        primarymeaning:
+          "Segmento de reta orientado com direção sentido e módulo",
         primaryexample:
           "Set to cause the CPU to vector to timer 2 interrupt routine when timer 2 interrupt is enabled",
         primaryreference:
@@ -1550,7 +1618,8 @@ export default function Dictionary() {
         id: "158",
         name: "voltage",
         syllabicdivision: "vol-tage",
-        primarymeaning: "voltagem",
+        primarymeaning:
+          "Potencial de uma corrente elétrica fundamental para o fazer com que um aparelho elétrico funcione",
         primaryexample:
           "If the CPU then reads the same port bit at the pin rather than the latch, it will read the base voltage of the transistor [...]",
         primaryreference:
@@ -1560,9 +1629,10 @@ export default function Dictionary() {
         id: "159",
         name: "wavelength",
         syllabicdivision: "wave-length",
-        primarymeaning: "comprimento de onda",
+        primarymeaning:
+          "Distância entre dois pontos de uma onda que se apresentam na mesma fase de dois pulsos sucessivos",
         primaryexample:
-          "[...] were irradiated with near-UV wavelengths (290−400 nm) to enable photolysis of H2O2 [...]",
+          "[...] were irradiated with near-UV wavelengths (290?400 nm) to enable photolysis of H2O2 [...]",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
@@ -1570,7 +1640,8 @@ export default function Dictionary() {
         id: "160",
         name: "x-ray",
         syllabicdivision: "x-ray",
-        primarymeaning: "raio-x",
+        primarymeaning:
+          "Radiação imperceptível à visão humana de natureza eletromagnética",
         primaryexample:
           "The X-ray images show the reconstructed femur immediately after surgery [...]",
         primaryreference:
@@ -1580,7 +1651,8 @@ export default function Dictionary() {
         id: "161",
         name: "architectures",
         syllabicdivision: "ar-chi-tec-tures",
-        primarymeaning: "arquiteturas",
+        primarymeaning:
+          "Processo técnico que envolve a elaboração de espaços organizados",
         primaryexample:
           "These kinds of bit operations are not easily obtained in other architectures with any amount of byte-oriented software.",
         primaryreference:
@@ -1590,7 +1662,8 @@ export default function Dictionary() {
         id: "162",
         name: "bitwise",
         syllabicdivision: "bit-wi-se",
-        primarymeaning: "bit a bit",
+        primarymeaning:
+          "De menor unidade em menor unidade de informação que pode ser armazenada ou transmitida",
         primaryexample:
           "XRL performs the bitwise logical Exclusive-OR operation between the indicated variables, storing the results in the destination.",
         primaryreference:
@@ -1600,7 +1673,7 @@ export default function Dictionary() {
         id: "163",
         name: "branches",
         syllabicdivision: "bran-ches",
-        primarymeaning: "ramificações",
+        primarymeaning: "Ponto de encontro de caminhos que se interligam",
         primaryexample:
           "The instructions that access these bits are not just conditional branches, but a complete menu of move, set, clear, complement, OR and AND instructions.",
         primaryreference:
@@ -1610,7 +1683,8 @@ export default function Dictionary() {
         id: "164",
         name: "concatenating",
         syllabicdivision: "con-ca-te-na-ting",
-        primarymeaning: "concatenando",
+        primarymeaning:
+          "Ação ou efeito de agrupar e conectar qualquer tipo de dado",
         primaryexample:
           "AJMP transfers program execution to the indicated address, which is formed at run-time by concatenating the high-order five bits of the PC (after incrementing the PC twice)[...]",
         primaryreference:
@@ -1620,7 +1694,7 @@ export default function Dictionary() {
         id: "165",
         name: "deploying",
         syllabicdivision: "de-ploy-ing",
-        primarymeaning: "implantando",
+        primarymeaning: "Introduzir ou fixar algo",
         primaryexample:
           "Active Protective is a belt that utilises ‘fall-in-progress’ technology, deploying airbag protection around the hip immediately prior to impact – within a fraction of a second.",
         primaryreference:
@@ -1630,18 +1704,20 @@ export default function Dictionary() {
         id: "166",
         name: "encoding",
         syllabicdivision: "en-co-ding",
-        primarymeaning: "codificando",
+        primarymeaning:
+          "Instruções de um programa que foram ordenados e interligados",
         primaryexample:
-          "* MOV A,ACC is not a valid Instruction. MOV A,@Ri Bytes: 1 Cycles: 1 Encoding: 1 1 1 0 0 1 1 i Operation: MOV (A) ← ((Ri ))",
+          "* MOV A,ACC is not a valid Instruction. MOV A,@Ri Bytes: 1 Cycles: 1 Encoding: 1 1 1 0 0 1 1 i Operation: MOV (A) ? ((Ri ))",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
         id: "167",
-        name: "flags",
-        syllabicdivision: "fla-gs",
-        primarymeaning: "bandeiras",
-        primaryexample: "No flags are affected.",
+        name: "panel",
+        syllabicdivision: "pa-nel",
+        primarymeaning:
+          "Mecanismo ou peça em que se encontram instalados os comandos de uma máquina",
+        primaryexample: "Remove options panel plate",
         primaryreference:
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
@@ -1649,7 +1725,7 @@ export default function Dictionary() {
         id: "168",
         name: "pattern",
         syllabicdivision: "pat-tern",
-        primarymeaning: "padrão",
+        primarymeaning: "Aquilo que serve para ser imitado como modelo",
         primaryexample:
           "The pattern of bits to be complemented is then determined by a mask byte, either a constant contained in the instruction or a variable computed in the Accumulator at run-time.",
         primaryreference:
@@ -1659,7 +1735,8 @@ export default function Dictionary() {
         id: "169",
         name: "ventilator",
         syllabicdivision: "ven-ti-la-tor",
-        primarymeaning: "ventilador",
+        primarymeaning:
+          "Equipamento médico responsável por realizar a troca gasosa de todo o corpo",
         primaryexample:
           "This manual is intended to provide information needed to service the Puritan Bennett™ 700 Series Ventilator System.",
         primaryreference:
@@ -1669,7 +1746,8 @@ export default function Dictionary() {
         id: "170",
         name: "servicing",
         syllabicdivision: "serv-ic-ing",
-        primarymeaning: "manutenção",
+        primarymeaning:
+          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
         primaryexample:
           "It is intended for use by certified biomedical engineering technicians or personnel with equivalent experience and training in servicing this type of equipment.",
         primaryreference:
@@ -1679,7 +1757,7 @@ export default function Dictionary() {
         id: "171",
         name: "applicable",
         syllabicdivision: "ap-pli-ca-ble",
-        primarymeaning: "aplicável",
+        primarymeaning: "Que se consegue aplicar",
         primaryexample:
           "[...] it may not be all-inclusive and may not be applicable to your ventilator.",
         primaryreference:
@@ -1689,7 +1767,7 @@ export default function Dictionary() {
         id: "172",
         name: "regulations",
         syllabicdivision: "reg-u-la-tions",
-        primarymeaning: "regulamentos",
+        primarymeaning: "Instrução que prescreve o que se deve fazer",
         primaryexample:
           "Please take the time to become familiar with the following, as they cover safety considerations, special handling requirements, and regulations",
         primaryreference:
@@ -1699,7 +1777,8 @@ export default function Dictionary() {
         id: "173",
         name: "maintenance",
         syllabicdivision: "main-te-nance",
-        primarymeaning: "manutenção",
+        primarymeaning:
+          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
         primaryexample:
           "The user of this product shall have sole responsibility for any ventilator malfunction due to operation or maintenance performed [...]",
         primaryreference:
@@ -1709,7 +1788,8 @@ export default function Dictionary() {
         id: "174",
         name: "switches",
         syllabicdivision: "swit-ches",
-        primarymeaning: "interruptores",
+        primarymeaning:
+          "Dsispositivo destinados a abrir ou fechar um circuito elétrico",
         primaryexample:
           "[...] disconnecting the power source and turning off all ventilator power switches.",
         primaryreference:
@@ -1719,9 +1799,9 @@ export default function Dictionary() {
         id: "175",
         name: "disconnect",
         syllabicdivision: "dis-con-nect",
-        primarymeaning: "desconecte",
+        primarymeaning: "Cessar uma conexão",
         primaryexample:
-          " [...] immediately disconnect the ventilator from the oxygen supply and electrical power source.",
+          "[...] immediately disconnect the ventilator from the oxygen supply and electrical power source.",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
@@ -1729,7 +1809,8 @@ export default function Dictionary() {
         id: "176",
         name: "engineering",
         syllabicdivision: "en-gi-neer-ing",
-        primarymeaning: "engenharia",
+        primarymeaning:
+          "Aplicação de métodos do conhecimento científico ou empírico destinados à utilização de recursos materiais e naturais ",
         primaryexample:
           " Consult with your institution’s biomedical engineering department in case of interrupted ventilator operation [...]",
         primaryreference:
@@ -1739,7 +1820,8 @@ export default function Dictionary() {
         id: "177",
         name: "electromagnetic",
         syllabicdivision: "e-lec-tro-mag-net-ic",
-        primarymeaning: "eletromagnética",
+        primarymeaning:
+          "Que apresenta ao mesmo tempo fenômenos magnéticos e elétricos",
         primaryexample: "Electromagnetic susceptibility.",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1748,7 +1830,8 @@ export default function Dictionary() {
         id: "178",
         name: "connector",
         syllabicdivision: "con-nec-tor",
-        primarymeaning: "conector",
+        primarymeaning:
+          "Dispositivo que efetua a ligação entre um ou mais pontos onde se necessita de comunicação de sinais",
         primaryexample:
           "Determine which voltage is out of bounds through pressure solenoid PCB test connector.",
         primaryreference:
@@ -1758,7 +1841,8 @@ export default function Dictionary() {
         id: "179",
         name: "solenoid",
         syllabicdivision: "so-len-oid",
-        primarymeaning: "solenoide",
+        primarymeaning:
+          "Dispositivo eletromecânico usado para controlar o fluxo de líquido ou gás",
         primaryexample:
           " Check for proper installation of oxygen regulator pressure transducer and connection of sensor to pressure solenoid PCB.",
         primaryreference:
@@ -1768,7 +1852,8 @@ export default function Dictionary() {
         id: "180",
         name: "regulator",
         syllabicdivision: "reg-u-la-tor",
-        primarymeaning: "regulador",
+        primarymeaning:
+          "Dispositivo que tem a função de fazer a manutenção ou ajuste de algo",
         primaryexample:
           "To prevent possible injury, do not remove the dust cap from the oxygen regulator access valve[...]",
         primaryreference:
@@ -1778,7 +1863,7 @@ export default function Dictionary() {
         id: "181",
         name: "harness",
         syllabicdivision: "har-ness",
-        primarymeaning: "chicote",
+        primarymeaning: "Cabo ou fio que conduz energia",
         primaryexample:
           "Check harness connections between oxygen sensor and ventilator main head harness.",
         primaryreference:
@@ -1788,7 +1873,7 @@ export default function Dictionary() {
         id: "182",
         name: "filter",
         syllabicdivision: "fil-ter",
-        primarymeaning: "filtro",
+        primarymeaning: "Peça que evita ruídos parasitos num aparelho",
         primaryexample:
           "Removal/replacement of line filter, circuit breaker, power switch, power supply, or power assembly harnesses.",
         primaryreference:
@@ -1798,7 +1883,8 @@ export default function Dictionary() {
         id: "183",
         name: "test",
         syllabicdivision: "test",
-        primarymeaning: "teste",
+        primarymeaning:
+          "Procedimento que visa verificar o funcionamento de algo",
         primaryexample:
           "If the accuracies of your institution’s test equipment differ from those listed, please make applicable allowances.",
         primaryreference:
@@ -1808,7 +1894,8 @@ export default function Dictionary() {
         id: "184",
         name: "multimeter",
         syllabicdivision: "mul-tim-e-ter",
-        primarymeaning: "multímetro",
+        primarymeaning:
+          "Instrumento de provas que mede voltagens correntes e resistência",
         primaryexample:
           "Digital multimeter (DMM) accurate to three decimal places.",
         primaryreference:
@@ -1818,7 +1905,7 @@ export default function Dictionary() {
         id: "185",
         name: "dissipative",
         syllabicdivision: "dis-si-pa-tive",
-        primarymeaning: "dissipativo",
+        primarymeaning: "Algo com a capacidade de espalhar",
         primaryexample:
           "Static-dissipative field service kit (includes wrist strap, static-dissipative mat, and ground cord).",
         primaryreference:
@@ -1828,7 +1915,7 @@ export default function Dictionary() {
         id: "186",
         name: "inspect",
         syllabicdivision: "in-spect",
-        primarymeaning: "inspecione",
+        primarymeaning: "Ação ou resultado de averiguar",
         primaryexample:
           "Visually inspect ventilator exterior and interior for obvious problems [...]",
         primaryreference:
@@ -1838,7 +1925,8 @@ export default function Dictionary() {
         id: "187",
         name: "washers",
         syllabicdivision: "washers",
-        primarymeaning: "arruelas",
+        primarymeaning:
+          "Anel ou aro de ferro que se coloca no parafuso para que a porca não desgaste a peça",
         primaryexample:
           "Remove the internal battery compartment access plate by removing four screws with captive washers.",
         primaryreference:
@@ -1848,7 +1936,8 @@ export default function Dictionary() {
         id: "188",
         name: "capacitor",
         syllabicdivision: "ca-pac-i-tor",
-        primarymeaning: "capacitor",
+        primarymeaning:
+          "Componente eletrônico que armazena e descarregam cargas elétricas",
         primaryexample:
           "Wait ten minutes to ensure the backup alarm capacitor has time to charge.",
         primaryreference:
@@ -1858,7 +1947,7 @@ export default function Dictionary() {
         id: "189",
         name: "troubleshooting",
         syllabicdivision: "trou-ble-shoot-ing",
-        primarymeaning: "solução de problemas",
+        primarymeaning: "Resolução de impasses",
         primaryexample:
           "The logs also contain other information that can be useful when troubleshooting the ventilator.",
         primaryreference:
@@ -1868,7 +1957,8 @@ export default function Dictionary() {
         id: "190",
         name: "repair",
         syllabicdivision: "re-pair",
-        primarymeaning: "reparar",
+        primarymeaning:
+          "Pôr em bom estado de funcionamento o que se havia estragado",
         primaryexample:
           "The results of the EST run, the contents of the test and/or alert logs, and other service menu functions will help you determine what to repair.",
         primaryreference:
@@ -1878,7 +1968,7 @@ export default function Dictionary() {
         id: "191",
         name: "detection",
         syllabicdivision: "de-tec-tion",
-        primarymeaning: "detecção",
+        primarymeaning: "Percepção de algo através de seus indícios ou sinais",
         primaryexample:
           "Because a ventilator reset can be triggered by detection of an unexpected condition[...]",
         primaryreference:
@@ -1888,7 +1978,8 @@ export default function Dictionary() {
         id: "192",
         name: "assembly",
         syllabicdivision: "as-sem-bly",
-        primarymeaning: "montagem",
+        primarymeaning:
+          "Preparo ou disposição das peças de uma máquina para esta poder funcionar",
         primaryexample:
           " The exhalation valve assembly, a pneumatically actuated valve, closes during inspiration to prevent delivered gas from venting to the atmosphere.",
         primaryreference:
@@ -1896,11 +1987,10 @@ export default function Dictionary() {
       },
       {
         id: "193",
-        name: "screen",
-        syllabicdivision: "screen",
-        primarymeaning: "tela",
-        primaryexample:
-          " The sensor is actually a fine mesh screen with pressure taps on both sides.",
+        name: "tachometer",
+        syllabicdivision: "ta-chom-e-ter",
+        primarymeaning: "Aparelho para medir velocidades permanentemente",
+        primaryexample: "The tachometer circuit measures the piston velocity",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
@@ -1908,7 +1998,7 @@ export default function Dictionary() {
         id: "194",
         name: "heaters",
         syllabicdivision: "heat-ers",
-        primarymeaning: "aquecedores",
+        primarymeaning: "Aparelho que serve para aquecer algo",
         primaryexample:
           "Heaters heat the exhalation assembly walls to minimize moisture in the assembly[...]",
         primaryreference:
@@ -1918,7 +2008,7 @@ export default function Dictionary() {
         id: "195",
         name: "chambers",
         syllabicdivision: "cham-bers",
-        primarymeaning: "câmaras",
+        primarymeaning: "Compartimentos de uma área",
         primaryexample: " The PEEP reservoir has three chambers.",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1927,7 +2017,8 @@ export default function Dictionary() {
         id: "196",
         name: "pump",
         syllabicdivision: "pump",
-        primarymeaning: "bomba",
+        primarymeaning:
+          "Aparelho destinado a sugar premir ou fazer circular fluidos",
         primaryexample:
           " The PEEP pump, a vibrating-armature pump, generates PEEP/CPAP pilot pressure.",
         primaryreference:
@@ -1937,7 +2028,8 @@ export default function Dictionary() {
         id: "197",
         name: "oscillations",
         syllabicdivision: "os-cil-la-tions",
-        primarymeaning: "oscilações",
+        primarymeaning:
+          "Modificação ou alteração de um estado que se torna outro",
         primaryexample:
           " It then enters a final chamber, which provides further damping of pressure oscillations.",
         primaryreference:
@@ -1947,7 +2039,8 @@ export default function Dictionary() {
         id: "198",
         name: "cable",
         syllabicdivision: "ca-ble",
-        primarymeaning: "cabo",
+        primarymeaning:
+          "Feixe de fios metálicos protegidos por invólucros isoladores",
         primaryexample:
           "Attaches cable tie that retains main ventilator head harness.",
         primaryreference:
@@ -1957,7 +2050,8 @@ export default function Dictionary() {
         id: "199",
         name: "humidifier",
         syllabicdivision: "hu-mid-i-fi-er",
-        primarymeaning: "umifidificador",
+        primarymeaning:
+          "Equipamento que aumenta a quantidade de umidade em um ambiente ou em uma corrente de ar",
         primaryexample:
           "The 700 Series Ventilator exhalation system has been modified to reduce the chances of rain out in the exhalation system from the humidifier [...]",
         primaryreference:
@@ -1967,7 +2061,8 @@ export default function Dictionary() {
         id: "200",
         name: "terminals",
         syllabicdivision: "ter-mi-nals",
-        primarymeaning: "terminais",
+        primarymeaning:
+          "Conexão elétrica que consiste de um fio que sai de um dispositivo",
         primaryexample:
           "When installing the speaker, orient the terminals to the left.",
         primaryreference:
@@ -1977,7 +2072,7 @@ export default function Dictionary() {
         id: "201",
         name: "polarity",
         syllabicdivision: "po-lar-i-ty",
-        primarymeaning: "polaridade",
+        primarymeaning: "Tipo de carga negativa ou positiva",
         primaryexample: "The polarity of the speaker wires is unimportant.",
         primaryreference:
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
@@ -1988,13 +2083,13 @@ export default function Dictionary() {
         type: "FieldMismatch",
         code: "TooFewFields",
         message: "Too few fields: expected 6 fields but parsed 5",
-        row: 29,
+        row: 41,
       },
       {
         type: "FieldMismatch",
-        code: "TooFewFields",
-        message: "Too few fields: expected 6 fields but parsed 5",
-        row: 41,
+        code: "TooManyFields",
+        message: "Too many fields: expected 6 fields but parsed 7",
+        row: 63,
       },
       {
         type: "FieldMismatch",
@@ -2002,19 +2097,13 @@ export default function Dictionary() {
         message: "Too many fields: expected 6 fields but parsed 7",
         row: 95,
       },
-      {
-        type: "FieldMismatch",
-        code: "TooFewFields",
-        message: "Too few fields: expected 6 fields but parsed 5",
-        row: 104,
-      },
     ],
     meta: {
       delimiter: ",",
       linebreak: "\r\n",
       aborted: false,
       truncated: false,
-      cursor: 45130,
+      cursor: 53834,
       fields: [
         "id",
         "name",
