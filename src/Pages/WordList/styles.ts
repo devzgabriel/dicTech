@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 
   wait: {
-    flex: 1,
+    padding: 20,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -18,6 +18,8 @@ const styles = StyleSheet.create({
     fontFamily: "Poppins_600SemiBold",
     color: "#2f2b5c",
     textAlign: "center",
+    marginTop: 26,
+    marginBottom: 26,
   },
 
   wordList: {

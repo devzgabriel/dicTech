@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { View, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView } from "react-native";
 import AsyncStorage from "@react-native-community/async-storage";
 import { useFocusEffect } from "@react-navigation/native";
 
 import PageHeader from "../../components/PageHeader";
 import WordItem, { FileData } from "../../components/WordItem";
+import landingImg from "../../assets/images/landing.png";
+
 import styles from "./styles";
 
 function Favorites() {
@@ -28,6 +30,15 @@ function Favorites() {
   return (
     <View style={styles.container}>
       <PageHeader title="Palavras Favoritas" />
+
+      {favorites.length === 0 && (
+        <View style={styles.wait}>
+          <Text style={styles.waitText}>
+            Você não possui palavras salvas recentemente!
+          </Text>
+          <Image source={landingImg} />
+        </View>
+      )}
 
       <ScrollView
         style={styles.wordList}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, ScrollView, Text, TextInput } from "react-native";
+import { View, ScrollView, Text, Image, TextInput } from "react-native";
 import { BorderlessButton, RectButton } from "react-native-gesture-handler";
 import { useFocusEffect } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
@@ -10,6 +10,7 @@ import PageHeader from "../../components/PageHeader";
 import WordItem, { FileData } from "../../components/WordItem";
 import Dictionary from "../../data/exportDictionary";
 
+import landingImg from "../../assets/images/landing.png";
 import styles from "./styles";
 
 export interface FileParsed {
@@ -140,6 +141,7 @@ function WordList() {
           <Text style={styles.waitText}>
             Aguarde enquanto carregamos as palavras!
           </Text>
+          <Image source={landingImg} />
         </View>
       )}
       <ScrollView
