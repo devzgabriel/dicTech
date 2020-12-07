@@ -66,7 +66,7 @@ function Landing() {
 
       <Text style={styles.totalWords}>
         Total de {totalWords} palavras já cadastradas!{"  "}{" "}
-        <Image source={heartIcon} />
+        {/* <Image source={heartIcon} /> */}
       </Text>
     </View>
   );
