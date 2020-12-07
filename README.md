@@ -11,7 +11,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DichTech é uma aplicação útil para técnicos que precisam comhecer alguns temos em inglês e precisam consultalos em um só lugar!
+O DichTech é uma aplicação útil para técnicos que precisam conhecer alguns termos em inglês que precisam em um só lugar!
 
 ---
 
