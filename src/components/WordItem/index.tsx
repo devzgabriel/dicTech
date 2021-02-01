@@ -14,11 +14,12 @@ export interface FileData {
   name: string;
   syllabicdivision: string;
   primarymeaning: string;
-  primaryexample: string;
+  primaryexample?: any;
   primaryreference?: string;
   secondarymeaning?: string;
   secondaryexample?: string;
   secondaryreference?: string;
+  __parsed_extra?: any;
 }
 
 interface WordItemProps {

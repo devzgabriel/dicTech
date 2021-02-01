@@ -19,11 +19,12 @@ export interface FileParsed {
     name: string;
     syllabicdivision: string;
     primarymeaning: string;
-    primaryexample: string;
+    primaryexample?: string;
     primaryreference: string;
     secondarymeaning?: string;
     secondaryexample?: string;
     secondaryreference?: string;
+    __parsed_extra?: any;
   }>;
   errors: Array<{}>;
   meta: {

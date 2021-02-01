@@ -24,16 +24,6 @@ export default function Dictionary() {
       },
       {
         id: "3",
-        name: "accumulator",
-        syllabicdivision: "ac-cu-mu-la-tor",
-        primarymeaning: "Que acumula e amontoa",
-        primaryexample:
-          "If the operation is in response to an interrupt, not using the Accumulator saves the time and effort to stack it in the service routine",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "4",
         name: "accuracy",
         syllabicdivision: "ac-cu-ra-cy",
         primarymeaning: "Rigor no registro e na definição do valor",
@@ -43,36 +33,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "5",
-        name: "acknowledgement",
-        syllabicdivision: "ac knowl edge ment",
-        primarymeaning: "reconhecimento",
-        primaryexample:
-          "The APS datagram shall require encryption and acknowledgement.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "6",
-        name: "activation",
-        syllabicdivision: "ac-ti-va-tion",
-        primarymeaning: "Ação ou efeito de ativar",
-        primaryexample:
-          "This activation takes place even when the cycle involves no external fetch",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "7",
-        name: "activity",
-        syllabicdivision: "ac-ti-vity",
-        primarymeaning: "Capacidade ou tendência para agir",
-        primaryexample:
-          "Meet the world’s first device that can observe and model human brain activity during free movements.",
-        primaryreference:
-          "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
-      },
-      {
-        id: "8",
+        id: "4",
         name: "address",
         syllabicdivision: "ad-dress",
         primarymeaning:
@@ -83,17 +44,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "9",
-        name: "addressable",
-        syllabicdivision: "ad-dres-sa-ble",
-        primarymeaning: "Que é capaz de se colocar um endereço",
-        primaryexample:
-          "SETB can operate on the carry flag or any directly addressable bit.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "10",
+        id: "5",
         name: "alarms",
         syllabicdivision: "alarms",
         primarymeaning: "Sinal sonoro de lembrete",
@@ -103,7 +54,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "11",
+        id: "6",
         name: "algorithms",
         syllabicdivision: "al-go-ri-thms",
         primarymeaning:
@@ -114,17 +65,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "12",
-        name: "alternate",
-        syllabicdivision: "al-ter-na-te",
-        primarymeaning: "Sucessão de coisas que se repetem com alternação",
-        primaryexample:
-          "The alternate functions can only be activated if the corresponding bit latch in the port SFR contains a 1.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "13",
+        id: "7",
         name: "amplification",
         syllabicdivision: "am-pli-fi-ca-tion",
         primarymeaning: "Aumentar o volume a extensão ou a intensidade",
@@ -134,7 +75,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "14",
+        id: "8",
         name: "analysis",
         syllabicdivision: "a-nal-y-sis",
         primarymeaning: "Ação ou efeito de analisar",
@@ -143,7 +84,77 @@ export default function Dictionary() {
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
+        id: "9",
+        name: "automatic",
+        syllabicdivision: "au-to-mat-ic",
+        primarymeaning: "Que opera por meios mecânicos",
+        primaryexample:
+          "The framework can be adapted for the automatic segmentation of anatomical structures with well-defined shape [...]",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
+      },
+      {
+        id: "10",
+        name: "available",
+        syllabicdivision: "a-vail-a-ble",
+        primarymeaning: "Que se encontra ao dispor",
+        primaryexample:
+          "[..] approaches which optimally exploit the available images and GT annotations are becoming more interesting.",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
+      },
+      {
+        id: "11",
+        name: "accumulator",
+        syllabicdivision: "ac-cu-mu-la-tor",
+        primarymeaning: "Que acumula e amontoa",
+        primaryexample:
+          "If the operation is in response to an interrupt, not using the Accumulator saves the time and effort to stack it in the service routine",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "12",
+        name: "activation",
+        syllabicdivision: "ac-ti-va-tion",
+        primarymeaning: "Ação ou efeito de ativar",
+        primaryexample:
+          "This activation takes place even when the cycle involves no external fetch",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "13",
+        name: "activity",
+        syllabicdivision: "ac-ti-vity",
+        primarymeaning: "Capacidade ou tendência para agir",
+        primaryexample:
+          "Meet the world’s first device that can observe and model human brain activity during free movements.",
+        primaryreference:
+          "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
+      },
+      {
+        id: "14",
+        name: "addressable",
+        syllabicdivision: "ad-dres-sa-ble",
+        primarymeaning: "Que é capaz de se colocar um endereço",
+        primaryexample:
+          "SETB can operate on the carry flag or any directly addressable bit.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
         id: "15",
+        name: "alternate",
+        syllabicdivision: "al-ter-na-te",
+        primarymeaning: "Sucessão de coisas que se repetem com alternação",
+        primaryexample:
+          "The alternate functions can only be activated if the corresponding bit latch in the port SFR contains a 1.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "16",
         name: "app",
         syllabicdivision: "app",
         primarymeaning:
@@ -154,48 +165,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "16",
-        name: "applicable",
-        syllabicdivision: "ap-pli-ca-ble",
-        primarymeaning: "Que se consegue aplicar",
-        primaryexample:
-          "[...] it may not be all-inclusive and may not be applicable to your ventilator.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
         id: "17",
-        name: "architecture",
-        syllabicdivision: "ar chi tec ture",
-        primarymeaning: "arquitetura",
-        primaryexample:
-          "The third and last step for Release 15 was a late drop completed in March 2019, which included more architecture options (for example, the possibility to connect 5G NodeBs (gNBs) to an Evolved Packet Core (EPC) and then operating NR and LTE in multi-connectivity mode, wherein NR is the master node and LTE is the secondary node).",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "18",
-        name: "architectures",
-        syllabicdivision: "ar-chi-tec-tures",
-        primarymeaning:
-          "Processo técnico que envolve a elaboração de espaços organizados",
-        primaryexample:
-          "These kinds of bit operations are not easily obtained in other architectures with any amount of byte-oriented software.",
-        primaryreference:
-          ",http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "19",
-        name: "assembly",
-        syllabicdivision: "as-sem-bly",
-        primarymeaning:
-          "Preparo ou disposição das peças de uma máquina para esta poder funcionar",
-        primaryexample:
-          " The exhalation valve assembly, a pneumatically actuated valve, closes during inspiration to prevent delivered gas from venting to the atmosphere.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "20",
         name: "asynchronous",
         syllabicdivision: "as-yn-ch-ro-nous",
         primarymeaning: "Que não acontece juntamente com outra coisa",
@@ -205,65 +175,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "21",
-        name: "automatic",
-        syllabicdivision: "au-to-mat-ic",
-        primarymeaning: "Que opera por meios mecânicos",
-        primaryexample:
-          "The framework can be adapted for the automatic segmentation of anatomical structures with well-defined shape [...]",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
-      },
-      {
-        id: "22",
-        name: "availability",
-        syllabicdivision: "a vail a bil i ty",
-        primarymeaning: "disponibilidade",
-        primaryexample:
-          "The additional availability of frequency bands in low, mid, and high bands that together provide a combination of coverage",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "23",
-        name: "available",
-        syllabicdivision: "a-vail-a-ble",
-        primarymeaning: "Que se encontra ao dispor",
-        primaryexample:
-          "[..] approaches which optimally exploit the available images and GT annotations are becoming more interesting.",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
-      },
-      {
-        id: "24",
-        name: "backed",
-        syllabicdivision: "bac ked",
-        primarymeaning: "apoiado",
-        primaryexample:
-          ' "It supports any kind of connected device or mobile app',
-        primaryreference: ' and is backed by more than 10 years"',
-        __parsed_extra: ["Philips HealthSuiteDevice Cloud", ""],
-      },
-      {
-        id: "25",
-        name: "backend",
-        syllabicdivision: "back end",
-        primarymeaning: " Processo interno",
-        primaryexample: ' "...you avoid the cost and effort of setting up',
-        primaryreference: ' maintaining and operating your own backend."',
-        __parsed_extra: ["Philips HealthSuite Device Cloud.", ""],
-      },
-      {
-        id: "26",
-        name: "bandwidth",
-        syllabicdivision: "band width",
-        primarymeaning: "largura de banda",
-        primaryexample:
-          "although the maximum total bandwidth is limited to 400 MHz",
-        primaryreference: "5G wireless access: an overview",
-        __parsed_extra: [""],
-      },
-      {
-        id: "27",
+        id: "18",
         name: "battery",
         syllabicdivision: "bat-ter-y",
         primarymeaning: "Pilhas ou acumuladores elétricos de alimentação",
@@ -273,26 +185,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "28",
-        name: "boolean",
-        syllabicdivision: "Bool e an",
-        primarymeaning: "boleano",
-        primaryexample:
-          "Note that Boolean operations can be performed on any byte in the internal Data Memory space without going through the Accumulator",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
-        __parsed_extra: [""],
-      },
-      {
-        id: "29",
-        name: "broadband",
-        syllabicdivision: "bro ad band",
-        primarymeaning: "banda larga",
-        primaryexample:
-          "these do not fit several use cases, including those where some MTC-type communications might have mobile broadband requirements",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "30",
+        id: "19",
         name: "bus",
         syllabicdivision: "bus",
         primarymeaning:
@@ -303,18 +196,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "31",
-        name: "cable",
-        syllabicdivision: "ca-ble",
-        primarymeaning:
-          "Feixe de fios metálicos protegidos por invólucros isoladores",
-        primaryexample:
-          "Attaches cable tie that retains main ventilator head harness.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "32",
+        id: "20",
         name: "calculated",
         syllabicdivision: "cal-cu-lat-ed",
         primarymeaning:
@@ -325,7 +207,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "33",
+        id: "21",
         name: "calibration",
         syllabicdivision: "cal-i-bra-tion",
         primarymeaning: "Ajustar algo usando calibre e instrumento de medição",
@@ -335,16 +217,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "34",
-        name: "capability",
-        syllabicdivision: "ca pa bil i ty",
-        primarymeaning: " capacidade",
-        primaryexample:
-          "We also offer the capability to send mobile push notifications to most of the mobile platforms in use today",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "35",
+        id: "22",
         name: "capacitance",
         syllabicdivision: "ca-pac-i-tance",
         primarymeaning:
@@ -354,27 +227,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "36",
-        name: "capacitor",
-        syllabicdivision: "ca-pac-i-tor",
-        primarymeaning:
-          "Componente eletrônico que armazena e descarregam cargas elétricas",
-        primaryexample:
-          "Wait ten minutes to ensure the backup alarm capacitor has time to charge.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "37",
-        name: "carrier",
-        syllabicdivision: "car ri er",
-        primarymeaning: "portadora",
-        primaryexample:
-          "the requirement is fulfilled with intra-cell beam mobility or with carrier aggregation",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "38",
+        id: "23",
         name: "chip",
         syllabicdivision: "chip",
         primarymeaning:
@@ -385,7 +238,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "39",
+        id: "24",
         name: "circuitry",
         syllabicdivision: "cir-cui-try",
         primarymeaning:
@@ -396,16 +249,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "40",
-        name: "cluster",
-        syllabicdivision: "clus ter",
-        primarymeaning: "grupo",
-        primaryexample:
-          "This does not  mean that the set must be modifiable through a commissioning cluster.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "41",
+        id: "25",
         name: "code",
         syllabicdivision: "code",
         primarymeaning:
@@ -416,7 +260,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "42",
+        id: "26",
         name: "communication",
         syllabicdivision: "com-mu-ni-ca-tion",
         primarymeaning: "Transmissão ou recepção de informações",
@@ -426,16 +270,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "43",
-        name: "comparison",
-        syllabicdivision: "Com pa ri son",
-        primarymeaning: "Comparação",
-        primaryexample:
-          " and for comparison how it can be done using XCH instructions",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
-      },
-      {
-        id: "44",
+        id: "27",
         name: "complete",
         syllabicdivision: "com-ple-te",
         primarymeaning: "completo",
@@ -445,16 +280,18 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "45",
+        id: "28",
         name: "components",
         syllabicdivision: "com-po-nents",
-        primarymeaning: "componentes",
+        primarymeaning:
+          "Estrutura de um circuito eletrônico que estão interligados",
         primaryexample:
-          "All Philips HealthSuite device cloud portals are configured with items like device keys, device types, firmware components, etc.",
-        primaryreference: "Philips HealthSuiteDevice Cloud",
+          "The on-chip circuitry, and selection of off-chip components to configure the oscillator [...]",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "46",
+        id: "29",
         name: "computed",
         syllabicdivision: "com-put-ed",
         primarymeaning: "Passar pelo processo de cálculo de avaliação",
@@ -464,18 +301,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
-        id: "47",
-        name: "concatenating",
-        syllabicdivision: "con-ca-te-na-ting",
-        primarymeaning:
-          "Ação ou efeito de agrupar e conectar qualquer tipo de dado",
-        primaryexample:
-          "AJMP transfers program execution to the indicated address, which is formed at run-time by concatenating the high-order five bits of the PC (after incrementing the PC twice)[...]",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "48",
+        id: "30",
         name: "configuration",
         syllabicdivision: "con-fig-u-ra-tion",
         primarymeaning: "Ação ou efeito de configurar ou modificar",
@@ -484,7 +310,7 @@ export default function Dictionary() {
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
-        id: "49",
+        id: "31",
         name: "configured",
         syllabicdivision: "con-fig-ur-ed",
         primarymeaning:
@@ -495,36 +321,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "50",
-        name: "connectivity",
-        syllabicdivision: "con nec tiv i ty",
-        primarymeaning: "conectividade",
-        primaryexample:
-          "The HealthSuite device cloud offers proven, reliable cloud connectivity services on a global scale",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "51",
-        name: "connector",
-        syllabicdivision: "con-nec-tor",
-        primarymeaning:
-          "Dispositivo que efetua a ligação entre um ou mais pontos onde se necessita de comunicação de sinais",
-        primaryexample:
-          "Determine which voltage is out of bounds through pressure solenoid PCB test connector.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "52",
-        name: "consumption",
-        syllabicdivision: "con sump tion",
-        primarymeaning: "consumo",
-        primaryexample:
-          "Examples of these capabilities include very high data rates, spectral efficiency and mobility requirements, ultra-low latency, ultra-high reliability, and very low device cost and energy consumption.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "53",
+        id: "32",
         name: "contains",
         syllabicdivision: "con-ta-ins",
         primarymeaning: "Ato de reter ou guardar",
@@ -534,7 +331,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "54",
+        id: "33",
         name: "control",
         syllabicdivision: "con-trol",
         primarymeaning: "Ação de comandar e dominar",
@@ -544,7 +341,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "55",
+        id: "34",
         name: "convert",
         syllabicdivision: "con-vert",
         primarymeaning: "Sofrer ou ser alvo de alteração e transformação",
@@ -554,7 +351,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "56",
+        id: "35",
         name: "counter",
         syllabicdivision: "coun-ter",
         primarymeaning: "Recurso destinado a realizar contagens em geral",
@@ -564,7 +361,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "57",
+        id: "36",
         name: "counting",
         syllabicdivision: "coun-ting",
         primarymeaning: "Valor final de uma somatória ou cômputo",
@@ -574,16 +371,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "58",
-        name: "cryptographic",
-        syllabicdivision: "cryp to gra phic",
-        primarymeaning: "criptográfico",
-        primaryexample:
-          "The Key Establishment cluster supports multiple cryptographic suites and, as a result, a device’s security credentials.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "59",
+        id: "37",
         name: "current",
         syllabicdivision: "cur-rent",
         primarymeaning: "Movimento de cargas elétricas em um condutor",
@@ -593,16 +381,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "60",
-        name: "customer",
-        syllabicdivision: "cus tom er",
-        primarymeaning: "cliente",
-        primaryexample:
-          "Increase your operational excellence: Our always-on approach to customer service and 24/7 support offer ultimate confidence",
-        primaryreference: " Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "61",
+        id: "38",
         name: "cycle",
         syllabicdivision: "cy-cle",
         primarymeaning: "Série de fenômenos que ocorrem numa determinada ordem",
@@ -612,7 +391,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "62",
+        id: "39",
         name: "damage",
         syllabicdivision: "dam-age",
         primarymeaning: "Deteriorações ou estragos em algo",
@@ -622,54 +401,16 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "63",
+        id: "40",
         name: "data",
-        syllabicdivision: "da ta",
-        primarymeaning: "dados",
-        primaryexample:
-          "The XRL , # data instruction, for example, offers a quick and easy way to invert port bits, as in XRL P1, #OFFH.",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
-      },
-      {
-        id: "64",
-        name: "decrementing",
-        syllabicdivision: "de cre men ting",
-        primarymeaning: "decrescente",
-        primaryexample:
-          "RET pops the high- and low-order bytes of the PC successively from the stack, decrementing the Stack Pointer by two.",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
-      },
-      {
-        id: "65",
-        name: "deploying",
-        syllabicdivision: "de-ploy-ing",
-        primarymeaning: "Introduzir ou fixar algo",
-        primaryexample:
-          "Active Protective is a belt that utilises ‘fall-in-progress’ technology, deploying airbag protection around the hip immediately prior to impact – within a fraction of a second.",
+        syllabicdivision: "da-ta",
+        primarymeaning: "Informação que identifica algo",
+        primaryexample: "Heterogeneous data [...]",
         primaryreference:
-          "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
+          "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
-        id: "66",
-        name: "designed",
-        syllabicdivision: "de sig ned",
-        primarymeaning: "projetado",
-        primaryexample:
-          "The underlying technological objectives and the capabilities of the network, however, have continued to shift into a new generation every 7 to 10 years, with each generation being designed to serve societal needs over a duration of 2 to 3 decades across markets around the globe.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "67",
-        name: "detection",
-        syllabicdivision: "de-tec-tion",
-        primarymeaning: "Percepção de algo através de seus indícios ou sinais",
-        primaryexample:
-          "Because a ventilator reset can be triggered by detection of an unexpected condition[...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "68",
+        id: "41",
         name: "development",
         syllabicdivision: "de-vel-op-ment",
         primarymeaning: "Ação de compor ou elaborar",
@@ -679,7 +420,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "69",
+        id: "42",
         name: "device-de-vice",
         syllabicdivision:
           "Aparelho ligado ou adaptado a instrumento ou máquina",
@@ -688,7 +429,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "70",
+        id: "43",
         name: "disable",
         syllabicdivision: "di-sa-ble",
         primarymeaning: "Deixar de ter habilidade ou desativar algo",
@@ -698,17 +439,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "71",
-        name: "disconnect",
-        syllabicdivision: "dis-con-nect",
-        primarymeaning: "Cessar uma conexão",
-        primaryexample:
-          "[...] immediately disconnect the ventilator from the oxygen supply and electrical power source.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "72",
+        id: "44",
         name: "disease",
         syllabicdivision: "dis-ease",
         primarymeaning: "Alteração da saúde que se manifesta por sintomas",
@@ -718,36 +449,7 @@ export default function Dictionary() {
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
-        id: "73",
-        name: "dissipative",
-        syllabicdivision: "dis-si-pa-tive",
-        primarymeaning: "Algo com a capacidade de espalhar",
-        primaryexample:
-          "Static-dissipative field service kit (includes wrist strap, static-dissipative mat, and ground cord).",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "74",
-        name: "downtime",
-        syllabicdivision: "down time",
-        primarymeaning: "tempo de inatividade",
-        primaryexample:
-          " in such a way that downtime for a deployment is counted in seconds",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "75",
-        name: "electromagnetic",
-        syllabicdivision: "e-lec-tro-mag-net-ic",
-        primarymeaning:
-          "Que apresenta ao mesmo tempo fenômenos magnéticos e elétricos",
-        primaryexample: "Electromagnetic susceptibility.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "76",
+        id: "45",
         name: "eletronic",
         syllabicdivision: "el-etron-ic",
         primarymeaning:
@@ -758,7 +460,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "77",
+        id: "46",
         name: "enable",
         syllabicdivision: "en-a-ble",
         primarymeaning: "Tornar apto e capaz para alguma coisa",
@@ -767,38 +469,7 @@ export default function Dictionary() {
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
-        id: "78",
-        name: "encoding",
-        syllabicdivision: "en-co-ding",
-        primarymeaning:
-          "Instruções de um programa que foram ordenados e interligados",
-        primaryexample:
-          "* MOV A,ACC is not a valid Instruction. MOV A,@Ri Bytes: 1 Cycles: 1 Encoding: 1 1 1 0 0 1 1 i Operation: MOV (A) ? ((Ri ))",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "79",
-        name: "encrypted",
-        syllabicdivision: "en cryp ted",
-        primarymeaning: "criptografado",
-        primaryexample:
-          "The device joins the network and is sent the network key encrypted with the key-transport key derived for the preinstalled trust center link key.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "80",
-        name: "engineering",
-        syllabicdivision: "en-gi-neer-ing",
-        primarymeaning:
-          "Aplicação de métodos do conhecimento científico ou empírico destinados à utilização de recursos materiais e naturais ",
-        primaryexample:
-          " Consult with your institution’s biomedical engineering department in case of interrupted ventilator operation [...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "81",
+        id: "47",
         name: "entry",
         syllabicdivision: "en-try",
         primarymeaning: "Possibilidade de ter acesso e entrar",
@@ -807,7 +478,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "82",
+        id: "48",
         name: "equipment",
         syllabicdivision: "e-quip-ment",
         primarymeaning:
@@ -818,7 +489,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "83",
+        id: "49",
         name: "examinations",
         syllabicdivision: "ex-am-i-na-tions",
         primarymeaning:
@@ -829,7 +500,7 @@ export default function Dictionary() {
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
-        id: "84",
+        id: "50",
         name: "execution",
         syllabicdivision: "ex-e-cu-tion",
         primarymeaning: "Ação de executar alguma atividade",
@@ -839,7 +510,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "85",
+        id: "51",
         name: "external",
         syllabicdivision: "ex-ter-nal",
         primarymeaning: "Que está por fora que vem do exterior",
@@ -849,7 +520,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "86",
+        id: "52",
         name: "features",
         syllabicdivision: "fea-tures",
         primarymeaning:
@@ -860,34 +531,7 @@ export default function Dictionary() {
           "https://www.ti.com/lit/ds/slas504g/slas504g.pdf?ts=1601574699205&ref_url=https%253A%252F%252Fwww.google.com%252F",
       },
       {
-        id: "87",
-        name: "filter",
-        syllabicdivision: "fil-ter",
-        primarymeaning: "Peça que evita ruídos parasitos num aparelho",
-        primaryexample:
-          "Removal/replacement of line filter, circuit breaker, power switch, power supply, or power assembly harnesses.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "88",
-        name: "footprint",
-        syllabicdivision: "foot print",
-        primarymeaning: "pegada",
-        primaryexample:
-          "The device client is very low footprint and has been successfully implemented in millions of devices already.",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "89",
-        name: "framework",
-        syllabicdivision: "fra me work",
-        primarymeaning: "estrutura",
-        primaryexample: "Application Framework",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "90",
+        id: "53",
         name: "frequency",
         syllabicdivision: "fre-quen-cy",
         primarymeaning:
@@ -898,7 +542,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "91",
+        id: "54",
         name: "generate",
         syllabicdivision: "ge-ne-ra-te",
         primarymeaning: "Dar origem ou produzir",
@@ -908,7 +552,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "92",
+        id: "55",
         name: "generation",
         syllabicdivision: "gen-er-a-tion",
         primarymeaning: "Ato de gerar",
@@ -918,7 +562,7 @@ export default function Dictionary() {
           "https://reader.elsevier.com/reader/sd/pii/S1361841516300998?token=77DEAD78C75278E92231AABB8231F0A4AAE588C18E3FC84AC91F11065D75FCBEB74FAB67AA484B2110A52992EB49065F",
       },
       {
-        id: "93",
+        id: "56",
         name: "ground",
         syllabicdivision: "ground",
         primarymeaning:
@@ -929,7 +573,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "94",
+        id: "57",
         name: "gyroscope",
         syllabicdivision: "gy-ro-scope",
         primarymeaning:
@@ -940,65 +584,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "95",
-        name: "harness",
-        syllabicdivision: "har-ness",
-        primarymeaning: "Cabo ou fio que conduz energia",
-        primaryexample:
-          "Check harness connections between oxygen sensor and ventilator main head harness.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "96",
-        name: "heaters",
-        syllabicdivision: "heat-ers",
-        primarymeaning: "Aparelho que serve para aquecer algo",
-        primaryexample:
-          "Heaters heat the exhalation assembly walls to minimize moisture in the assembly[...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "97",
-        name: "highly",
-        syllabicdivision: "high ly",
-        primarymeaning: "altamente",
-        primaryexample:
-          "Enjoy peace of mind: Our services are proven to be highly secure and audited for compliance",
-        primaryreference: "Philips HealthSuiteDevice Cloud",
-      },
-      {
-        id: "98",
-        name: "host",
-        syllabicdivision: "host",
-        primarymeaning: "hospedeiro",
-        primaryexample:
-          ": It will host all firmware and software components, as well as the logic needed to support a smooth distribution",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "99",
-        name: "hotspot",
-        syllabicdivision: "hot spot",
-        primarymeaning: "ponto de acesso",
-        primaryexample:
-          "The requirement on area traffic capacity is 10 Mbps/m2 for downlink in the in the indoor hotspot scenario.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "100",
-        name: "humidifier",
-        syllabicdivision: "hu-mid-i-fi-er",
-        primarymeaning:
-          "Equipamento que aumenta a quantidade de umidade em um ambiente ou em uma corrente de ar",
-        primaryexample:
-          "The 700 Series Ventilator exhalation system has been modified to reduce the chances of rain out in the exhalation system from the humidifier [...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "101",
+        id: "58",
         name: "impedance",
         syllabicdivision: "im-ped-ance",
         primarymeaning: "Medida da resistência de um circuito elétrico",
@@ -1008,15 +594,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "102",
-        name: "improve",
-        syllabicdivision: "im prove",
-        primarymeaning: "melhorar",
-        primaryexample: "improve performance and enable new use cases",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "103",
+        id: "59",
         name: "incremented",
         syllabicdivision: "in-cre-men-ted",
         primarymeaning: "Acrescentar ou aumentar alguma coisa",
@@ -1025,16 +603,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "104",
-        name: "indexed",
-        syllabicdivision: "in dex ed",
-        primarymeaning: "indexado",
-        primaryexample:
-          "Only Program Memory can be accessed with indexed addressing, and it can only be read.",
-        primaryreference: "Atmel 8051 MicrocontrollersHardware Manual",
-      },
-      {
-        id: "105",
+        id: "60",
         name: "initialize",
         syllabicdivision: "i-ni-ti-a-li-ze",
         primarymeaning: "Ato de iniciar e dar partida",
@@ -1044,17 +613,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "106",
-        name: "inspect",
-        syllabicdivision: "in-spect",
-        primarymeaning: "Ação ou resultado de averiguar",
-        primaryexample:
-          "Visually inspect ventilator exterior and interior for obvious problems [...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "107",
+        id: "61",
         name: "instruction",
         syllabicdivision: "in-struc-tion",
         primarymeaning: "Preceito instrutivo",
@@ -1064,7 +623,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "108",
+        id: "62",
         name: "internal",
         syllabicdivision: "in-ter-nal",
         primarymeaning: "Que está dentro",
@@ -1074,16 +633,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "109",
-        name: "interoperability",
-        syllabicdivision: "in ter op er a bil i ty",
-        primarymeaning: "interoperabilidade",
-        primaryexample:
-          "In order to ensure interoperability, all ZigBee Smart Energy devices shall implement compatible Startup Attribute Sets (SAS) as defined in this specification.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "110",
+        id: "63",
         name: "interrupt",
         syllabicdivision: "in-ter-rupt",
         primarymeaning:
@@ -1094,7 +644,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "111",
+        id: "64",
         name: "inventions",
         syllabicdivision: "in-ven-tions",
         primarymeaning: "Ato de criar uma nova tecnologia",
@@ -1106,16 +656,7 @@ export default function Dictionary() {
         ],
       },
       {
-        id: "112",
-        name: "latency",
-        syllabicdivision: "la ten cy",
-        primarymeaning: "latência",
-        primaryexample:
-          "The compatibility to prepare for future use cases and technologies, and the low latency to improve performance and enable new use cases",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "113",
+        id: "65",
         name: "lenght",
         syllabicdivision: "lenght",
         primarymeaning: "Extensão de algo",
@@ -1125,7 +666,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "114",
+        id: "66",
         name: "level",
         syllabicdivision: "lev-el",
         primarymeaning: "Valor atingido por uma grandeza",
@@ -1135,15 +676,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "115",
-        name: "log",
-        syllabicdivision: "log",
-        primarymeaning: "registro",
-        primaryexample: "We add billions of log records annually.",
-        primaryreference: "Philips HealthSuiteDevice Cloud",
-      },
-      {
-        id: "116",
+        id: "67",
         name: "logical",
         syllabicdivision: "lo-gi-cal",
         primarymeaning: "Conforme com as regras da lógica e coerência",
@@ -1153,7 +686,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "117",
+        id: "68",
         name: "machine",
         syllabicdivision: "ma-chine",
         primarymeaning:
@@ -1164,36 +697,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "118",
-        name: "maintaining",
-        syllabicdivision: "main tai ning",
-        primarymeaning: "manutenção",
-        primaryexample:
-          "Offered as a Platform-as-a-Service (PaaS), you avoid the cost and effort of setting up, maintaining and operating your own backend.",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "119",
-        name: "maintenance",
-        syllabicdivision: "main-te-nance",
-        primarymeaning:
-          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
-        primaryexample:
-          "The user of this product shall have sole responsibility for any ventilator malfunction due to operation or maintenance performed [...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "120",
-        name: "management",
-        syllabicdivision: "man-age-ment",
-        primarymeaning: "Gestão/Gerenciamento",
-        primaryexample:
-          "The source code is also available for download from the ZigBee document management system [B6].",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "121",
+        id: "69",
         name: "manual",
         syllabicdivision: "ma-nu-al",
         primarymeaning:
@@ -1203,16 +707,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "122",
-        name: "manufacturing",
-        syllabicdivision: "man u fac tur ing",
-        primarymeaning: "manufatura",
-        primaryexample:
-          "This includes industries such as automotive, logistics, public safety, media, and manufacturing.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "123",
+        id: "70",
         name: "master",
         syllabicdivision: "mas-ter",
         primarymeaning: "Algo muito entendido sobre determinado assunto",
@@ -1222,7 +717,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "124",
+        id: "71",
         name: "materials",
         syllabicdivision: "ma-te-ri-als",
         primarymeaning:
@@ -1232,7 +727,7 @@ export default function Dictionary() {
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
-        id: "125",
+        id: "72",
         name: "measurement",
         syllabicdivision: "meas-ure-ment",
         primarymeaning: "Ação ou efeito de medir e determinar o valor",
@@ -1242,16 +737,18 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "126-chan-ics",
-        name:
-          "Combinação de órgãos próprios para produzir ou transmitir movimentos",
-        syllabicdivision:
-          "[...] complex patient-specific simulations of the heart including cardiac mechanics [...]",
+        id: "73",
+        name: "mechanics",
+        syllabicdivision: "me-chan-ics",
         primarymeaning:
+          "Combinação de órgãos próprios para produzir ou transmitir movimentos",
+        primaryexample:
+          "[...] complex patient-specific simulations of the heart including cardiac mechanics [...]",
+        primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "127",
+        id: "74",
         name: "memory",
         syllabicdivision: "mem-o-ry",
         primarymeaning: "Faculdade de reter ideias anteriores adquiridas",
@@ -1261,16 +758,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
-        id: "128",
-        name: "metering",
-        syllabicdivision: "me-ter-ing",
-        primarymeaning: "Medição",
-        primaryexample:
-          "Metering networks are primarily installed by specialized service personnel, but other devices in the network may be added by home owners, or home automation professionals who may not have any ZigBee expertise.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "129",
+        id: "75",
         name: "microcontroller",
         syllabicdivision: "mi-cro-con-trol-ler",
         primarymeaning: "Pequeno computador num único circuito integrado",
@@ -1280,7 +768,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "130",
+        id: "76",
         name: "mobile",
         syllabicdivision: "mo-bile",
         primarymeaning: "Que pode ser movido ou algo instável",
@@ -1290,7 +778,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "131",
+        id: "77",
         name: "mode",
         syllabicdivision: "mode",
         primarymeaning: "Maneira de realizar algo",
@@ -1300,15 +788,18 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
-        id: "132",
-        name: "Monitoring",
+        id: "78",
+        name: "monitoring",
         syllabicdivision: "mon-i-tor-ing",
-        primarymeaning: "monitoramento",
-        primaryexample: "Monitoring, diagnostics and reporting",
-        primaryreference: "Philips HealthSuite Device Cloud",
+        primarymeaning:
+          "Reunião dos mecanismos desenvolvidos para observar continuamente e de modo repetido",
+        primaryexample:
+          "OH exposures were determined by monitoring pCBA degradation in near-UV/H2O2 experiments.",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "133",
+        id: "79",
         name: "motion",
         syllabicdivision: "mo-tion",
         primarymeaning: "Mudança sucessiva de algo",
@@ -1318,7 +809,7 @@ export default function Dictionary() {
           "ttps://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "134",
+        id: "80",
         name: "MRI-Magnetic Resonance Imaging",
         syllabicdivision: "MRI-Mag-net-ic  Res-o-nance  Im-ag-ing",
         primarymeaning:
@@ -1329,18 +820,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "135",
-        name: "multimeter",
-        syllabicdivision: "mul-tim-e-ter",
-        primarymeaning:
-          "Instrumento de provas que mede voltagens correntes e resistência",
-        primaryexample:
-          "Digital multimeter (DMM) accurate to three decimal places.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "136",
+        id: "81",
         name: "multiprocessor",
         syllabicdivision: "mul-ti-pro-ces-sor",
         primarymeaning:
@@ -1350,7 +830,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "137",
+        id: "82",
         name: "networks",
         syllabicdivision: "net-works",
         primarymeaning:
@@ -1361,7 +841,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "138",
+        id: "83",
         name: "operation",
         syllabicdivision: "op-er-a-tion",
         primarymeaning:
@@ -1372,7 +852,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "139",
+        id: "84",
         name: "operational",
         syllabicdivision: "op-er-a-tion-al",
         primarymeaning:
@@ -1382,18 +862,7 @@ export default function Dictionary() {
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
-        id: "140",
-        name: "oscillations",
-        syllabicdivision: "os-cil-la-tions",
-        primarymeaning:
-          "Modificação ou alteração de um estado que se torna outro",
-        primaryexample:
-          " It then enters a final chamber, which provides further damping of pressure oscillations.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "141",
+        id: "85",
         name: "oscillator",
         syllabicdivision: "os-cil-la-tor",
         primarymeaning: "Aparelho que produz correntes elétricas oscilantes",
@@ -1403,7 +872,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "142",
+        id: "86",
         name: "output",
         syllabicdivision: "out-put",
         primarymeaning:
@@ -1414,16 +883,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "143",
-        name: "overhead",
-        syllabicdivision: "o ver head",
-        primarymeaning: "sobrecarga",
-        primaryexample:
-          "Enhancements targeting transmission of small data packets in inactive state to reduce the overhead from connection establishment.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "144",
+        id: "87",
         name: "oxidation",
         syllabicdivision: "ox-i-da-tion",
         primarymeaning:
@@ -1434,7 +894,7 @@ export default function Dictionary() {
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
-        id: "145",
+        id: "88",
         name: "pack",
         syllabicdivision: "pack",
         primarymeaning: "Conjunto de unidades incluídas num embrulho",
@@ -1444,7 +904,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "146",
+        id: "89",
         name: "package",
         syllabicdivision: "pack-age",
         primarymeaning: "Cápsula que envolve e agrupa alguma coisa com outra",
@@ -1454,7 +914,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "147",
+        id: "90",
         name: "pair",
         syllabicdivision: "pair",
         primarymeaning: "Pôr lado a lado e equiparar",
@@ -1464,17 +924,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "148",
-        name: "panel",
-        syllabicdivision: "pa-nel",
-        primarymeaning:
-          "Mecanismo ou peça em que se encontram instalados os comandos de uma máquina",
-        primaryexample: "Remove options panel plate",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "149",
+        id: "91",
         name: "parameter",
         syllabicdivision: "pa-ram-e-ter",
         primarymeaning:
@@ -1485,16 +935,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "150",
-        name: "parameters",
-        syllabicdivision: "pa ra me ters",
-        primarymeaning: "parâmetros",
-        primaryexample:
-          "New firmware can be rolled out based on numerous parameters, such as device type, location or device-specific properties.",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "151",
+        id: "92",
         name: "parity",
         syllabicdivision: "pa-ri-ty",
         primarymeaning:
@@ -1505,26 +946,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "152",
-        name: "pattern",
-        syllabicdivision: "pat-tern",
-        primarymeaning: "Aquilo que serve para ser imitado como modelo",
-        primaryexample:
-          "The pattern of bits to be complemented is then determined by a mask byte, either a constant contained in the instruction or a variable computed in the Accumulator at run-time.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "153",
-        name: "payload",
-        syllabicdivision: "pay load",
-        primarymeaning: "carga útil",
-        primaryexample:
-          "but is generic and can contain any kind of content (payload).",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "154",
+        id: "93",
         name: "PC - program counter",
         syllabicdivision: "PC - pro-gram coun-ter",
         primarymeaning:
@@ -1535,7 +957,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "155",
+        id: "94",
         name: "PCB - printed circuit board",
         syllabicdivision: "PCB - printed-cir-cuit-board",
         primarymeaning:
@@ -1546,7 +968,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "156",
+        id: "95",
         name: "period",
         syllabicdivision: "pe-ri-od",
         primarymeaning:
@@ -1557,7 +979,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "157",
+        id: "96",
         name: "peripheral",
         syllabicdivision: "pe-riph-er-al",
         primarymeaning:
@@ -1570,7 +992,7 @@ export default function Dictionary() {
         ],
       },
       {
-        id: "158",
+        id: "97",
         name: "PET - Photon Emission Tomography",
         syllabicdivision: "PET - Pho-ton  E-mis-sion  To-mogra-phy",
         primarymeaning:
@@ -1581,7 +1003,17 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "159",
+        id: "98",
+        name: "tube",
+        syllabicdivision: "tu-be",
+        primarymeaning:
+          "Canal cilíndrico reto ou curvo pelo qual passam fluidos líquidos ",
+        primaryexample: " Pressure solenoid PCB tube connectors",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
+      },
+      {
+        id: "99",
         name: "pin",
         syllabicdivision: "pin",
         primarymeaning:
@@ -1592,7 +1024,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "160",
+        id: "100",
         name: "piston",
         syllabicdivision: "pis-ton",
         primarymeaning: "Peça movível pela pressão de um fluído",
@@ -1602,16 +1034,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "161",
-        name: "polarity",
-        syllabicdivision: "po-lar-i-ty",
-        primarymeaning: "Tipo de carga negativa ou positiva",
-        primaryexample: "The polarity of the speaker wires is unimportant.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "162",
+        id: "101",
         name: "pressure",
         syllabicdivision: "pres-sure",
         primarymeaning: "Grandeza definida como força por unidade de área",
@@ -1621,7 +1044,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "163",
+        id: "102",
         name: "previously",
         syllabicdivision: "pre-vi-ous-ly",
         primarymeaning: "Que ocorre de maneira antecipada",
@@ -1630,7 +1053,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "164",
+        id: "103",
         name: "processor",
         syllabicdivision: "pro-ces-sor",
         primarymeaning:
@@ -1641,7 +1064,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "165",
+        id: "104",
         name: "products",
         syllabicdivision: "prod-ucts",
         primarymeaning: "produtos",
@@ -1651,7 +1074,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "166",
+        id: "105",
         name: "program",
         syllabicdivision: "pro-gram",
         primarymeaning:
@@ -1662,7 +1085,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
-        id: "167",
+        id: "106",
         name: "programmable",
         syllabicdivision: "pro-gram-ma-ble",
         primarymeaning:
@@ -1673,7 +1096,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "168",
+        id: "107",
         name: "progress",
         syllabicdivision: "pro-gress",
         primarymeaning: "Movimento para a frente",
@@ -1683,7 +1106,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "169",
+        id: "108",
         name: "protocols",
         syllabicdivision: "pro-to-cols",
         primarymeaning:
@@ -1694,7 +1117,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "170",
+        id: "109",
         name: "pulse",
         syllabicdivision: "pul-se",
         primarymeaning:
@@ -1704,18 +1127,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "171",
-        name: "pump",
-        syllabicdivision: "pump",
-        primarymeaning:
-          "Aparelho destinado a sugar premir ou fazer circular fluidos",
-        primaryexample:
-          " The PEEP pump, a vibrating-armature pump, generates PEEP/CPAP pilot pressure.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "172",
+        id: "110",
         name: "purpose",
         syllabicdivision: "pur-po-se",
         primarymeaning: "Aquilo que se tem intenção de realizar",
@@ -1725,7 +1137,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "173",
+        id: "111",
         name: "pushes",
         syllabicdivision: "pu-shes",
         primarymeaning: "Empuxar",
@@ -1735,16 +1147,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "174",
-        name: "queries",
-        syllabicdivision: "que ries",
-        primarymeaning: "consultas",
-        primaryexample:
-          "It is expected that client devices will periodically send application level queries to servers to retrieve data.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "175",
+        id: "112",
         name: "range",
         syllabicdivision: "range",
         primarymeaning: "Porção específica de alguma coisa",
@@ -1754,7 +1157,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "176",
+        id: "113",
         name: "rate",
         syllabicdivision: "ra-te",
         primarymeaning: "Valor limitante estabelecido para algo",
@@ -1764,135 +1167,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "177",
-        name: "reception",
-        syllabicdivision: "re-cep-tion",
-        primarymeaning: "Ato ou efeito de receber",
-        primaryexample: "Clear to disable serial reception.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "178",
-        name: "recognition",
-        syllabicdivision: "rec-og-ni-tion",
-        primarymeaning: "Ato ou efeito de reconhecer e lembrar",
-        primaryexample:
-          "If desired, you may enable the automatic address recognition feature in mode 1",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "179",
-        name: "register",
-        syllabicdivision: "reg-is-ter",
-        primarymeaning: "Dar propriedade ou nomear",
-        primaryexample:
-          "[...] but the stack itself is accessed by indirect addressing using the SP register.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
-      },
-      {
-        id: "180",
-        name: "regulations",
-        syllabicdivision: "reg-u-la-tions",
-        primarymeaning: "Instrução que prescreve o que se deve fazer",
-        primaryexample:
-          "Please take the time to become familiar with the following, as they cover safety considerations, special handling requirements, and regulations",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "181",
-        name: "regulator",
-        syllabicdivision: "reg-u-la-tor",
-        primarymeaning:
-          "Dispositivo que tem a função de fazer a manutenção ou ajuste de algo",
-        primaryexample:
-          "To prevent possible injury, do not remove the dust cap from the oxygen regulator access valve[...]",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "182",
-        name: "reliable",
-        syllabicdivision: "re-li-a-ble",
-        primarymeaning: "Em que se consegue estar tranquilo sobre",
-        primaryexample:
-          "[...] more reliable and faster algorithms and dedicated algorithms for specific applications",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
-      },
-      {
-        id: "183",
-        name: "reload",
-        syllabicdivision: "re-lo-ad",
-        primarymeaning: "Carregar novamente colocar nova carga",
-        primaryexample: "[...]hold the reload value for this mode",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
-      },
-      {
-        id: "184",
-        name: "remotely",
-        syllabicdivision: "re mote ly",
-        primarymeaning: "remotamente",
-        primaryexample:
-          "exchange messages between devices or remotely control their devices in an easy and secure way",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "185",
-        name: "repair",
-        syllabicdivision: "re-pair",
-        primarymeaning:
-          "Pôr em bom estado de funcionamento o que se havia estragado",
-        primaryexample:
-          "The results of the EST run, the contents of the test and/or alert logs, and other service menu functions will help you determine what to repair.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "186",
-        name: "resistance",
-        syllabicdivision: "re-sist-ance",
-        primarymeaning: "Opor forte resistência a algo",
-        primaryexample:
-          "Verify that resistance of PEEP pump is between 12 and 15 W measured when pump is at ambient temperature.",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "187",
-        name: "restore",
-        syllabicdivision: "res-to-re",
-        primarymeaning: "Colocar em melhor estado fazendo reparos",
-        primaryexample:
-          "Its function is to restore a 1 to the pin in the event the pin had a 1 and lost it to a glitch.",
-        primaryreference:
-          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
-      },
-      {
-        id: "188",
-        name: "result",
-        syllabicdivision: "re-sult",
-        primarymeaning: "Aquilo que resulta de alguma coisa",
-        primaryexample:
-          "On the other hand, if bit2 = 1 C now contains the complement of the correct result.",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
-      },
-      {
-        id: "189",
-        name: "retrieve",
-        syllabicdivision: "re trieve",
-        primarymeaning: "recuperar",
-        primaryexample:
-          "It is expected that client devices will periodically send application level queries to servers to retrieve data",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "190",
+        id: "114",
         name: "reveice",
         syllabicdivision: "re-cei-ve",
         primarymeaning: "Ato ou efeito de receber",
@@ -1902,7 +1177,85 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "191",
+        id: "115",
+        name: "reception",
+        syllabicdivision: "re-cep-tion",
+        primarymeaning: "Ato ou efeito de receber",
+        primaryexample: "Clear to disable serial reception.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "116",
+        name: "recognition",
+        syllabicdivision: "rec-og-ni-tion",
+        primarymeaning: "Ato ou efeito de reconhecer e lembrar",
+        primaryexample:
+          "If desired, you may enable the automatic address recognition feature in mode 1",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "117",
+        name: "register",
+        syllabicdivision: "reg-is-ter",
+        primarymeaning: "Dar propriedade ou nomear",
+        primaryexample:
+          "[...] but the stack itself is accessed by indirect addressing using the SP register.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
+      },
+      {
+        id: "118",
+        name: "reliable",
+        syllabicdivision: "re-li-a-ble",
+        primarymeaning: "Em que se consegue estar tranquilo sobre",
+        primaryexample:
+          "[...] more reliable and faster algorithms and dedicated algorithms for specific applications",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
+      },
+      {
+        id: "119",
+        name: "reload",
+        syllabicdivision: "re-lo-ad",
+        primarymeaning: "Carregar novamente colocar nova carga",
+        primaryexample: "[...]hold the reload value for this mode",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
+      },
+      {
+        id: "120",
+        name: "resistance",
+        syllabicdivision: "re-sist-ance",
+        primarymeaning: "Opor forte resistência a algo",
+        primaryexample:
+          "Verify that resistance of PEEP pump is between 12 and 15 W measured when pump is at ambient temperature.",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "121",
+        name: "restore",
+        syllabicdivision: "res-to-re",
+        primarymeaning: "Colocar em melhor estado fazendo reparos",
+        primaryexample:
+          "Its function is to restore a 1 to the pin in the event the pin had a 1 and lost it to a glitch.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "122",
+        name: "result",
+        syllabicdivision: "re-sult",
+        primarymeaning: "Aquilo que resulta de alguma coisa",
+        primaryexample:
+          "On the other hand, if bit2 = 1 C now contains the complement of the correct result.",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
+      },
+      {
+        id: "123",
         name: "rotation",
         syllabicdivision: "ro-ta-tion",
         primarymeaning:
@@ -1913,16 +1266,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "192",
-        name: "routers",
-        syllabicdivision: " rout ers",
-        primarymeaning: "roteadores",
-        primaryexample:
-          ' "All routers in the network shall be able to identify when the trust center is no longer accessible in the network."',
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "193",
+        id: "124",
         name: "safety",
         syllabicdivision: "safe-ty",
         primarymeaning: "Situação do que está seguro e certo",
@@ -1932,7 +1276,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "194",
+        id: "125",
         name: "save",
         syllabicdivision: "sa-ve",
         primarymeaning: "Reservar alguma coisa para uso posterior",
@@ -1942,7 +1286,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "195",
+        id: "126",
         name: "scratch",
         syllabicdivision: "s-cra-tch",
         primarymeaning: "Conjunto cujos componentes dependem uns dos outros",
@@ -1952,7 +1296,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "196",
+        id: "127",
         name: "sensing",
         syllabicdivision: "sens-ing",
         primarymeaning:
@@ -1962,7 +1306,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "197",
+        id: "128",
         name: "sensor",
         syllabicdivision: "sen-sor",
         primarymeaning: "Aparelhos detectores e medidores de sensibilidade",
@@ -1972,7 +1316,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "198",
+        id: "129",
         name: "sequence",
         syllabicdivision: "se-quence",
         primarymeaning: "Continuação de algo que se iniciou",
@@ -1982,7 +1326,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "199",
+        id: "130",
         name: "service",
         syllabicdivision: "serv-ice",
         primarymeaning: "Desempenho de funções obrigatórias",
@@ -1992,18 +1336,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "200",
-        name: "servicing",
-        syllabicdivision: "serv-ic-ing",
-        primarymeaning:
-          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
-        primaryexample:
-          "It is intended for use by certified biomedical engineering technicians or personnel with equivalent experience and training in servicing this type of equipment.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "201",
+        id: "131",
         name: "shift",
         syllabicdivision: "shift",
         primarymeaning: "Alteração ou modificação do estado normal de algo",
@@ -2013,7 +1346,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "202",
+        id: "132",
         name: "signal",
         syllabicdivision: "sig-nal",
         primarymeaning:
@@ -2024,7 +1357,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "203",
+        id: "133",
         name: "simulation",
         syllabicdivision: "sim-u-la-tion",
         primarymeaning: "Ação ou efeito de simular e testar",
@@ -2034,7 +1367,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "204",
+        id: "134",
         name: "slave",
         syllabicdivision: "sla-ve",
         primarymeaning:
@@ -2045,7 +1378,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "205",
+        id: "135",
         name: "smart",
         syllabicdivision: "smart",
         primarymeaning:
@@ -2056,18 +1389,7 @@ export default function Dictionary() {
           "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
       },
       {
-        id: "206",
-        name: "solenoid",
-        syllabicdivision: "so-len-oid",
-        primarymeaning:
-          "Dispositivo eletromecânico usado para controlar o fluxo de líquido ou gás",
-        primaryexample:
-          " Check for proper installation of oxygen regulator pressure transducer and connection of sensor to pressure solenoid PCB.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "207",
+        id: "136",
         name: "source",
         syllabicdivision: "source",
         primarymeaning:
@@ -2078,7 +1400,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "208",
+        id: "137",
         name: "space",
         syllabicdivision: "space",
         primarymeaning: "Extensão indefinida",
@@ -2088,7 +1410,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pd",
       },
       {
-        id: "209",
+        id: "138",
         name: "speaker",
         syllabicdivision: "speak-er",
         primarymeaning:
@@ -2098,16 +1420,17 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "210",
+        id: "139",
         name: "stack",
-        syllabicdivision: "stack",
-        primarymeaning: "Pilha",
-        primaryexample:
-          "the Stack Pointer equal to the value 09H. Program execution continues at location 0123H.",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
+        syllabicdivision: "s-ta-ck",
+        primarymeaning:
+          "Geradores elétricos que tranformam energia química em energia elétrica",
+        primaryexample: "This causes the stack to begin at location 08H",
+        primaryreference:
+          "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "211",
+        id: "140",
         name: "standard",
         syllabicdivision: "stand-ard",
         primarymeaning: "Aquilo que serve para ser imitado como modelo",
@@ -2117,16 +1440,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "212",
-        name: "standardized",
-        syllabicdivision: " stan dard ized",
-        primarymeaning: "padronizado",
-        primaryexample:
-          "Reduce time-to-market: choose from a catalogue of standardized and ready-to-use services",
-        primaryreference: "Philips HealthSuite Device Cloud",
-      },
-      {
-        id: "213",
+        id: "141",
         name: "state",
         syllabicdivision: "state",
         primarymeaning: "Circunstância atual em que algo se encontra",
@@ -2136,7 +1450,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "214",
+        id: "142",
         name: "supply",
         syllabicdivision: "sup-ply",
         primarymeaning: "Abastecimento de cargas elétricas",
@@ -2146,18 +1460,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "215",
-        name: "switches",
-        syllabicdivision: "swit-ches",
-        primarymeaning:
-          "Dsispositivo destinados a abrir ou fechar um circuito elétrico",
-        primaryexample:
-          "[...] disconnecting the power source and turning off all ventilator power switches.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "216",
+        id: "143",
         name: "synchronous",
         syllabicdivision: "syn-ch-ro-nous",
         primarymeaning: "Que ocorre ao mesmo tempo que outra coisa",
@@ -2167,7 +1470,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "217",
+        id: "144",
         name: "system",
         syllabicdivision: "sys-tem",
         primarymeaning:
@@ -2178,16 +1481,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "218",
-        name: "tachometer",
-        syllabicdivision: "ta-chom-e-ter",
-        primarymeaning: "Aparelho para medir velocidades permanentemente",
-        primaryexample: "The tachometer circuit measures the piston velocity",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "219",
+        id: "145",
         name: "target",
         syllabicdivision: "tar-get",
         primarymeaning: "Objetivo a que se dirige algum intento",
@@ -2197,7 +1491,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "220",
+        id: "146",
         name: "techniques",
         syllabicdivision: "tech-niques",
         primarymeaning: "Habilidade própria para realizar algo",
@@ -2207,7 +1501,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "221",
+        id: "147",
         name: "technology",
         syllabicdivision: "tech-nol-o-gy",
         primarymeaning:
@@ -2217,29 +1511,7 @@ export default function Dictionary() {
           "https://pubs.acs.org/doi/pdf/10.1021/acs.est.8b04393",
       },
       {
-        id: "222",
-        name: "terminals",
-        syllabicdivision: "ter-mi-nals",
-        primarymeaning:
-          "Conexão elétrica que consiste de um fio que sai de um dispositivo",
-        primaryexample:
-          "When installing the speaker, orient the terminals to the left.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "223",
-        name: "test",
-        syllabicdivision: "test",
-        primarymeaning:
-          "Procedimento que visa verificar o funcionamento de algo",
-        primaryexample:
-          "If the accuracies of your institution’s test equipment differ from those listed, please make applicable allowances.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "224",
+        id: "148",
         name: "thermistor",
         syllabicdivision: "ther-mis-tor",
         primarymeaning: "Semicondutores sensíveis à temperatura",
@@ -2248,7 +1520,7 @@ export default function Dictionary() {
         primaryreference: "https://www.teamwavelength.com/thermistor-basics/",
       },
       {
-        id: "225",
+        id: "149",
         name: "transducer",
         syllabicdivision: "trans-duc-er",
         primarymeaning:
@@ -2259,7 +1531,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "226",
+        id: "150",
         name: "transition",
         syllabicdivision: "tran-si-tion",
         primarymeaning: "Processo de mudança de um estado para outro",
@@ -2268,7 +1540,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "227",
+        id: "151",
         name: "trasmission",
         syllabicdivision: "trans-mis-sion",
         primarymeaning:
@@ -2279,27 +1551,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "228",
-        name: "troubleshooting",
-        syllabicdivision: "trou-ble-shoot-ing",
-        primarymeaning: "Resolução de impasses",
-        primaryexample:
-          "The logs also contain other information that can be useful when troubleshooting the ventilator.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "229",
-        name: "tube",
-        syllabicdivision: "tu-be",
-        primarymeaning:
-          "Canal cilíndrico reto ou curvo pelo qual passam fluidos líquidos ",
-        primaryexample: " Pressure solenoid PCB tube connectors",
-        primaryreference:
-          "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
-      },
-      {
-        id: "230",
+        id: "152",
         name: "ultrasound",
         syllabicdivision: "ul-tra-sound",
         primarymeaning:
@@ -2310,7 +1562,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
       {
-        id: "231",
+        id: "153",
         name: "ultraviolet",
         syllabicdivision: "ul-tra-vi-o-let",
         primarymeaning:
@@ -2321,24 +1573,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "232",
-        name: "unchanged",
-        syllabicdivision: "un changed",
-        primarymeaning: "inalterado",
-        primaryexample: "the P2 SFR remains unchanged",
-        primaryreference: "Atmel 8051 Microcontrollers Hardware Manual",
-      },
-      {
-        id: "233",
-        name: "updated",
-        syllabicdivision: "up dat ed",
-        primarymeaning: "atualizado",
-        primaryexample:
-          "The trust center should send out an updated copy of the network key encrypted with the corresponding link key.",
-        primaryreference: "ZigBee Smart Energy Standard Document",
-      },
-      {
-        id: "234",
+        id: "154",
         name: "value",
         syllabicdivision: "val-ue",
         primarymeaning:
@@ -2349,7 +1584,7 @@ export default function Dictionary() {
           "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "235",
+        id: "155",
         name: "valve",
         syllabicdivision: "valve",
         primarymeaning:
@@ -2359,7 +1594,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/888689/mod_page/content/4/700Series_ServiceManual_EN_10070389B00.pdf",
       },
       {
-        id: "236",
+        id: "156",
         name: "variable",
         syllabicdivision: "var-i-a-ble",
         primarymeaning: "Medida ou quantidade que se altera em cada caso",
@@ -2369,7 +1604,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "237",
+        id: "157",
         name: "vector",
         syllabicdivision: "vec-tor",
         primarymeaning:
@@ -2380,18 +1615,7 @@ export default function Dictionary() {
           "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
       },
       {
-        id: "238",
-        name: "ventilator",
-        syllabicdivision: "ven-ti-la-tor",
-        primarymeaning:
-          "Equipamento médico responsável por realizar a troca gasosa de todo o corpo",
-        primaryexample:
-          "This manual is intended to provide information needed to service the Puritan Bennett™ 700 Series Ventilator System.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "239",
+        id: "158",
         name: "voltage",
         syllabicdivision: "vol-tage",
         primarymeaning:
@@ -2402,18 +1626,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/931191/mod_page/content/3/8051.pdf",
       },
       {
-        id: "240",
-        name: "washers",
-        syllabicdivision: "washers",
-        primarymeaning:
-          "Anel ou aro de ferro que se coloca no parafuso para que a porca não desgaste a peça",
-        primaryexample:
-          "Remove the internal battery compartment access plate by removing four screws with captive washers.",
-        primaryreference:
-          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
-      },
-      {
-        id: "241",
+        id: "159",
         name: "wavelength",
         syllabicdivision: "wave-length",
         primarymeaning:
@@ -2424,16 +1637,7 @@ export default function Dictionary() {
           "https://www.moodlerje.com.br/pluginfile.php/912717/mod_page/content/2/acs.est.8b04393.pdf",
       },
       {
-        id: "242",
-        name: "wireless",
-        syllabicdivision: "wire less",
-        primarymeaning: "sem fio",
-        primaryexample:
-          "The capabilities of 5G wireless access extend far beyond previous generations of mobile communications.",
-        primaryreference: "5G wireless access: an overview",
-      },
-      {
-        id: "243",
+        id: "160",
         name: "x-ray",
         syllabicdivision: "x-ray",
         primarymeaning:
@@ -2443,55 +1647,455 @@ export default function Dictionary() {
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
+      {
+        id: "161",
+        name: "architectures",
+        syllabicdivision: "ar-chi-tec-tures",
+        primarymeaning:
+          "Processo técnico que envolve a elaboração de espaços organizados",
+        primaryexample:
+          "These kinds of bit operations are not easily obtained in other architectures with any amount of byte-oriented software.",
+        primaryreference:
+          ",http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "162",
+        name: "bitwise",
+        syllabicdivision: "bit-wi-se",
+        primarymeaning:
+          "De menor unidade em menor unidade de informação que pode ser armazenada ou transmitida",
+        primaryexample:
+          "XRL performs the bitwise logical Exclusive-OR operation between the indicated variables, storing the results in the destination.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "163",
+        name: "branches",
+        syllabicdivision: "bran-ches",
+        primarymeaning: "Ponto de encontro de caminhos que se interligam",
+        primaryexample:
+          "The instructions that access these bits are not just conditional branches, but a complete menu of move, set, clear, complement, OR and AND instructions.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "164",
+        name: "concatenating",
+        syllabicdivision: "con-ca-te-na-ting",
+        primarymeaning:
+          "Ação ou efeito de agrupar e conectar qualquer tipo de dado",
+        primaryexample:
+          "AJMP transfers program execution to the indicated address, which is formed at run-time by concatenating the high-order five bits of the PC (after incrementing the PC twice)[...]",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "165",
+        name: "deploying",
+        syllabicdivision: "de-ploy-ing",
+        primarymeaning: "Introduzir ou fixar algo",
+        primaryexample:
+          "Active Protective is a belt that utilises ‘fall-in-progress’ technology, deploying airbag protection around the hip immediately prior to impact – within a fraction of a second.",
+        primaryreference:
+          "https://parkinsonslife.eu/ces-2017-5-innovative-gadgets-for-people-with-parkinsons/",
+      },
+      {
+        id: "166",
+        name: "encoding",
+        syllabicdivision: "en-co-ding",
+        primarymeaning:
+          "Instruções de um programa que foram ordenados e interligados",
+        primaryexample:
+          "* MOV A,ACC is not a valid Instruction. MOV A,@Ri Bytes: 1 Cycles: 1 Encoding: 1 1 1 0 0 1 1 i Operation: MOV (A) ? ((Ri ))",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "167",
+        name: "panel",
+        syllabicdivision: "pa-nel",
+        primarymeaning:
+          "Mecanismo ou peça em que se encontram instalados os comandos de uma máquina",
+        primaryexample: "Remove options panel plate",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "168",
+        name: "pattern",
+        syllabicdivision: "pat-tern",
+        primarymeaning: "Aquilo que serve para ser imitado como modelo",
+        primaryexample:
+          "The pattern of bits to be complemented is then determined by a mask byte, either a constant contained in the instruction or a variable computed in the Accumulator at run-time.",
+        primaryreference:
+          "http://ww1.microchip.com/downloads/en/DeviceDoc/doc4316.pdf",
+      },
+      {
+        id: "169",
+        name: "ventilator",
+        syllabicdivision: "ven-ti-la-tor",
+        primarymeaning:
+          "Equipamento médico responsável por realizar a troca gasosa de todo o corpo",
+        primaryexample:
+          "This manual is intended to provide information needed to service the Puritan Bennett™ 700 Series Ventilator System.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "170",
+        name: "servicing",
+        syllabicdivision: "serv-ic-ing",
+        primarymeaning:
+          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
+        primaryexample:
+          "It is intended for use by certified biomedical engineering technicians or personnel with equivalent experience and training in servicing this type of equipment.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "171",
+        name: "applicable",
+        syllabicdivision: "ap-pli-ca-ble",
+        primarymeaning: "Que se consegue aplicar",
+        primaryexample:
+          "[...] it may not be all-inclusive and may not be applicable to your ventilator.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "172",
+        name: "regulations",
+        syllabicdivision: "reg-u-la-tions",
+        primarymeaning: "Instrução que prescreve o que se deve fazer",
+        primaryexample:
+          "Please take the time to become familiar with the following, as they cover safety considerations, special handling requirements, and regulations",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "173",
+        name: "maintenance",
+        syllabicdivision: "main-te-nance",
+        primarymeaning:
+          "Conjunto de ações que ajudam no bom e correto funcionamento de algo",
+        primaryexample:
+          "The user of this product shall have sole responsibility for any ventilator malfunction due to operation or maintenance performed [...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "174",
+        name: "switches",
+        syllabicdivision: "swit-ches",
+        primarymeaning:
+          "Dsispositivo destinados a abrir ou fechar um circuito elétrico",
+        primaryexample:
+          "[...] disconnecting the power source and turning off all ventilator power switches.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "175",
+        name: "disconnect",
+        syllabicdivision: "dis-con-nect",
+        primarymeaning: "Cessar uma conexão",
+        primaryexample:
+          "[...] immediately disconnect the ventilator from the oxygen supply and electrical power source.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "176",
+        name: "engineering",
+        syllabicdivision: "en-gi-neer-ing",
+        primarymeaning:
+          "Aplicação de métodos do conhecimento científico ou empírico destinados à utilização de recursos materiais e naturais ",
+        primaryexample:
+          " Consult with your institution’s biomedical engineering department in case of interrupted ventilator operation [...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "177",
+        name: "electromagnetic",
+        syllabicdivision: "e-lec-tro-mag-net-ic",
+        primarymeaning:
+          "Que apresenta ao mesmo tempo fenômenos magnéticos e elétricos",
+        primaryexample: "Electromagnetic susceptibility.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "178",
+        name: "connector",
+        syllabicdivision: "con-nec-tor",
+        primarymeaning:
+          "Dispositivo que efetua a ligação entre um ou mais pontos onde se necessita de comunicação de sinais",
+        primaryexample:
+          "Determine which voltage is out of bounds through pressure solenoid PCB test connector.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "179",
+        name: "solenoid",
+        syllabicdivision: "so-len-oid",
+        primarymeaning:
+          "Dispositivo eletromecânico usado para controlar o fluxo de líquido ou gás",
+        primaryexample:
+          " Check for proper installation of oxygen regulator pressure transducer and connection of sensor to pressure solenoid PCB.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "180",
+        name: "regulator",
+        syllabicdivision: "reg-u-la-tor",
+        primarymeaning:
+          "Dispositivo que tem a função de fazer a manutenção ou ajuste de algo",
+        primaryexample:
+          "To prevent possible injury, do not remove the dust cap from the oxygen regulator access valve[...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "181",
+        name: "harness",
+        syllabicdivision: "har-ness",
+        primarymeaning: "Cabo ou fio que conduz energia",
+        primaryexample:
+          "Check harness connections between oxygen sensor and ventilator main head harness.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "182",
+        name: "filter",
+        syllabicdivision: "fil-ter",
+        primarymeaning: "Peça que evita ruídos parasitos num aparelho",
+        primaryexample:
+          "Removal/replacement of line filter, circuit breaker, power switch, power supply, or power assembly harnesses.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "183",
+        name: "test",
+        syllabicdivision: "test",
+        primarymeaning:
+          "Procedimento que visa verificar o funcionamento de algo",
+        primaryexample:
+          "If the accuracies of your institution’s test equipment differ from those listed, please make applicable allowances.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "184",
+        name: "multimeter",
+        syllabicdivision: "mul-tim-e-ter",
+        primarymeaning:
+          "Instrumento de provas que mede voltagens correntes e resistência",
+        primaryexample:
+          "Digital multimeter (DMM) accurate to three decimal places.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "185",
+        name: "dissipative",
+        syllabicdivision: "dis-si-pa-tive",
+        primarymeaning: "Algo com a capacidade de espalhar",
+        primaryexample:
+          "Static-dissipative field service kit (includes wrist strap, static-dissipative mat, and ground cord).",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "186",
+        name: "inspect",
+        syllabicdivision: "in-spect",
+        primarymeaning: "Ação ou resultado de averiguar",
+        primaryexample:
+          "Visually inspect ventilator exterior and interior for obvious problems [...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "187",
+        name: "washers",
+        syllabicdivision: "washers",
+        primarymeaning:
+          "Anel ou aro de ferro que se coloca no parafuso para que a porca não desgaste a peça",
+        primaryexample:
+          "Remove the internal battery compartment access plate by removing four screws with captive washers.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "188",
+        name: "capacitor",
+        syllabicdivision: "ca-pac-i-tor",
+        primarymeaning:
+          "Componente eletrônico que armazena e descarregam cargas elétricas",
+        primaryexample:
+          "Wait ten minutes to ensure the backup alarm capacitor has time to charge.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "189",
+        name: "troubleshooting",
+        syllabicdivision: "trou-ble-shoot-ing",
+        primarymeaning: "Resolução de impasses",
+        primaryexample:
+          "The logs also contain other information that can be useful when troubleshooting the ventilator.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "190",
+        name: "repair",
+        syllabicdivision: "re-pair",
+        primarymeaning:
+          "Pôr em bom estado de funcionamento o que se havia estragado",
+        primaryexample:
+          "The results of the EST run, the contents of the test and/or alert logs, and other service menu functions will help you determine what to repair.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "191",
+        name: "detection",
+        syllabicdivision: "de-tec-tion",
+        primarymeaning: "Percepção de algo através de seus indícios ou sinais",
+        primaryexample:
+          "Because a ventilator reset can be triggered by detection of an unexpected condition[...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "192",
+        name: "assembly",
+        syllabicdivision: "as-sem-bly",
+        primarymeaning:
+          "Preparo ou disposição das peças de uma máquina para esta poder funcionar",
+        primaryexample:
+          " The exhalation valve assembly, a pneumatically actuated valve, closes during inspiration to prevent delivered gas from venting to the atmosphere.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "193",
+        name: "tachometer",
+        syllabicdivision: "ta-chom-e-ter",
+        primarymeaning: "Aparelho para medir velocidades permanentemente",
+        primaryexample: "The tachometer circuit measures the piston velocity",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "194",
+        name: "heaters",
+        syllabicdivision: "heat-ers",
+        primarymeaning: "Aparelho que serve para aquecer algo",
+        primaryexample:
+          "Heaters heat the exhalation assembly walls to minimize moisture in the assembly[...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "195",
+        name: "chambers",
+        syllabicdivision: "cham-bers",
+        primarymeaning: "Compartimentos de uma área",
+        primaryexample: " The PEEP reservoir has three chambers.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "196",
+        name: "pump",
+        syllabicdivision: "pump",
+        primarymeaning:
+          "Aparelho destinado a sugar premir ou fazer circular fluidos",
+        primaryexample:
+          " The PEEP pump, a vibrating-armature pump, generates PEEP/CPAP pilot pressure.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "197",
+        name: "oscillations",
+        syllabicdivision: "os-cil-la-tions",
+        primarymeaning:
+          "Modificação ou alteração de um estado que se torna outro",
+        primaryexample:
+          " It then enters a final chamber, which provides further damping of pressure oscillations.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "198",
+        name: "cable",
+        syllabicdivision: "ca-ble",
+        primarymeaning:
+          "Feixe de fios metálicos protegidos por invólucros isoladores",
+        primaryexample:
+          "Attaches cable tie that retains main ventilator head harness.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "199",
+        name: "humidifier",
+        syllabicdivision: "hu-mid-i-fi-er",
+        primarymeaning:
+          "Equipamento que aumenta a quantidade de umidade em um ambiente ou em uma corrente de ar",
+        primaryexample:
+          "The 700 Series Ventilator exhalation system has been modified to reduce the chances of rain out in the exhalation system from the humidifier [...]",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "200",
+        name: "terminals",
+        syllabicdivision: "ter-mi-nals",
+        primarymeaning:
+          "Conexão elétrica que consiste de um fio que sai de um dispositivo",
+        primaryexample:
+          "When installing the speaker, orient the terminals to the left.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
+      {
+        id: "201",
+        name: "polarity",
+        syllabicdivision: "po-lar-i-ty",
+        primarymeaning: "Tipo de carga negativa ou positiva",
+        primaryexample: "The polarity of the speaker wires is unimportant.",
+        primaryreference:
+          "https://asiapac.medtronic.com/content/dam/covidien/library/us/en/product/acute-care-ventilation/700Series_ServiceManual_EN_10070389B00.pdf",
+      },
     ],
     errors: [
       {
         type: "FieldMismatch",
-        code: "TooManyFields",
-        message: "Too many fields: expected 6 fields but parsed 8",
-        row: 23,
-      },
-      {
-        type: "FieldMismatch",
-        code: "TooManyFields",
-        message: "Too many fields: expected 6 fields but parsed 8",
-        row: 24,
-      },
-      {
-        type: "FieldMismatch",
-        code: "TooManyFields",
-        message: "Too many fields: expected 6 fields but parsed 7",
-        row: 25,
-      },
-      {
-        type: "FieldMismatch",
-        code: "TooManyFields",
-        message: "Too many fields: expected 6 fields but parsed 7",
-        row: 27,
-      },
-      {
-        type: "FieldMismatch",
         code: "TooFewFields",
         message: "Too few fields: expected 6 fields but parsed 5",
-        row: 68,
+        row: 41,
       },
       {
         type: "FieldMismatch",
         code: "TooManyFields",
         message: "Too many fields: expected 6 fields but parsed 7",
-        row: 110,
-      },
-      {
-        type: "FieldMismatch",
-        code: "TooFewFields",
-        message: "Too few fields: expected 6 fields but parsed 4",
-        row: 125,
+        row: 63,
       },
       {
         type: "FieldMismatch",
         code: "TooManyFields",
         message: "Too many fields: expected 6 fields but parsed 7",
-        row: 156,
+        row: 95,
       },
     ],
     meta: {
@@ -2499,7 +2103,7 @@ export default function Dictionary() {
       linebreak: "\r\n",
       aborted: false,
       truncated: false,
-      cursor: 61207,
+      cursor: 53834,
       fields: [
         "id",
         "name",
@@ -2509,5 +2113,5 @@ export default function Dictionary() {
         "primaryreference",
       ],
     },
-  }
+  };
 }
