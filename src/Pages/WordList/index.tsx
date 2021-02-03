@@ -19,6 +19,7 @@ export interface FileParsed {
     name: string;
     syllabicdivision: string;
     primarymeaning: string;
+    translated: string;
     primaryexample?: string;
     primaryreference: string;
     secondarymeaning?: string;

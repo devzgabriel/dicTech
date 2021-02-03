@@ -14,6 +14,7 @@ export interface FileData {
   name: string;
   syllabicdivision: string;
   primarymeaning: string;
+  translated: string;
   primaryexample?: any;
   primaryreference?: string;
   secondarymeaning?: string;
@@ -87,7 +88,7 @@ const WordItem: React.FC<WordItemProps> = ({
             <Text style={styles.name}>{word.name}</Text>
             <Text style={styles.division}>{word.syllabicdivision}</Text>
           </View>
-          <Text style={styles.primarymeaning}> {word.primarymeaning} </Text>
+          <Text style={styles.primarymeaning}> {word.translated} </Text>
         </View>
       </View>
 
