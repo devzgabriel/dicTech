@@ -1,5 +1,5 @@
 import GabrielImg from "../assets/photos/gabriel.jpg";
-import SarahImg from "../assets/photos/sarah.jpg";
+import SarahImg from "../assets/photos/sarah.jpeg";
 import AnaLuizaImg from "../assets/photos/analuiza.png";
 import MoniqueImg from "../assets/photos/monique.png";
 import YasminImg from "../assets/photos/yasmin.png";
