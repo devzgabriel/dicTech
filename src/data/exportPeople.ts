@@ -14,19 +14,19 @@ export default function People() {
         bio:
           "An eternal student looking for experience, but able to create solutions like a teacher!",
         name: "Roberto Gabriel Silva",
-        occupation: "Programador",
+        occupation: "Programador e Pesquisador",
       },
       {
         avatar: SarahImg,
         bio: "Student at ETE FMC",
         name: "Sarah Beatriz",
-        occupation: "Programadora",
+        occupation: "Designer e Pesquisadora",
       },
       {
         avatar: AnaLuizaImg,
         bio: "Student at ETE FMC",
         name: "Ana Luiza",
-        occupation: "Programadora",
+        occupation: "Designer",
       },
       {
         avatar: MoniqueImg,
