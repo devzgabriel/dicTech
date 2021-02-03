@@ -1,40 +1,40 @@
-import React, { useEffect, useState } from "react"
-import { View, Image, Text, TouchableOpacity } from "react-native"
-import { useFocusEffect, useNavigation } from "@react-navigation/native"
-import { RectButton } from "react-native-gesture-handler"
-import AsyncStorage from "@react-native-community/async-storage"
+import React, { useEffect, useState } from "react";
+import { View, Image, Text, TouchableOpacity } from "react-native";
+import { useFocusEffect, useNavigation } from "@react-navigation/native";
+import { RectButton } from "react-native-gesture-handler";
+import AsyncStorage from "@react-native-community/async-storage";
 
-import Dictionary from "../../data/exportDictionary"
+import Dictionary from "../../data/exportDictionary";
 
-import styles from "./styles"
+import styles from "./styles";
 
-import landingImg from "../../assets/images/landing.png"
-import purpleLandingImg from "../../assets/images/purple-landing.png"
-import yellowLandingImg from "../../assets/images/yellow-landing.png"
-import WordListIcon from "../../assets/images/icons/dictionary.png"
-import WhoWeAreIcon from "../../assets/images/icons/we.png"
-import heartIcon from "../../assets/images/icons/heart.png"
+import landingImg from "../../assets/images/landing.png";
+import purpleLandingImg from "../../assets/images/purple-landing.png";
+import yellowLandingImg from "../../assets/images/yellow-landing.png";
+import WordListIcon from "../../assets/images/icons/dictionary.png";
+import WhoWeAreIcon from "../../assets/images/icons/we.png";
+import heartIcon from "../../assets/images/icons/heart.png";
 
 function Landing() {
-  const { navigate } = useNavigation()
+  const { navigate } = useNavigation();
 
-  const [totalWords, settotalWords] = useState(0)
+  const [totalWords, settotalWords] = useState(0);
 
   async function clearStorage() {
-    await AsyncStorage.setItem("favorites", JSON.stringify([]))
+    await AsyncStorage.setItem("favorites", JSON.stringify([]));
   }
 
   useFocusEffect(() => {
-    settotalWords(Dictionary().data.length)
-    clearStorage()
-  })
+    settotalWords(Dictionary().data.length);
+    clearStorage();
+  });
 
   function handleNavigateToWordPages() {
-    navigate("WordList")
+    navigate("WordList");
   }
 
   function handleNavigateToWePages() {
-    navigate("WhoWeAre")
+    navigate("WhoWeAre");
   }
 
   return (
@@ -69,7 +69,7 @@ function Landing() {
         {/* <Image source={heartIcon} /> */}
       </Text>
     </View>
-  )
+  );
 }
 
-export default Landing
+export default Landing;

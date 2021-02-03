@@ -1369,8 +1369,6 @@ export default function Dictionary() {
         translated: "mecânica",
         primarymeaning:
           "Combinação de órgãos próprios para produzir ou transmitir movimentos",
-        primaryexample:
-          "[...] complex patient-specific simulations of the heart including cardiac mechanics [...]",
         primaryreference:
           "https://www.moodlerje.com.br/pluginfile.php/919461/mod_page/content/1/1-s2.0-S1361841516300998-main.pdf",
       },
